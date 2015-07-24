@@ -1,0 +1,39 @@
+#+TITLE:Resources
+* Climate Science Blogs
++ [[http://www.gfdl.noaa.gov/blog/isaac-held/][Isaac Held's blog]]
++ [[http://realclimate.org/][Real Climate]]
++ [[http://www.wunderground.com/blog/JeffMasters/article.html][Jeff Masters' blog]]
++ [[http://adamsobel.org/][Adam Sobel's blog]]
+* Science Communication
++ [[http://www.principiae.be/][Principiae]] :: Material (some free) on science communication
++ [[http://www.edwardtufte.com/tufte/index][Edward Tufte]] :: Fascinating and beautiful books on effective data displays
++ [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]] :: Classic text on writing succinctly and clearly
+* Online Research Tools
++ [[http://www.giss.nasa.gov/tools/panoply/][Panoply]] :: NetCDF viewer.  Great for making basic plots quickly.
++ [[http://ready.arl.noaa.gov/HYSPLIT_traj.php][HYSPLIT]] :: Compute forward and backward air trajectories
+* Climate Data
+** Data Portals/Databases
++ [[http://gcmd.gsfc.nasa.gov/index.html][NASA Global Change Master Directory]]
+** Individual Data Products
++ [[http://gcmd.nasa.gov/records/GCMD_AERONET_NASA.html][AERONET]] :: International aerosol monitoring network
+* Surviving Graduate School
++ [[https://www.insidehighered.com/advice/2011/06/06/advice_for_graduate_students][Advice for Grad Students I]] :: General advice; must-read for early grad
+     students
++ [[https://www.insidehighered.com/advice/2011/06/08/advice_on_writing_for_graduate_students][Advice for Grad Students II]] :: Writing advice: thesis, papers, etc.
++ [[http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2006_11_10/nodoi.4277528898545922912][Mastering Your Ph.D.]] :: Series by /Science/ on graduate school in the sciences
+* Graduate School Funding
++ [[http://www.nsfgrfp.org/][NSF Graduate Research Fellowship Program]]
++ [[http://ndseg.asee.org/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]]
+  (I am funded through NDSEG)
++ [[http://www.hertzfoundation.org/dx/fellowships/fellowshipaward.aspx][Hertz Foundation Graduate Fellowship Award]]
++ [[http://www.epa.gov/ncer/fellow/][Environmental Protection Agency STAR]]
++ [[http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={B6CDCEA6-8EDD-A48A-FAF8-E588F66661C3}&path=open][NASA Earth and Space Science Fellowship]]
+* Undergraduate AOS scholarships
++ [[http://www.oesd.noaa.gov/scholarships/hollings.html#page=timeline][NOAA Hollings Scholarship]] :: Open to undergraduate sophomores; funding and
+     NOAA internship
++ [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship and Excellence in Education Program]] :: For
+     undergraduate juniors in sciences
+* For Fun
++ [[http://www.ted.com/][TED]] :: Talks on various topics; some fascinating, many forgettable
++ [[http://xkcd.com/][xkcd]] :: Brilliant science/math comic (note some explicit language/themes)
++ [[http://what-if.xkcd.com/][xkcd what-if?]] :: "Serious scientific answers to absurd hypothetical questions"

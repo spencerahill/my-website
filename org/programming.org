@@ -1,0 +1,8 @@
+#+TITLE: Programming and Software
+* Python
+I am an avid user and fan of the [[https://www.python.org/][Python]] programming language, which is modern,
+open-source, object oriented, well documented, powerful, and with elegant
+syntax. I use the [[http://ipython.org/][iPython]] environment and rely on the [[http://www.numpy.org/][NumPy]], [[http://scipy.org/][SciPy]], [[http://matplotlib.org/][matplotlib]],
+and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] modules modules to analyze climate model data via the free
+[[https://store.continuum.io/cshop/anaconda/][Anaconda]] distribution.
+* =aospy=

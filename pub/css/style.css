@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 80px;
+}
+
+.title {
+    font-size: 3em
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 0.875em;
+}
