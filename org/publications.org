@@ -1,1 +1,5 @@
-#+TITLE:Publications
+#+INCLUDE: "macros.org"
+#+TITLE: {{{SITETITLE}}}
+{{{NAVBAR}}}
+{{{PAGETITLE(Publications)}}}
+#+INCLUDE: "~/cv/publications.org"

@@ -1,41 +1,49 @@
-#+TITLE: Spencer A. Hill
+#+INCLUDE: "macros.org"
+#+TITLE: {{{SITETITLE}}}
 #+AUTHOR: Spencer A. Hill
 #+EMAIL: spencerh@princeton.edu
 #+DATE:
 #+DESCRIPTION: Academic website of Spencer Hill, PhD student in Princeton AOS program
 #+KEYWORDS:
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil ':nil
 #+LANGUAGE: en
+#+HTML: <link rel="stylesheet" type="text/css" href="style.css?v=3">
+# #+INFOJS_OPT: view:info toc:nil
 
-+ [[file:research.org][Research]]
-+ [[file:publications.org][Publications]]
-+ [[file:cv.org][CV]]
-+ [[file:resources.org][Resources]]
-+ [[file:programming.org][Programming]]
-+ [[file:personal.org][About Me]]
-
-[[file:~/website/images/site_pic.jpeg]]
-
+{{{NAVBAR}}}
+#+ATTR_HTML: :alt Me on UCLA commencement day 2011 :width 180px :height 208px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/site_pic.jpeg]]
+#+HTML: <hr/>
 * Overview
-(site last updated [2015-07-23 Thu])
+(site last updated {{{modification-time(%Y %B %d)}}})
 
-I am a Ph.D. student advised by [[http://www.gfdl.noaa.gov/yi-ming-homepage][Dr. Yi Ming]] researching tropical atmospheric
-circulations in present day and how they respond to imposed perturbations.
+I am a Ph.D. student in the [[http://www.princeton.edu/aos/][Program in Atmospheric and Oceanic Sciences]] at
+Princeton University, where I research tropical atmospheric circulations in
+present day and how they respond to imposed perturbations.  Please see my
+[[file:research.org][Research]] page for more information.  I am in my 5th year of study, am advised by
+[[http://www.gfdl.noaa.gov/yi-ming-homepage][Dr. Yi Ming]], and intend to defend my thesis in Summer 2016.
 
-I am also interested in the Open Science and Open Source software movements and
-the Python programming language.
+I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://www.fsf.org/][Free]] / [[http://opensource.org/][Open Source]] Software
+movements, scientific programming using the Python language and Emacs Org-Mode,
+and the links between science and aesthetics/culture.  Please see my [[file:resources.org][Resources]]
+and [[file:programming.org][Programming]] pages for more information.
+
+Please contact me with any questions about my research or anything else you find
+on this site.  Thanks!
+#+HTML: <hr/>
 * Contact
-** Physical
-Spencer Hill
-NOAA Geophysical Fluid Dynamics Laboratory
-201 Forrestal Road, Suite 308B
-Princeton, NJ 08540
+[[mailto:spencerh@princeton.edu][spencerh@princeton.edu]]{{{NEWLINE}}}
+Spencer Hill{{{NEWLINE}}}
+NOAA Geophysical Fluid Dynamics Laboratory{{{NEWLINE}}}
+201 Forrestal Road, Suite 308B{{{NEWLINE}}}
+Princeton, NJ 08540{{{NEWLINE}}}
 (609) 452-5324
-** Online
-+ Email :: spencerh -at- princeton -dot- edu
-+ Website :: http://www.princeton.edu/aos/people/graduate_students/hill/
-+ Twitter :: https://twitter.com/spencerahill (=@spencerahill=)
-+ Stack Overflow :: http://stackoverflow.com/users/1706640/spencer-hill
-+ Github :: https://github.com/spencerahill
-+ Google Scholar :: [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en]]
-+ Publons :: [[https://publons.com/author/466456/spencer-a-hill#profile]]
+#+HTML: <hr/>
+* My online presence
+[[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]]{{{NEWLINE}}}
+[[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]{{{NEWLINE}}}
+[[https://github.com/spencerahill][Github]]{{{NEWLINE}}}
+[[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]]{{{NEWLINE}}}
+[[https://publons.com/author/466456/spencer-a-hill#profile][Publons]]{{{NEWLINE}}}
+#+HTML: <hr/>

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Programming and Software</title>
+<title>Spencer A. Hill   <span style="color: gray"> Ph.D. student</span> Princeton AOS</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Spencer Hill" />
@@ -88,7 +88,7 @@
   /*]]>*/-->
 </style>
 <link rel="stylesheet"
-                       href="../css/style.css" type="text/css"/>
+                       href="./css/style.css" type="text/css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -138,7 +138,11 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Programming and Software</h1>
+<h1 class="title">Spencer A. Hill   <span style="color: gray"> Ph.D. student</span> Princeton AOS</h1>
+<p>
+<hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="personal.html">About Me</a> </span><hr/>
+<span style="font-size:2em"> Programming </span><hr/>
+</p>
 <div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1">Python</h2>
 <div class="outline-text-2" id="text-1">
@@ -152,13 +156,59 @@ and <a href="http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.
 </div>
 </div>
 <div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><code>aospy</code></h2>
+<h2 id="sec-2">Emacs Org-Mode</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<a href="https://www.gnu.org/software/emacs/emacs.html">Emacs</a> is a powerful text editor that I use for as many tasks as I can.  <a href="http://orgmode.org/">Org-mode</a>
+is an extension of Emacs for creating outline-like documents, with many powerful
+tools for embedding to-do lists, links, code, and images and for converting the
+files to LaTeX, HTML, and other formats.
+</p>
+
+<p>
+This integration of elements typically found in scientific manuscripts makes
+Org-mode a potentially useful vehicle for <a href="http://reproducibleresearch.net/">reproducible research</a> &#x2013; try Googling
+"org mode reproducible research" or checkout this <a href="https://www.youtube.com/watch?v=1-dUkyn_fZA&list=FLQp2VLAOlvq142YN3JO3y8w">YouTube video</a> by John Kitchin,
+a chemical engineering professor at Carnegie Mellon.  He also has a nice <a href="http://kitchingroup.cheme.cmu.edu/blog/2014/08/08/What-we-are-using-org-mode-for/">page</a>
+highlighting the powers of Org-mode in reproducible research and beyond.
+</p>
+
+<p>
+In fact, my website and CV are written entirely as org-mode files, which I then
+publish to HTML (and PDF for the CV) using Org-Mode's Publish functionality.  I
+intend to publish these source files on Github eventually as an example of how
+Org-mode can be used.
+</p>
 </div>
 </div>
-<div id="postamble" class="status">
-<p class="author">Author: Spencer Hill</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">aospy</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+My classmates and I often lament how much time we spend messing with computer
+code in order to output data or figures.  Also, lacking sufficient metadata to
+describe what they actually do/are, scripts/plots quickly become outdated and
+untrustworthy (e. g. "Did I remember to change the output variable in the script
+when I made this plot?").  In addition, creating plots one by one can be
+impractical when dozens of plots are needed (e.g. DJF, JJA, SON, MAM, and annual
+mean plots of multiple variables from multiple experimental runs and/or multiple
+models and/or multiple ensemble members).
+</p>
+
+<p>
+This frustrating inefficiency has led me to create a Python module that automates
+these tasks. Dubbed "aospy", it's aim is to, given some dataset, perform all
+frequently used calculations, create plots, and store all results and metadata
+conveniently.  And do this all with minimal input by the user.
+</p>
+
+<p>
+The source code for aospy is available on <a href="https://github.com/spencerahill">my Github</a>.  However, it is quite a
+mess in its current state and very poorly documented.  One of these days I will
+clean it up and create a proper alpha release.
+</p>
+</div>
+</div>
 </div>
 </body>
 </html>

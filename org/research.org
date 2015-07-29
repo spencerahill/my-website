@@ -1,4 +1,8 @@
-#+TITLE:Research
+#+INCLUDE: "macros.org"
+#+TITLE: {{{SITETITLE}}}
+{{{NAVBAR}}}
+{{{PAGETITLE(Research)}}}
+* Overview
 Human emissions of greenhouse gases and aerosols alter both the global mean and
 spatial pattern of surface temperatures -- both in the annual mean and
 throughout the seasonal cycle.  Whereas greenhouse gases induce mean warming
@@ -14,3 +18,8 @@ My approach to climate modeling research is strongly influenced by the work of
 [[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on climate model hierarchies and using models to improve
 understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and [[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]]. My advisor is [[http://www.gfdl.noaa.gov/yi-ming-homepage][Yi Ming]], and my
 PhD committee includes Isaac Held and [[http://www.gfdl.noaa.gov/leo-donner-homepage][Leo Donner]].
+
+I intend to eventually populate this page with more detailed information about
+the various projects I have worked/am working on, including to the extent
+possible figures, Python code, and model data.  Until then, check out the
+[[file:publications.org][Publications]] page for a list of my papers to date.

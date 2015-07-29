@@ -1,8 +1,44 @@
-#+TITLE: Programming and Software
+#+INCLUDE: "macros.org"
+#+TITLE: {{{SITETITLE}}}
+{{{NAVBAR}}}
+{{{PAGETITLE(Programming)}}}
 * Python
 I am an avid user and fan of the [[https://www.python.org/][Python]] programming language, which is modern,
 open-source, object oriented, well documented, powerful, and with elegant
 syntax. I use the [[http://ipython.org/][iPython]] environment and rely on the [[http://www.numpy.org/][NumPy]], [[http://scipy.org/][SciPy]], [[http://matplotlib.org/][matplotlib]],
 and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] modules modules to analyze climate model data via the free
 [[https://store.continuum.io/cshop/anaconda/][Anaconda]] distribution.
-* =aospy=
+* Emacs Org-Mode
+[[https://www.gnu.org/software/emacs/emacs.html][Emacs]] is a powerful text editor that I use for as many tasks as I can.  [[http://orgmode.org/][Org-mode]]
+is an extension of Emacs for creating outline-like documents, with many powerful
+tools for embedding to-do lists, links, code, and images and for converting the
+files to LaTeX, HTML, and other formats.
+
+This integration of elements typically found in scientific manuscripts makes
+Org-mode a potentially useful vehicle for [[http://reproducibleresearch.net/][reproducible research]] -- try Googling
+"org mode reproducible research" or checkout this [[https://www.youtube.com/watch?v=1-dUkyn_fZA&list=FLQp2VLAOlvq142YN3JO3y8w][YouTube video]] by John Kitchin,
+a chemical engineering professor at Carnegie Mellon.  He also has a nice [[http://kitchingroup.cheme.cmu.edu/blog/2014/08/08/What-we-are-using-org-mode-for/][page]]
+highlighting the powers of Org-mode in reproducible research and beyond.
+
+In fact, my website and CV are written entirely as org-mode files, which I then
+publish to HTML (and PDF for the CV) using Org-Mode's Publish functionality.  I
+intend to publish these source files on Github eventually as an example of how
+Org-mode can be used.
+* aospy
+My classmates and I often lament how much time we spend messing with computer
+code in order to output data or figures.  Also, lacking sufficient metadata to
+describe what they actually do/are, scripts/plots quickly become outdated and
+untrustworthy (e. g. "Did I remember to change the output variable in the script
+when I made this plot?").  In addition, creating plots one by one can be
+impractical when dozens of plots are needed (e.g. DJF, JJA, SON, MAM, and annual
+mean plots of multiple variables from multiple experimental runs and/or multiple
+models and/or multiple ensemble members).
+
+This frustrating inefficiency has led me to create a Python module that automates
+these tasks. Dubbed "aospy", it's aim is to, given some dataset, perform all
+frequently used calculations, create plots, and store all results and metadata
+conveniently.  And do this all with minimal input by the user.
+
+The source code for aospy is available on [[https://github.com/spencerahill][my Github]].  However, it is quite a
+mess in its current state and very poorly documented.  One of these days I will
+clean it up and create a proper alpha release.
