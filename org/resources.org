@@ -54,6 +54,6 @@ additions/modifications are welcome.
 #+HTML: <hr/>
 * For Fun
 #+ATTR_HTML: :rules none :frame none
-| [[http://www.ted.com/][TED]]           | Talks on various topics, scientific and otherwise (some fascinating, many forgettable) |
 | [[http://xkcd.com/][xkcd]]          | Brilliant science/math comic (note some explicit language/themes)                      |
 | [[http://what-if.xkcd.com/][xkcd what-if?]] | "Serious scientific answers to absurd hypothetical questions"                          |
+| [[http://www.ted.com/][TED]]           | Talks on various topics, scientific and otherwise (some fascinating, many forgettable) |
