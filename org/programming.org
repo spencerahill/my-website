@@ -15,11 +15,13 @@ and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][n
 | [[http://matplotlib.org/][matplotlib]]     | Plotting library that mimics MATLAB's commands |
 | [[http://matplotlib.org/basemap/][Basemap]]        | Library for plotting maps (part of Matplotlib) |
 ** Python packages I haven't tried but look cool
-| [[http://xray.readthedocs.org/en/stable/index.html][xray]]    | "N-D labeled arrays and datasets in Python"             |
-| [[http://stanford.edu/~mwaskom/software/seaborn/][Seaborn]] | Visualization library with emphasis on statistical data |
-| [[http://dask.pydata.org/en/latest/][Dask]]    | Parallel computing                                      |
-| [[http://scitools.org.uk/iris/][Iris]]    | "A Python library for meteorology and climatology"      |
-| [[http://pandas.pydata.org/index.html][pandas]]  | "easy-to-use data structures and data analysis tools"   |
+| [[http://xray.readthedocs.org/en/stable/index.html][xray]]       | "N-D labeled arrays and datasets in Python"             |
+| [[http://stanford.edu/~mwaskom/software/seaborn/][Seaborn]]    | Visualization library with emphasis on statistical data |
+| [[http://dask.pydata.org/en/latest/][Dask]]       | Parallel computing and memory chunking                  |
+| [[http://scitools.org.uk/iris/][Iris]]       | "A Python library for meteorology and climatology"      |
+| [[http://pandas.pydata.org/index.html][pandas]]     | "easy-to-use data structures and data analysis tools"   |
+| [[http://scitools.org.uk/cartopy/docs/latest/index.html][cartopy]]    | An alternative library to Basemap for plotting maps     |
+| [[http://ajdawson.github.io/windspharm/index.html][windspharm]] | "Spherical harmonic wind analysis in Python"            |
 ** Python environments and package managers
 | [[https://www.python.org/][Python]]           | The official, bread-and-butter Python                  |
 | [[http://ipython.org/index.html][IPython]]          | "Interactive Python": more IDE-like Python environment |
