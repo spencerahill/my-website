@@ -13,15 +13,20 @@ and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][n
 | [[http://scipy.org/][SciPy]]          | Extensive library for scientific computations  |
 | [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] | Interface for netCDF files                     |
 | [[http://matplotlib.org/][matplotlib]]     | Plotting library that mimics MATLAB's commands |
-| [[http://matplotlib.org/basemap/][Basemap]]        | Library for plotting maps (part of Matplotlib) |
+| [[http://matplotlib.org/basemap/][Basemap]]        | For plotting maps (part of Matplotlib)         |
+| [[https://pypi.python.org/pypi/colorama][colorama]]       | Colorize text outputted to terminal            |
 ** Python packages I haven't tried but look cool
-| [[http://xray.readthedocs.org/en/stable/index.html][xray]]       | "N-D labeled arrays and datasets in Python"             |
-| [[http://stanford.edu/~mwaskom/software/seaborn/][Seaborn]]    | Visualization library with emphasis on statistical data |
-| [[http://dask.pydata.org/en/latest/][Dask]]       | Parallel computing and memory chunking                  |
-| [[http://scitools.org.uk/iris/][Iris]]       | "A Python library for meteorology and climatology"      |
-| [[http://pandas.pydata.org/index.html][pandas]]     | "easy-to-use data structures and data analysis tools"   |
-| [[http://scitools.org.uk/cartopy/docs/latest/index.html][cartopy]]    | An alternative library to Basemap for plotting maps     |
-| [[http://ajdawson.github.io/windspharm/index.html][windspharm]] | "Spherical harmonic wind analysis in Python"            |
+| [[http://xray.readthedocs.org/en/stable/index.html][xray]]       | "N-D labeled arrays and datasets in Python"                              |
+| [[http://stanford.edu/~mwaskom/software/seaborn/][Seaborn]]    | Visualization library with emphasis on statistical data                  |
+| [[http://dask.pydata.org/en/latest/][Dask]]       | Parallel computing and memory chunking                                   |
+| [[http://scitools.org.uk/iris/][Iris]]       | "A Python library for meteorology and climatology"                       |
+| [[http://pandas.pydata.org/index.html][pandas]]     | "easy-to-use data structures and data analysis tools"                    |
+| [[http://scitools.org.uk/cartopy/docs/latest/index.html][cartopy]]    | An alternative library to Basemap for plotting maps                      |
+| [[https://code.google.com/p/pyspharm/][pyspharm]]   | Python interface to SPHEREPACK library for spherical harmonic transforms |
+| [[http://ajdawson.github.io/windspharm/index.html][windspharm]] | Wrapper for pyspharm                                                     |
+| [[http://ajdawson.github.io/eofs/][eofs]]       | Empirical Orthogonal Function analysis                                   |
+| [[http://pynco.readthedocs.org/en/latest/][pynco]]      | Python wrapper for NCO command-line tools for netCDF data                |
+| [[http://www.blogofile.com/][Blogofile]]  | Python-based engine for blogging (if/when I ever started a blog)         |
 ** Python environments and package managers
 | [[https://www.python.org/][Python]]           | The official, bread-and-butter Python                  |
 | [[http://ipython.org/index.html][IPython]]          | "Interactive Python": more IDE-like Python environment |
@@ -29,7 +34,7 @@ and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][n
 | [[https://store.continuum.io/cshop/anaconda/][Anaconda]]         | Great, free package manager                            |
 | [[https://www.enthought.com/products/canopy/][Canopy]]           | Another package manager; free for academic use         |
 ** Other Python resources
-| [[http://pydata.org/][PyData]]           | "A community for developers and users of Python data tools" |
+| [[http://pydata.org/][PyData]] | "A community for developers and users of Python data tools" |
 * Emacs Org-Mode
 [[https://www.gnu.org/software/emacs/emacs.html][Emacs]] is a powerful text editor that I use for as many tasks as I can.  [[http://orgmode.org/][Org-mode]]
 is an extension of Emacs for creating outline-like documents, with many powerful
@@ -62,5 +67,7 @@ frequently used calculations, create plots, and store all results and metadata
 conveniently.  And do this all with minimal input by the user.
 
 The source code for aospy is available on [[https://github.com/spencerahill][my Github]].  However, it is quite a
-mess in its current state and very poorly documented.  One of these days I will
-clean it up and create a proper alpha release.
+mess in its current state and very poorly documented.  I am working with Spencer
+Clark of Princeton AOS to clean it up and create a proper alpha release (someday...).
+* Others
+| [[http://nco.sourceforge.net/][netCDF Operator (NCO) toolkit]] | Library of command-line tools for interacting with netCDF data |
