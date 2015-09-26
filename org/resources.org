@@ -33,25 +33,29 @@ additions/modifications are welcome.
 #+ATTR_HTML: :rules none :frame none
 | [[http://gcmd.nasa.gov/records/GCMD_AERONET_NASA.html][AERONET]] | International aerosol monitoring network |
 #+HTML: <hr/>
-* Graduate School
-** Survival tips
+* Career
+** General
+#+ATTR_HTML: :rules none :frame none
+| [[http://sites.agu.org/careers/career-advice-webinars/][AGU career advice webinars]] | Various topics; slides/etc. available for past ones. |
+** Graduate School
+*** Survival tips
 #+ATTR_HTML: :rules none :frame none
 | [[https://www.insidehighered.com/advice/2011/06/06/advice_for_graduate_students][Advice for Grad Students I]]  | General advice; must-read for early grad students    |
 | [[https://www.insidehighered.com/advice/2011/06/08/advice_on_writing_for_graduate_students][Advice for Grad Students II]] | Writing advice: thesis, papers, etc.                 |
 | [[http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2006_11_10/nodoi.4277528898545922912][Mastering Your Ph.D.]]        | Series by /Science/ on graduate school in the sciences |
-** Funding
-#+ATTR_HTML: :rules none :frame none
-| [[http://www.nsfgrfp.org/][NSF Graduate Research Fellowship Program]]                                                                  |
-| [[http://ndseg.asee.org/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]] (I am funded through NDSEG) |
-| [[http://www.hertzfoundation.org/dx/fellowships/fellowshipaward.aspx][Hertz Foundation Graduate Fellowship Award]]                                                                |
-| [[http://www.epa.gov/ncer/fellow/][Environmental Protection Agency STAR]]                                                                      |
-| [[http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={B6CDCEA6-8EDD-A48A-FAF8-E588F66661C3}&path=open][NASA Earth and Space Science Fellowship]]                                                                   |
-#+HTML: <hr/>
-* Undergraduate AOS scholarships
-#+ATTR_HTML: :rules none :frame none
-| [[http://www.oesd.noaa.gov/scholarships/hollings.html#page=timeline][NOAA Hollings Scholarship]]                                       | Open to undergraduate sophomores; funding and NOAA internship |
-| [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship and Excellence in Education Program]] | For undergraduate juniors in sciences                         |
-#+HTML: <hr/>
+*** Funding
+ #+ATTR_HTML: :rules none :frame none
+ | [[http://www.nsfgrfp.org/][NSF Graduate Research Fellowship Program]]                                                                  |
+ | [[http://ndseg.asee.org/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]] (I am funded through NDSEG) |
+ | [[http://www.hertzfoundation.org/dx/fellowships/fellowshipaward.aspx][Hertz Foundation Graduate Fellowship Award]]                                                                |
+ | [[http://www.epa.gov/ncer/fellow/][Environmental Protection Agency STAR]]                                                                      |
+ | [[http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={B6CDCEA6-8EDD-A48A-FAF8-E588F66661C3}&path=open][NASA Earth and Space Science Fellowship]]                                                                   |
+ #+HTML: <hr/>
+** Undergraduate AOS scholarships
+ #+ATTR_HTML: :rules none :frame none
+ | [[http://www.oesd.noaa.gov/scholarships/hollings.html#page=timeline][NOAA Hollings Scholarship]]                                       | Open to undergraduate sophomores; funding and NOAA internship |
+ | [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship and Excellence in Education Program]] | For undergraduate juniors in sciences                         |
+ #+HTML: <hr/>
 * For Fun
 #+ATTR_HTML: :rules none :frame none
 | [[http://xkcd.com/][xkcd]]          | Brilliant science/math comic (note some explicit language/themes)                      |
