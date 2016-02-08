@@ -9,24 +9,27 @@ syntax. I use the [[http://ipython.org/][iPython]] environment and rely on the [
 and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] modules modules to analyze climate model data via the free
 [[https://store.continuum.io/cshop/anaconda/][Anaconda]] distribution.
 ** Python packages I use
-| [[http://xray.readthedocs.org/en/stable/index.html][xray]]           | "N-D labeled arrays and datasets in Python"           |
-| [[http://pandas.pydata.org/index.html][pandas]]         | "easy-to-use data structures and data analysis tools" |
-| [[http://dask.pydata.org/en/latest/][Dask]]           | Parallel computing and memory chunking                |
-| [[http://www.numpy.org/][NumPy]]          | N-dimensional arrays.                                 |
-| [[http://scipy.org/][SciPy]]          | Extensive library for scientific computations         |
-| [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] | Interface for netCDF files                            |
-| [[http://matplotlib.org/][matplotlib]]     | Plotting library that mimics MATLAB's commands        |
-| [[http://matplotlib.org/basemap/][Basemap]]        | For plotting maps (part of Matplotlib)                |
-| [[https://pypi.python.org/pypi/colorama][colorama]]       | Colorize text outputted to terminal                   |
+| [[http://xray.readthedocs.org/en/stable/index.html][xray]]           | "N-D labeled arrays and datasets in Python"                              |
+| [[http://pandas.pydata.org/index.html][pandas]]         | "easy-to-use data structures and data analysis tools"                    |
+| [[http://dask.pydata.org/en/latest/][Dask]]           | Parallel computing and memory chunking                                   |
+| [[http://www.numpy.org/][NumPy]]          | N-dimensional arrays.                                                    |
+| [[http://scipy.org/][SciPy]]          | Extensive library for scientific computations                            |
+| [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] | Interface for netCDF files                                               |
+| [[http://matplotlib.org/][matplotlib]]     | Plotting library that mimics MATLAB's commands                           |
+| [[http://matplotlib.org/basemap/][Basemap]]        | For plotting maps (part of Matplotlib)                                   |
+| [[https://code.google.com/p/pyspharm/][pyspharm]]       | Python interface to SPHEREPACK library for spherical harmonic transforms |
+| [[http://ajdawson.github.io/windspharm/index.html][windspharm]]     | Wrapper for pyspharm                                                     |
+| [[https://pypi.python.org/pypi/colorama][colorama]]       | Colorize text outputted to terminal                                      |
 ** Python packages I haven't tried but look cool
-| [[http://stanford.edu/~mwaskom/software/seaborn/][Seaborn]]    | Visualization library with emphasis on statistical data                  |
-| [[http://scitools.org.uk/iris/][Iris]]       | "A Python library for meteorology and climatology"                       |
-| [[http://scitools.org.uk/cartopy/docs/latest/index.html][cartopy]]    | An alternative library to Basemap for plotting maps                      |
-| [[https://code.google.com/p/pyspharm/][pyspharm]]   | Python interface to SPHEREPACK library for spherical harmonic transforms |
-| [[http://ajdawson.github.io/windspharm/index.html][windspharm]] | Wrapper for pyspharm                                                     |
-| [[http://ajdawson.github.io/eofs/][eofs]]       | Empirical Orthogonal Function analysis                                   |
-| [[http://pynco.readthedocs.org/en/latest/][pynco]]      | Python wrapper for NCO command-line tools for netCDF data                |
-| [[http://www.blogofile.com/][Blogofile]]  | Python-based engine for blogging (if/when I ever started a blog)         |
+| [[http://pint.readthedocs.org/en/0.6/][Pint]]          | Keep track of physical units in computations                                              |
+| [[https://astropy.readthedocs.org/en/latest/units/index.html][astropy.units]] | Keep track of physical units in computations                                              |
+| [[http://stanford.edu/~mwaskom/software/seaborn/][Seaborn]]       | Visualization library with emphasis on statistical data                                   |
+| [[http://scitools.org.uk/iris/][Iris]]          | "A Python library for meteorology and climatology"                                        |
+| [[http://scitools.org.uk/cartopy/docs/latest/index.html][cartopy]]       | An alternative library to Basemap for plotting maps                                       |
+| [[http://ioam.github.io/holoviews/index.html][HoloViews]]     | "Composable, declarative data structures for building even complex visualizations easily" |
+| [[http://ajdawson.github.io/eofs/][eofs]]          | Empirical Orthogonal Function analysis                                                    |
+| [[http://pynco.readthedocs.org/en/latest/][pynco]]         | Python wrapper for NCO command-line tools for netCDF data                                 |
+| [[http://www.blogofile.com/][Blogofile]]     | Python-based engine for blogging (if/when I ever started a blog)                          |
 ** Python environments and package managers
 | [[https://www.python.org/][Python]]           | The official, bread-and-butter Python                  |
 | [[http://ipython.org/index.html][IPython]]          | "Interactive Python": more IDE-like Python environment |
