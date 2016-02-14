@@ -16,10 +16,14 @@ additions/modifications are welcome.
 #+HTML: <hr/>
 * Science Communication
 #+ATTR_HTML: :rules none :frame none
-| [[http://www.principiae.be/][Principiae]]            | Material (some free) on science communication              |
-| [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]          | Fascinating and beautiful books on effective data displays |
-| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]] | Classic text on writing succinctly and clearly             |
+| [[http://betterfigures.org/][Better Figures]]        | "Constructive criticism of the graphics of climate science" |
+| [[http://www.principiae.be/][Principiae]]            | Material (some free) on science communication               |
+| [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]          | Fascinating and beautiful books on effective data displays  |
+| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]] | Classic text on writing succinctly and clearly              |
 #+HTML: <hr/>
+* Climate Science & Meteorology History
+| [[http://www.historicalclimatology.com/][Historical Climatology]] | Portal for climate research from the historical discipline               |
+| [[http://www.oldweather.org/][Old Weather]]            | Citizen-science project: transcribe historical ship logs of weather data |
 * Online Research Tools
 #+ATTR_HTML: :rules none :frame none
 | [[http://www.giss.nasa.gov/tools/panoply/][Panoply]] | NetCDF viewer.  Great for making basic plots quickly. |
@@ -28,7 +32,7 @@ additions/modifications are welcome.
 * Climate Data
 ** Data Portals/Databases
 #+ATTR_HTML: :rules none :frame none
-| [[http://gcmd.gsfc.nasa.gov/index.html][NASA Global Change Master Directory]]
+| [[http://gcmd.gsfc.nasa.gov/index.html][NASA Global Change Master Directory]] |
 ** Individual Data Products
 #+ATTR_HTML: :rules none :frame none
 | [[http://gcmd.nasa.gov/records/GCMD_AERONET_NASA.html][AERONET]] | International aerosol monitoring network |
@@ -52,10 +56,10 @@ additions/modifications are welcome.
  | [[http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={B6CDCEA6-8EDD-A48A-FAF8-E588F66661C3}&path=open][NASA Earth and Space Science Fellowship]]                                                                   |
  #+HTML: <hr/>
 ** Undergraduate AOS scholarships
- #+ATTR_HTML: :rules none :frame none
- | [[http://www.oesd.noaa.gov/scholarships/hollings.html#page=timeline][NOAA Hollings Scholarship]]                                       | Open to undergraduate sophomores; funding and NOAA internship |
- | [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship and Excellence in Education Program]] | For undergraduate juniors in sciences                         |
- #+HTML: <hr/>
+#+ATTR_HTML: :rules none :frame none
+| [[http://www.oesd.noaa.gov/scholarships/hollings.html#page=timeline][NOAA Hollings Scholarship]]                                       | Open to undergraduate sophomores; funding and NOAA internship |
+| [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship and Excellence in Education Program]] | For undergraduate juniors in sciences                         |
+#+HTML: <hr/>
 * For Fun
 #+ATTR_HTML: :rules none :frame none
 | [[http://xkcd.com/][xkcd]]          | Brilliant science/math comic (note some explicit language/themes)                      |
