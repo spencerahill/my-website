@@ -21,6 +21,7 @@ and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][n
 | [[http://ajdawson.github.io/windspharm/index.html][windspharm]]     | Wrapper for pyspharm                                                     |
 | [[https://pypi.python.org/pypi/colorama][colorama]]       | Colorize text outputted to terminal                                      |
 ** Python packages I haven't tried but look cool
+| [[http://mpld3.github.io/index.html][mpld3]]         | "Bringing matplotlib to the browser"                                                      |
 | [[http://www.clawpack.org/][Clawpack]]      | Finite volume methods for systems of conservation laws                                    |
 | [[http://pint.readthedocs.org/en/0.6/][Pint]]          | Keep track of physical units in computations                                              |
 | [[https://astropy.readthedocs.org/en/latest/units/index.html][astropy.units]] | Keep track of physical units in computations                                              |
