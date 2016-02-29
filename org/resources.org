@@ -32,7 +32,8 @@ additions/modifications are welcome.
 * Climate Data
 ** Data Portals/Databases
 #+ATTR_HTML: :rules none :frame none
-| [[http://gcmd.gsfc.nasa.gov/index.html][NASA Global Change Master Directory]] |
+| [[http://gcmd.gsfc.nasa.gov/index.html][NASA Global Change Master Directory]]    |
+| [[http://iridl.ldeo.columbia.edu/][Columbia IRI/LDEO Climate Data Library]] |
 ** Individual Data Products
 #+ATTR_HTML: :rules none :frame none
 | [[http://gcmd.nasa.gov/records/GCMD_AERONET_NASA.html][AERONET]] | International aerosol monitoring network |
