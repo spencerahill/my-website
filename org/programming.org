@@ -5,13 +5,12 @@
 * Python
 I am an avid user and fan of the [[https://www.python.org/][Python]] programming language, which is modern,
 open-source, object oriented, well documented, powerful, and with elegant
-syntax. I use the [[http://ipython.org/][iPython]] environment and rely on the [[http://www.numpy.org/][NumPy]], [[http://scipy.org/][SciPy]], [[http://matplotlib.org/][matplotlib]],
-and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] modules modules to analyze climate model data via the free
-[[https://store.continuum.io/cshop/anaconda/][Anaconda]] distribution.
+syntax. I use the [[http://ipython.org/][IPython]] environment and rely on the  [[http://xarray.pydata.org][xarray]], [[http://www.numpy.org/][NumPy]], [[http://scipy.org/][SciPy]],
+[[http://matplotlib.org/][matplotlib]], and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] modules modules to analyze climate model data via
+the free [[https://store.continuum.io/cshop/anaconda/][Anaconda]] distribution.
 ** Python packages I use
-| [[http://xray.readthedocs.org/en/stable/index.html][xray]]           | "N-D labeled arrays and datasets in Python"                              |
-| [[http://pandas.pydata.org/index.html][pandas]]         | "easy-to-use data structures and data analysis tools"                    |
-| [[http://dask.pydata.org/en/latest/][Dask]]           | Parallel computing and memory chunking                                   |
+| [[http://xarray.pydata.org][xarray]]         | "N-D labeled arrays and datasets in Python"                              |
+| [[http://pandas.pydata.org/index.html][pandas]]         | "Easy-to-use data structures and data analysis tools"                    |
 | [[http://www.numpy.org/][NumPy]]          | N-dimensional arrays.                                                    |
 | [[http://scipy.org/][SciPy]]          | Extensive library for scientific computations                            |
 | [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] | Interface for netCDF files                                               |
@@ -21,7 +20,10 @@ and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][n
 | [[http://ajdawson.github.io/windspharm/index.html][windspharm]]     | Wrapper for pyspharm                                                     |
 | [[https://pypi.python.org/pypi/colorama][colorama]]       | Colorize text outputted to terminal                                      |
 ** Python packages I haven't tried but look cool
-| [[http://matplotlib.org/cmocean/][cmocean]]       | "Beautiful colormaps for oceanography" (for matplotlib)                       |
+| [[http://dask.pydata.org/en/latest/][Dask]]          | Parallel computing and memory chunking                                                    |
+| [[https://github.com/brian-rose/climlab][climlab]]       | "Python package for process-oriented climate modeling"                                    |
+| [[http://xgcm.readthedocs.org/en/latest/][xgcm]]          | "General Circulation Model Postprocessing with xarray"                                    |
+| [[http://matplotlib.org/cmocean/][cmocean]]       | "Beautiful colormaps for oceanography" (for matplotlib)                                   |
 | [[http://mpld3.github.io/index.html][mpld3]]         | "Bringing matplotlib to the browser"                                                      |
 | [[http://www.clawpack.org/][Clawpack]]      | Finite volume methods for systems of conservation laws                                    |
 | [[http://pint.readthedocs.org/en/0.6/][Pint]]          | Keep track of physical units in computations                                              |
