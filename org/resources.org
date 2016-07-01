@@ -8,11 +8,14 @@ to it as things come up and I find the time.  Suggestions for
 additions/modifications are welcome.
 * Climate Science Blogs
 #+ATTR_HTML: :rules none :frame none
-| [[http://www.gfdl.noaa.gov/blog/isaac-held/][Isaac Held's blog]]              |
-| [[http://realclimate.org/][Real Climate]]                   |
-| [[http://www.wunderground.com/blog/JeffMasters/article.html][Jeff Masters' blog]]             |
-| [[http://adamsobel.org/][Adam Sobel's blog]]              |
-| [[http://judithcurry.com/][Climate Etc. (by Judith Curry)]] |
+| [[http://www.gfdl.noaa.gov/blog/isaac-held/][Isaac Held's blog]]                   |
+| [[http://forecastpod.org/][Forecast podcast on climate science]] |
+| [[http://realclimate.org/][Real Climate]]                        |
+| [[http://www.wunderground.com/blog/JeffMasters/article.html][Jeff Masters' blog]]                  |
+| [[http://adamsobel.org/][Adam Sobel's blog]]                   |
+| [[http://climate-dynamics.org/blog/][Tapio Schneider's Group blog]]        |
+| [[http://www.climate-lab-book.ac.uk/][Climate Lab Book (Ed Hawkins)]]       |
+| [[http://judithcurry.com/][Climate Etc. (Judy Curry)]]           |
 #+HTML: <hr/>
 * Science Communication
 #+ATTR_HTML: :rules none :frame none
@@ -26,8 +29,9 @@ additions/modifications are welcome.
 | [[http://www.oldweather.org/][Old Weather]]            | Citizen-science project: transcribe historical ship logs of weather data |
 * Online Research Tools
 #+ATTR_HTML: :rules none :frame none
-| [[http://www.giss.nasa.gov/tools/panoply/][Panoply]] | NetCDF viewer.  Great for making basic plots quickly. |
-| [[http://ready.arl.noaa.gov/HYSPLIT_traj.php][HYSPLIT]] | Compute forward and backward air trajectories         |
+| [[https://earth.nullschool.net/][nullschool.net]] | Beautiful, interactive visualization of meteorological and ocean data |
+| [[http://www.giss.nasa.gov/tools/panoply/][Panoply]]        | NetCDF viewer.  Great for making basic plots quickly.                 |
+| [[http://ready.arl.noaa.gov/HYSPLIT_traj.php][HYSPLIT]]        | Compute forward and backward air trajectories                         |
 #+HTML: <hr/>
 * Climate Data
 ** Data Portals/Databases
@@ -49,13 +53,13 @@ additions/modifications are welcome.
 | [[https://www.insidehighered.com/advice/2011/06/08/advice_on_writing_for_graduate_students][Advice for Grad Students II]] | Writing advice: thesis, papers, etc.                 |
 | [[http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2006_11_10/nodoi.4277528898545922912][Mastering Your Ph.D.]]        | Series by /Science/ on graduate school in the sciences |
 *** Funding
- #+ATTR_HTML: :rules none :frame none
- | [[http://www.nsfgrfp.org/][NSF Graduate Research Fellowship Program]]                                                                  |
- | [[http://ndseg.asee.org/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]] (I am funded through NDSEG) |
- | [[http://www.hertzfoundation.org/dx/fellowships/fellowshipaward.aspx][Hertz Foundation Graduate Fellowship Award]]                                                                |
- | [[http://www.epa.gov/ncer/fellow/][Environmental Protection Agency STAR]]                                                                      |
- | [[http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={B6CDCEA6-8EDD-A48A-FAF8-E588F66661C3}&path=open][NASA Earth and Space Science Fellowship]]                                                                   |
- #+HTML: <hr/>
+#+ATTR_HTML: :rules none :frame none
+| [[http://www.nsfgrfp.org/][NSF Graduate Research Fellowship Program]]                                                       |
+| [[http://ndseg.asee.org/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]] (they funded me) |
+| [[http://www.hertzfoundation.org/dx/fellowships/fellowshipaward.aspx][Hertz Foundation Graduate Fellowship Award]]                                                     |
+| [[http://www.epa.gov/ncer/fellow/][Environmental Protection Agency STAR]]                                                           |
+| [[http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={B6CDCEA6-8EDD-A48A-FAF8-E588F66661C3}&path=open][NASA Earth and Space Science Fellowship]]                                                        |
+#+HTML: <hr/>
 ** Undergraduate AOS scholarships
 #+ATTR_HTML: :rules none :frame none
 | [[http://www.oesd.noaa.gov/scholarships/hollings.html#page=timeline][NOAA Hollings Scholarship]]                                       | Open to undergraduate sophomores; funding and NOAA internship |
