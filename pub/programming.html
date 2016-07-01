@@ -154,15 +154,78 @@ for the JavaScript code in this tag.
 <div class="outline-text-2" id="text-orgheadline1">
 <p>
 I am an avid user and fan of the <a href="https://www.python.org/">Python</a> programming language, which is modern,
-open-source, object oriented, well documented, powerful, and with elegant
-syntax. I use the <a href="http://ipython.org/">IPython</a> environment and rely on the  <a href="http://xarray.pydata.org/">xarray</a>, <a href="http://www.numpy.org/">NumPy</a>, <a href="http://scipy.org/">SciPy</a>,
+powerful, open-source, object-oriented, well-documented, and with elegant
+syntax.  I use the <a href="http://ipython.org/">IPython</a> environment and rely on the <a href="http://xarray.pydata.org/">xarray</a>, <a href="http://www.numpy.org/">NumPy</a>, <a href="http://scipy.org/">SciPy</a>,
 <a href="http://matplotlib.org/">matplotlib</a>, and <a href="http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html">netcdf4-python</a> modules modules to analyze climate model data via
 the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distribution.
 </p>
 </div>
-<div id="outline-container-orgheadline2" class="outline-3">
-<h3 id="orgheadline2">Python packages I use</h3>
-<div class="outline-text-3" id="text-orgheadline2">
+<div id="outline-container-orgheadline4" class="outline-3">
+<h3 id="orgheadline4">Python packages I have created</h3>
+<div class="outline-text-3" id="text-orgheadline4">
+</div><div id="outline-container-orgheadline2" class="outline-4">
+<h4 id="orgheadline2"><code>aospy</code></h4>
+<div class="outline-text-4" id="text-orgheadline2">
+<p>
+My colleagues and I often lament how much time we spend messing with computer
+code in order to output data or figures.  Also, lacking sufficient metadata to
+describe what they actually do/are, scripts/plots quickly become outdated and
+untrustworthy (e. g. "Did I remember to change the output variable in the script
+when I made this plot?").  In addition, creating plots one by one can be
+impractical when dozens of plots are needed (e.g. DJF, JJA, SON, MAM, and annual
+mean plots of multiple variables from multiple experimental runs and/or multiple
+models and/or multiple ensemble members).
+</p>
+
+<p>
+This frustrating inefficiency has led me to create a Python module that automates
+these tasks. Dubbed "aospy", it's aim is to, given some dataset, perform all
+frequently used calculations, create plots, and store all results and metadata
+conveniently.  And do this all with minimal input by the user.
+</p>
+
+<p>
+The source code for aospy is available on <a href="https://github.com/spencerahill">my Github</a>.  However, it is quite a
+mess in its current state and very poorly documented.  I am working with Spencer
+Clark of Princeton AOS to clean it up and create a proper v0.1 release
+(someday&#x2026;).
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline3" class="outline-4">
+<h4 id="orgheadline3">Others (available on <a href="https://github.com/spencerahill">my Github</a>)</h4>
+<div class="outline-text-4" id="text-orgheadline3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://github.com/spencerahill/infinite-diff">infinite-diff</a></td>
+<td class="org-left">Xarray-based finite differencing package</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://github.com/spencerahill/animal-spharm">animal-spharm</a></td>
+<td class="org-left">Xarray-based wrapper around existing Python spherical harmonics packages</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://github.com/spencerahill/aospy-obj-lib">aospy-obj-lib</a></td>
+<td class="org-left">The collection of <code>aospy</code> objects I use in my own research</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline5" class="outline-3">
+<h3 id="orgheadline5">Python packages I use</h3>
+<div class="outline-text-3" id="text-orgheadline5">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -225,9 +288,9 @@ the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distr
 </table>
 </div>
 </div>
-<div id="outline-container-orgheadline3" class="outline-3">
-<h3 id="orgheadline3">Python packages I haven't tried but look cool</h3>
-<div class="outline-text-3" id="text-orgheadline3">
+<div id="outline-container-orgheadline6" class="outline-3">
+<h3 id="orgheadline6">Python packages I haven't tried but look cool</h3>
+<div class="outline-text-3" id="text-orgheadline6">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -315,9 +378,9 @@ the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distr
 </table>
 </div>
 </div>
-<div id="outline-container-orgheadline4" class="outline-3">
-<h3 id="orgheadline4">Python environments and package managers</h3>
-<div class="outline-text-3" id="text-orgheadline4">
+<div id="outline-container-orgheadline7" class="outline-3">
+<h3 id="orgheadline7">Python environments and package managers</h3>
+<div class="outline-text-3" id="text-orgheadline7">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -355,9 +418,9 @@ the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distr
 </table>
 </div>
 </div>
-<div id="outline-container-orgheadline5" class="outline-3">
-<h3 id="orgheadline5">Other Python resources</h3>
-<div class="outline-text-3" id="text-orgheadline5">
+<div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8">Other Python resources</h3>
+<div class="outline-text-3" id="text-orgheadline8">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -367,6 +430,11 @@ the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distr
 <col  class="org-left" />
 </colgroup>
 <tbody>
+<tr>
+<td class="org-left"><a href="https://talkpython.fm/">Talk Python To Me</a></td>
+<td class="org-left">Great weekly podcast on Python</td>
+</tr>
+
 <tr>
 <td class="org-left"><a href="https://pyformat.info/">PyFormat</a></td>
 <td class="org-left">Simple, clear guide to understanding string formatting</td>
@@ -386,9 +454,9 @@ the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distr
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline6" class="outline-2">
-<h2 id="orgheadline6">Emacs Org-Mode</h2>
-<div class="outline-text-2" id="text-orgheadline6">
+<div id="outline-container-orgheadline9" class="outline-2">
+<h2 id="orgheadline9">Emacs Org-Mode</h2>
+<div class="outline-text-2" id="text-orgheadline9">
 <p>
 <a href="https://www.gnu.org/software/emacs/emacs.html">Emacs</a> is a powerful text editor that I use for as many tasks as I can.  <a href="http://orgmode.org/">Org-mode</a>
 is an extension of Emacs for creating outline-like documents, with many powerful
@@ -412,37 +480,9 @@ Org-mode can be used.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline7" class="outline-2">
-<h2 id="orgheadline7">aospy</h2>
-<div class="outline-text-2" id="text-orgheadline7">
-<p>
-My classmates and I often lament how much time we spend messing with computer
-code in order to output data or figures.  Also, lacking sufficient metadata to
-describe what they actually do/are, scripts/plots quickly become outdated and
-untrustworthy (e. g. "Did I remember to change the output variable in the script
-when I made this plot?").  In addition, creating plots one by one can be
-impractical when dozens of plots are needed (e.g. DJF, JJA, SON, MAM, and annual
-mean plots of multiple variables from multiple experimental runs and/or multiple
-models and/or multiple ensemble members).
-</p>
-
-<p>
-This frustrating inefficiency has led me to create a Python module that automates
-these tasks. Dubbed "aospy", it's aim is to, given some dataset, perform all
-frequently used calculations, create plots, and store all results and metadata
-conveniently.  And do this all with minimal input by the user.
-</p>
-
-<p>
-The source code for aospy is available on <a href="https://github.com/spencerahill">my Github</a>.  However, it is quite a
-mess in its current state and very poorly documented.  I am working with Spencer
-Clark of Princeton AOS to clean it up and create a proper alpha release (someday&#x2026;).
-</p>
-</div>
-</div>
-<div id="outline-container-orgheadline8" class="outline-2">
-<h2 id="orgheadline8">Others</h2>
-<div class="outline-text-2" id="text-orgheadline8">
+<div id="outline-container-orgheadline10" class="outline-2">
+<h2 id="orgheadline10">Others</h2>
+<div class="outline-text-2" id="text-orgheadline10">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
