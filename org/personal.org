@@ -2,16 +2,13 @@
 #+TITLE: {{{SITETITLE}}}
 {{{NAVBAR}}}
 {{{PAGETITLE(About Me)}}}
-I live in New York City with my wife, Alyssa, and our dog, Dempsey.  I
-commute to Princeton via subway/train/bike/shuttle 2-3 days per week and
-otherwise work from home.
 
-When not doing science, I love exploring the city with Alyssa and Dempsey:
-trying new restaurants and coffee shops, running along the Hudson river, going
-to the dog park, seeing movies, DIY fix-ups to our (small) apartment, and just
-relaxing at home together.  I'm also an avid music fan/critic and book reader.
-
-#+ATTR_HTML: :alt Alyssa, Dempsey and I in Cape Cod :width 300px
+I live in Los Angeles with my wife, Alyssa, and our dog, Dempsey.  When not
+doing science, I love exploring the area with Alyssa and Dempsey: hiking the
+many nearby mountain trails (Dempsey's favorite), trying new restaurants and
+coffee shops, running, going to the dog park, seeing movies, and just relaxing
+at home together.  I'm also an avid music fan/critic and book reader.
+#+ATTR_HTML: :alt Alyssa, Dempsey and me in Cape Cod :width 300px
 #+ATTR_HTML: :style float margin:10px
 #+CAPTION: Alyssa, Dempsey and me in Cape Cod
 [[file:images/cape_cod.jpg]]
