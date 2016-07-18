@@ -5,9 +5,9 @@
 * Python
 I am an avid user and fan of the [[https://www.python.org/][Python]] programming language, which is modern,
 powerful, open-source, object-oriented, well-documented, and with elegant
-syntax.  I use the [[http://ipython.org/][IPython]] environment and rely on the [[http://xarray.pydata.org][xarray]], [[http://www.numpy.org/][NumPy]], [[http://scipy.org/][SciPy]],
-[[http://matplotlib.org/][matplotlib]], and [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] modules modules to analyze climate model data via
-the free [[https://store.continuum.io/cshop/anaconda/][Anaconda]] distribution.
+syntax.  I use the [[http://ipython.org/][IPython]] environment and rely on the [[http://xarray.pydata.org][xarray]], [[http://www.numpy.org/][NumPy]], [[http://scipy.org/][SciPy]], and
+[[http://matplotlib.org/][matplotlib]] modules to analyze climate model data via the free [[https://store.continuum.io/cshop/anaconda/][Anaconda]]
+distribution.
 ** Python packages I have created
 *** =aospy=
 My colleagues and I often lament how much time we spend messing with computer
@@ -37,7 +37,7 @@ Clark of Princeton AOS to clean it up and create a proper v0.1 release
 | [[http://pandas.pydata.org/index.html][pandas]]         | "Easy-to-use data structures and data analysis tools"                    |
 | [[http://www.numpy.org/][NumPy]]          | N-dimensional arrays.                                                    |
 | [[http://scipy.org/][SciPy]]          | Extensive library for scientific computations                            |
-| [[http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html][netcdf4-python]] | Interface for netCDF files                                               |
+| [[http://unidata.github.io/netcdf4-python/][netcdf4-python]] | Interface for netCDF files                                               |
 | [[http://matplotlib.org/][matplotlib]]     | Plotting library that mimics MATLAB's commands                           |
 | [[http://matplotlib.org/basemap/][Basemap]]        | For plotting maps (part of Matplotlib)                                   |
 | [[https://code.google.com/p/pyspharm/][pyspharm]]       | Python interface to SPHEREPACK library for spherical harmonic transforms |
@@ -87,4 +87,5 @@ publish to HTML (and PDF for the CV) using Org-Mode's Publish functionality.  I
 intend to publish these source files on Github eventually as an example of how
 Org-mode can be used.
 * Others
-| [[http://nco.sourceforge.net/][netCDF Operator (NCO) toolkit]] | Library of command-line tools for interacting with netCDF data |
+| [[http://cremeronline.com/LaTeX/minimaltikz.pdf][A very minimal introduction to TikZ]] | Great entry into \LaTeX{} plotting packages TikZ and PGF       |
+| [[http://nco.sourceforge.net/][netCDF Operator (NCO) toolkit]]       | Library of command-line tools for interacting with netCDF data |

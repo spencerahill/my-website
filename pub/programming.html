@@ -141,6 +141,28 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
@@ -155,9 +177,9 @@ for the JavaScript code in this tag.
 <p>
 I am an avid user and fan of the <a href="https://www.python.org/">Python</a> programming language, which is modern,
 powerful, open-source, object-oriented, well-documented, and with elegant
-syntax.  I use the <a href="http://ipython.org/">IPython</a> environment and rely on the <a href="http://xarray.pydata.org/">xarray</a>, <a href="http://www.numpy.org/">NumPy</a>, <a href="http://scipy.org/">SciPy</a>,
-<a href="http://matplotlib.org/">matplotlib</a>, and <a href="http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html">netcdf4-python</a> modules modules to analyze climate model data via
-the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distribution.
+syntax.  I use the <a href="http://ipython.org/">IPython</a> environment and rely on the <a href="http://xarray.pydata.org/">xarray</a>, <a href="http://www.numpy.org/">NumPy</a>, <a href="http://scipy.org/">SciPy</a>, and
+<a href="http://matplotlib.org/">matplotlib</a> modules to analyze climate model data via the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>
+distribution.
 </p>
 </div>
 <div id="outline-container-orgheadline4" class="outline-3">
@@ -256,7 +278,7 @@ Clark of Princeton AOS to clean it up and create a proper v0.1 release
 </tr>
 
 <tr>
-<td class="org-left"><a href="http://netcdf4-python.googlecode.com/svn/trunk/docs/netCDF4-module.html">netcdf4-python</a></td>
+<td class="org-left"><a href="http://unidata.github.io/netcdf4-python/">netcdf4-python</a></td>
 <td class="org-left">Interface for netCDF files</td>
 </tr>
 
@@ -492,6 +514,11 @@ Org-mode can be used.
 <col  class="org-left" />
 </colgroup>
 <tbody>
+<tr>
+<td class="org-left"><a href="http://cremeronline.com/LaTeX/minimaltikz.pdf">A very minimal introduction to TikZ</a></td>
+<td class="org-left">Great entry into \LaTeX{} plotting packages TikZ and PGF</td>
+</tr>
+
 <tr>
 <td class="org-left"><a href="http://nco.sourceforge.net/">netCDF Operator (NCO) toolkit</a></td>
 <td class="org-left">Library of command-line tools for interacting with netCDF data</td>

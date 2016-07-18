@@ -5,7 +5,7 @@
 This page comprises a loosely organized heap of links to resources I have found
 useful in my scientific endeavors to date.  Your mileage may vary.  I will add
 to it as things come up and I find the time.  Suggestions for
-additions/modifications are welcome.
+additions/modifications (or reports of broken links) are welcome.
 * Climate Science Blogs
 #+ATTR_HTML: :rules none :frame none
 | [[http://www.gfdl.noaa.gov/blog/isaac-held/][Isaac Held's blog]]                   |
@@ -19,10 +19,13 @@ additions/modifications are welcome.
 #+HTML: <hr/>
 * Science Communication
 #+ATTR_HTML: :rules none :frame none
-| [[http://betterfigures.org/][Better Figures]]        | "Constructive criticism of the graphics of climate science" |
-| [[http://www.principiae.be/][Principiae]]            | Material (some free) on science communication               |
-| [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]          | Fascinating and beautiful books on effective data displays  |
-| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]] | Classic text on writing succinctly and clearly              |
+| [[http://betterfigures.org/][Better Figures]]                   | "Constructive criticism of the graphics of climate science"                                          |
+| [[http://www.principiae.be/][Principiae]]                       | Material (some free) on science communication                                                        |
+| [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]                     | Fascinating and beautiful books on effective data displays                                           |
+| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]]            | Classic text on writing succinctly and clearly                                                       |
+| [[http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf][Beamer customization cheat sheet]] | Quick reference for how to tinker with elements of Beamer presentations                              |
+| [[https://www.climatecommunication.org/][Climate Communication]]            | "Support[ing] scientists in improving their communication and outreach"                              |
+| [[http://www.climatecentral.org/][Climate Central]]                  | "Surveys and conducts scientific research on climate change and informs the public of key findings." |
 #+HTML: <hr/>
 * Climate Science & Meteorology History
 | [[http://www.historicalclimatology.com/][Historical Climatology]] | Portal for climate research from the historical discipline               |
