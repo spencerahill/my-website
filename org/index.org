@@ -1,7 +1,7 @@
 #+INCLUDE: "macros.org"
 #+TITLE: {{{SITETITLE}}}
 #+AUTHOR: Spencer A. Hill
-#+EMAIL: spencerh@princeton.edu
+#+EMAIL: shill@atmos.ucla.edu
 #+DATE:
 #+DESCRIPTION: Academic website of Spencer Hill, PhD student in Princeton AOS program
 #+KEYWORDS:
@@ -18,15 +18,12 @@
 * Overview
 (site last updated {{{modification-time(%Y %B %d)}}})
 
-I am a Ph.D. student in the [[http://www.princeton.edu/aos/][Program in Atmospheric and Oceanic Sciences]] at
-Princeton University, where I research tropical atmospheric circulations in
-present day and how they respond to imposed perturbations.  Please see my
-[[file:research.org][Research]] page for more information.  I am in my 5th year of study, am advised by
-[[http://www.gfdl.noaa.gov/yi-ming-homepage][Dr. Yi Ming]], and will defend my thesis on August 2nd, 2016.
-
-In September 2016, I will start a postdoctoral position working with [[http://web.gps.caltech.edu/~bordoni/index.html][Simona
-Bordoni]] of CalTech and [[http://www2.ess.ucla.edu/~mitch/Home.html][Jonathan Mitchell]] of UCLA and Westmont College working on
-monsoon theories.
+I am a postdoctoral research fellow working in the UCLA Department of
+Atmospheric and Oceanic Sciences (AOS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Jonathan Mitchell]] of UCLA and
+Westmont College and in the California Institute of Technology Division of
+Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Simona Bordoni]], where I research
+tropical overturning circulations.  Please see my [[file:research.org][Research]] page for more
+information.
 
 I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://www.fsf.org/][Free]] / [[http://opensource.org/][Open Source]] Software
 movements, scientific programming using the Python language and Emacs Org-Mode,
@@ -37,12 +34,12 @@ Please contact me with any questions about my research or anything else you find
 on this site.  Thanks!
 #+HTML: <hr/>
 * Contact
-[[mailto:spencerh@princeton.edu][spencerh@princeton.edu]]{{{NEWLINE}}}
+[[mailto:shill@atmos.ucla.edu][shill@atmos.ucla.edu]]{{{NEWLINE}}}
++1 (913) 515-8527
 Spencer Hill{{{NEWLINE}}}
-NOAA Geophysical Fluid Dynamics Laboratory{{{NEWLINE}}}
-201 Forrestal Road, Suite 308B{{{NEWLINE}}}
-Princeton, NJ 08540{{{NEWLINE}}}
-(609) 452-5324
+UCLA Department of Atmospheric and Oceanic Sciences{{{NEWLINE}}}
+Box 951565{{{NEWLINE}}}
+Los Angeles, CA 90095-1565
 #+HTML: <hr/>
 * My online presence
 [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]]{{{NEWLINE}}}

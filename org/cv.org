@@ -2,4 +2,4 @@
 #+TITLE: {{{SITETITLE}}}
 {{{NAVBAR}}}
 {{{PAGETITLE(Curriculum Vitae ([[file:cv/cv.pdf][PDF]]))}}}
-#+INCLUDE: "~/cv/cv.org" :lines "2-"
+#+INCLUDE: "~/Dropbox/cv/cv.org" :lines "2-"
