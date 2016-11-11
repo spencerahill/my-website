@@ -2,4 +2,4 @@
 #+TITLE: {{{SITETITLE}}}
 {{{NAVBAR}}}
 {{{PAGETITLE(Publications)}}}
-#+INCLUDE: "~/cv/publications.org"
+#+INCLUDE: "~/Dropbox/cv/publications.org"
