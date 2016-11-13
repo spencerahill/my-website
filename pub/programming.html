@@ -3,11 +3,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Spencer A. Hill   <span style="color: gray"> Postdoc</span> UCLA AOS &amp; Caltech GPS</title>
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="Spencer Hill" />
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Spencer Hill" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -52,13 +52,97 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
@@ -91,6 +175,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <link rel="stylesheet"
@@ -171,9 +256,9 @@ for the JavaScript code in this tag.
 <hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="personal.html">About Me</a> </span><hr/>
 <span style="font-size:2em"> Programming </span><hr/>
 </p>
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1">Python</h2>
-<div class="outline-text-2" id="text-orgheadline1">
+<div id="outline-container-org35d0da0" class="outline-2">
+<h2 id="org35d0da0">Python</h2>
+<div class="outline-text-2" id="text-org35d0da0">
 <p>
 I am an avid user of the <a href="https://www.python.org/">Python</a> programming language, which is modern, powerful,
 elegant, open-source, and well-documented.  I use the <a href="http://ipython.org/">IPython</a> environment and
@@ -181,9 +266,9 @@ rely on the <a href="http://xarray.pydata.org">xarray</a>, <a href="http://www.n
 model data via the free <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> distribution.
 </p>
 </div>
-<div id="outline-container-orgheadline2" class="outline-3">
-<h3 id="orgheadline2"><span class="todo p">p</span> angeo-data project</h3>
-<div class="outline-text-3" id="text-orgheadline2">
+<div id="outline-container-org16f93e2" class="outline-3">
+<h3 id="org16f93e2"><span class="todo p">p</span> angeo-data project</h3>
+<div class="outline-text-3" id="text-org16f93e2">
 <p>
 There is a growing discrepancy between the scale of data that is generated by
 climate models and observational products and the capability of tools commonly
@@ -204,12 +289,12 @@ and contributions; please see the Github page linked above for more information.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline5" class="outline-3">
-<h3 id="orgheadline5">Python packages I have created</h3>
-<div class="outline-text-3" id="text-orgheadline5">
-</div><div id="outline-container-orgheadline3" class="outline-4">
-<h4 id="orgheadline3"><code>aospy</code></h4>
-<div class="outline-text-4" id="text-orgheadline3">
+<div id="outline-container-orgfd735c3" class="outline-3">
+<h3 id="orgfd735c3">Python packages I have created</h3>
+<div class="outline-text-3" id="text-orgfd735c3">
+</div><div id="outline-container-org46d8a57" class="outline-4">
+<h4 id="org46d8a57"><code>aospy</code></h4>
+<div class="outline-text-4" id="text-org46d8a57">
 <p>
 My colleagues and I often lament how much time we spend messing with computer
 code in order to output data or figures.  Also, lacking sufficient metadata to
@@ -236,13 +321,13 @@ Clark of Princeton AOS to clean it up and create a proper v0.1 release
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline4" class="outline-4">
-<h4 id="orgheadline4">Others: see <a href="https://github.com/spencerahill">my Github</a></h4>
+<div id="outline-container-orgdea2ece" class="outline-4">
+<h4 id="orgdea2ece">Others: see <a href="https://github.com/spencerahill">my Github</a></h4>
 </div>
 </div>
-<div id="outline-container-orgheadline6" class="outline-3">
-<h3 id="orgheadline6">Python packages I use</h3>
-<div class="outline-text-3" id="text-orgheadline6">
+<div id="outline-container-org0d05cda" class="outline-3">
+<h3 id="org0d05cda">Python packages I use</h3>
+<div class="outline-text-3" id="text-org0d05cda">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -305,9 +390,9 @@ Clark of Princeton AOS to clean it up and create a proper v0.1 release
 </table>
 </div>
 </div>
-<div id="outline-container-orgheadline7" class="outline-3">
-<h3 id="orgheadline7">Python packages I haven't tried but look cool</h3>
-<div class="outline-text-3" id="text-orgheadline7">
+<div id="outline-container-orgcc2fd70" class="outline-3">
+<h3 id="orgcc2fd70">Python packages I haven't tried but look cool</h3>
+<div class="outline-text-3" id="text-orgcc2fd70">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -395,9 +480,9 @@ Clark of Princeton AOS to clean it up and create a proper v0.1 release
 </table>
 </div>
 </div>
-<div id="outline-container-orgheadline8" class="outline-3">
-<h3 id="orgheadline8">Python environments and package managers</h3>
-<div class="outline-text-3" id="text-orgheadline8">
+<div id="outline-container-orge8660ad" class="outline-3">
+<h3 id="orge8660ad">Python environments and package managers</h3>
+<div class="outline-text-3" id="text-orge8660ad">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -435,9 +520,9 @@ Clark of Princeton AOS to clean it up and create a proper v0.1 release
 </table>
 </div>
 </div>
-<div id="outline-container-orgheadline9" class="outline-3">
-<h3 id="orgheadline9">Other Python resources</h3>
-<div class="outline-text-3" id="text-orgheadline9">
+<div id="outline-container-org6014716" class="outline-3">
+<h3 id="org6014716">Other Python resources</h3>
+<div class="outline-text-3" id="text-org6014716">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -476,12 +561,12 @@ Clark of Princeton AOS to clean it up and create a proper v0.1 release
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline12" class="outline-2">
-<h2 id="orgheadline12">Emacs &amp; Org-Mode</h2>
-<div class="outline-text-2" id="text-orgheadline12">
-</div><div id="outline-container-orgheadline10" class="outline-3">
-<h3 id="orgheadline10">Overview</h3>
-<div class="outline-text-3" id="text-orgheadline10">
+<div id="outline-container-org060e6d7" class="outline-2">
+<h2 id="org060e6d7">Emacs &amp; Org-Mode</h2>
+<div class="outline-text-2" id="text-org060e6d7">
+</div><div id="outline-container-org524b6d2" class="outline-3">
+<h3 id="org524b6d2">Overview</h3>
+<div class="outline-text-3" id="text-org524b6d2">
 <p>
 <a href="https://www.gnu.org/software/emacs/emacs.html">Emacs</a> is a powerful text editor that I use for as many tasks as I can.  <a href="http://orgmode.org/">Org-mode</a>
 is an extension of Emacs for creating outline-like documents, with many powerful
@@ -499,15 +584,16 @@ highlighting the powers of Org-mode in reproducible research and beyond.
 
 <p>
 In fact, my website and CV are written entirely as org-mode files, which I then
-publish to HTML (and PDF for the CV) using Org-Mode's Publish functionality.  I
-intend to publish these source files on Github eventually as an example of how
-Org-mode can be used.
+publish to HTML (and PDF for the CV) using Org-Mode's Publish functionality.
+See the link at the bottom of this and other pages on my site for the raw
+org-mode files that I use to generate the HTML.  I also intend to publish these
+source files on Github eventually as an example of how Org-mode can be used.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline11" class="outline-3">
-<h3 id="orgheadline11">Resources</h3>
-<div class="outline-text-3" id="text-orgheadline11">
+<div id="outline-container-orgd70acaf" class="outline-3">
+<h3 id="orgd70acaf">Resources</h3>
+<div class="outline-text-3" id="text-orgd70acaf">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -536,9 +622,9 @@ Org-mode can be used.
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline13" class="outline-2">
-<h2 id="orgheadline13">Others</h2>
-<div class="outline-text-2" id="text-orgheadline13">
+<div id="outline-container-org1579490" class="outline-2">
+<h2 id="org1579490">Others</h2>
+<div class="outline-text-2" id="text-org1579490">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -571,6 +657,9 @@ Org-mode can be used.
 </table>
 </div>
 </div>
+<p>
+<a href="org/programming.org">(page source code)</a>.
+</p>
 </div>
 </body>
 </html>

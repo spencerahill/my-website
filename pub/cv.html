@@ -3,11 +3,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Spencer A. Hill   <span style="color: gray"> Postdoc</span> UCLA AOS &amp; Caltech GPS Dr. Spencer Alan Hill</title>
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="Postdoctoral Research Fellow | UCLA AOS and Caltech GPS" />
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Postdoctoral Research Fellow | UCLA AOS and Caltech GPS" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -52,13 +52,97 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
@@ -91,6 +175,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <link rel="stylesheet"
@@ -149,9 +234,9 @@ for the JavaScript code in this tag.
 <hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="personal.html">About Me</a> </span><hr/>
 <span style="font-size:2em"> Curriculum Vitae (<a href="cv/cv.pdf">PDF</a>) </span><hr/>
 </p>
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1">Contact information</h2>
-<div class="outline-text-2" id="text-orgheadline1">
+<div id="outline-container-org8a5b08f" class="outline-2">
+<h2 id="org8a5b08f">Contact information</h2>
+<div class="outline-text-2" id="text-org8a5b08f">
 <p>
 Department of Atmospheric and Oceanic Sciences<br  />
 7127 Math Sciences Building<br  />
@@ -163,9 +248,9 @@ Los Angeles, California 90095-1565<br  />
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="orgheadline2">Current position</h2>
-<div class="outline-text-2" id="text-orgheadline2">
+<div id="outline-container-orga7572ff" class="outline-2">
+<h2 id="orga7572ff">Current position</h2>
+<div class="outline-text-2" id="text-orga7572ff">
 <p>
 National Science Foundation Atmospheric and Geospace Sciences Postdoctoral
 Research Fellow (2016-2018)<br  />
@@ -179,12 +264,12 @@ Advisers: Jonathan Mitchell, UCLA and Westmont College; Simona Bordoni, Caltech<
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline5" class="outline-2">
-<h2 id="orgheadline5">Education</h2>
-<div class="outline-text-2" id="text-orgheadline5">
-</div><div id="outline-container-orgheadline3" class="outline-3">
-<h3 id="orgheadline3">Graduate | Princeton University</h3>
-<div class="outline-text-3" id="text-orgheadline3">
+<div id="outline-container-orgd50fb41" class="outline-2">
+<h2 id="orgd50fb41">Education</h2>
+<div class="outline-text-2" id="text-orgd50fb41">
+</div><div id="outline-container-org429fb5e" class="outline-3">
+<h3 id="org429fb5e">Graduate | Princeton University</h3>
+<div class="outline-text-3" id="text-org429fb5e">
 <p>
 Ph.D., Atmospheric and Oceanic Sciences, conferred August 2016.  Advisor: Yi
 Ming.  Committee members: Isaac Held, Leo Donner, and Ming Zhao.  M.A. conferred
@@ -192,9 +277,9 @@ May 2013, Ph.D. conferred September 2016.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline4" class="outline-3">
-<h3 id="orgheadline4">Undergraduate | UCLA</h3>
-<div class="outline-text-3" id="text-orgheadline4">
+<div id="outline-container-org705e8ad" class="outline-3">
+<h3 id="org705e8ad">Undergraduate | UCLA</h3>
+<div class="outline-text-3" id="text-org705e8ad">
 <p>
 B.S., AOS/Applied Mathematics double major conferred June 2011 with
 Magna Cum Laude, Phi Beta Kappa, and UCLA College Honors distinctions.
@@ -203,12 +288,12 @@ Magna Cum Laude, Phi Beta Kappa, and UCLA College Honors distinctions.
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline12" class="outline-2">
-<h2 id="orgheadline12">Publications</h2>
-<div class="outline-text-2" id="text-orgheadline12">
-</div><div id="outline-container-orgheadline6" class="outline-3">
-<h3 id="orgheadline6">In preparation</h3>
-<div class="outline-text-3" id="text-orgheadline6">
+<div id="outline-container-org60d2acb" class="outline-2">
+<h2 id="org60d2acb">Publications</h2>
+<div class="outline-text-2" id="text-org60d2acb">
+</div><div id="outline-container-orga4014e5" class="outline-3">
+<h3 id="orga4014e5">In preparation</h3>
+<div class="outline-text-3" id="text-orga4014e5">
 <ol class="org-ol">
 <li><b>Hill, Spencer A.</b>, Yi Ming, Isaac M. Held, and Ming Zhao.  "Towards emergent
 constraints on future rainfall in the Sahel."  In preparation.</li>
@@ -218,9 +303,9 @@ thermodynamics."  In preparation.</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-orgheadline7" class="outline-3">
-<h3 id="orgheadline7">Submitted/in revision/in press.</h3>
-<div class="outline-text-3" id="text-orgheadline7">
+<div id="outline-container-org4b9f3cf" class="outline-3">
+<h3 id="org4b9f3cf">Submitted/in revision/in press.</h3>
+<div class="outline-text-3" id="text-org4b9f3cf">
 <ol class="org-ol">
 <li><b>Hill, Spencer A.</b>, Yi Ming, Isaac M. Held, and Ming Zhao.  "A moist static
 energy budget-based analysis of the Sahel rainfall response to uniform
@@ -231,9 +316,9 @@ variability in a warmer climate."  Submitted to <i>Nature Climate Change</i>.</l
 </ol>
 </div>
 </div>
-<div id="outline-container-orgheadline8" class="outline-3">
-<h3 id="orgheadline8">Peer-reviewed</h3>
-<div class="outline-text-3" id="text-orgheadline8">
+<div id="outline-container-org6e99966" class="outline-3">
+<h3 id="org6e99966">Peer-reviewed</h3>
+<div class="outline-text-3" id="text-org6e99966">
 <ol class="org-ol">
 <li>(2015) <b>Hill, Spencer A.</b>, Yi Ming, and Isaac M. Held. "Mechanisms of forced tropical
 meridional energy flux change."  <i>J. Climate</i>, <b>28</b>, 1725-1742.  doi:
@@ -244,9 +329,9 @@ brightening of tropical marine stratocumulus."  <i>Geophysical Research Letters<
 </ol>
 </div>
 </div>
-<div id="outline-container-orgheadline9" class="outline-3">
-<h3 id="orgheadline9">Non peer-reviewed</h3>
-<div class="outline-text-3" id="text-orgheadline9">
+<div id="outline-container-org98cbd1b" class="outline-3">
+<h3 id="org98cbd1b">Non peer-reviewed</h3>
+<div class="outline-text-3" id="text-org98cbd1b">
 <ol class="org-ol">
 <li>(2012) <b>Hill, Spencer A.</b> "A head in the clouds elucidates" (book review of
 <a href="http://press.princeton.edu/titles/9773.html">Atmosphere, Clouds, and Climate</a> by David Randall). <i>Science</i>, <b>337</b>, 1 pp., doi:
@@ -254,9 +339,9 @@ brightening of tropical marine stratocumulus."  <i>Geophysical Research Letters<
 </ol>
 </div>
 </div>
-<div id="outline-container-orgheadline10" class="outline-3">
-<h3 id="orgheadline10">PhD thesis</h3>
-<div class="outline-text-3" id="text-orgheadline10">
+<div id="outline-container-orgc969046" class="outline-3">
+<h3 id="orgc969046">PhD thesis</h3>
+<div class="outline-text-3" id="text-orgc969046">
 <p>
 (2016) <b>Hill, Spencer A.</b> "Energetic and hydrological responses of Hadley
 circulations and the African Sahel to sea surface temperature perturbations."
@@ -266,9 +351,9 @@ href="files/spencer_hill_phd_thesis.pdf">PDF version</a>.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline11" class="outline-3">
-<h3 id="orgheadline11">Technical/software</h3>
-<div class="outline-text-3" id="text-orgheadline11">
+<div id="outline-container-orge8fc0bc" class="outline-3">
+<h3 id="orge8fc0bc">Technical/software</h3>
+<div class="outline-text-3" id="text-orge8fc0bc">
 <ol class="org-ol">
 <li>(2016) Hoyer, Stephan et al.  "xarray: v0.8.0."  <a href="http://dx.doi.org/10.5281/zenodo.59499">10.5281/zenodo.59499</a>.</li>
 </ol>
@@ -276,9 +361,9 @@ href="files/spencer_hill_phd_thesis.pdf">PDF version</a>.
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline13" class="outline-2">
-<h2 id="orgheadline13">Research and Professional Experiences</h2>
-<div class="outline-text-2" id="text-orgheadline13">
+<div id="outline-container-orgb6ecb4b" class="outline-2">
+<h2 id="orgb6ecb4b">Research and Professional Experiences</h2>
+<div class="outline-text-2" id="text-orgb6ecb4b">
 <table border="2" cellspacing="0" cellpadding="6" rules="none" frame="none">
 
 
@@ -362,9 +447,9 @@ href="files/spencer_hill_phd_thesis.pdf">PDF version</a>.
 <hr/>
 </div>
 </div>
-<div id="outline-container-orgheadline14" class="outline-2">
-<h2 id="orgheadline14">Major Honors and Awards</h2>
-<div class="outline-text-2" id="text-orgheadline14">
+<div id="outline-container-org97a16f2" class="outline-2">
+<h2 id="org97a16f2">Major Honors and Awards</h2>
+<div class="outline-text-2" id="text-org97a16f2">
 <table border="2" cellspacing="0" cellpadding="6" rules="none" frame="none">
 
 
@@ -418,12 +503,12 @@ href="files/spencer_hill_phd_thesis.pdf">PDF version</a>.
 <hr/>
 </div>
 </div>
-<div id="outline-container-orgheadline18" class="outline-2">
-<h2 id="orgheadline18">Teaching &amp; Mentoring</h2>
-<div class="outline-text-2" id="text-orgheadline18">
-</div><div id="outline-container-orgheadline15" class="outline-3">
-<h3 id="orgheadline15">Princeton Graduate Teaching Transcript certification</h3>
-<div class="outline-text-3" id="text-orgheadline15">
+<div id="outline-container-orgcd1a923" class="outline-2">
+<h2 id="orgcd1a923">Teaching &amp; Mentoring</h2>
+<div class="outline-text-2" id="text-orgcd1a923">
+</div><div id="outline-container-org5c29b44" class="outline-3">
+<h3 id="org5c29b44">Princeton Graduate Teaching Transcript certification</h3>
+<div class="outline-text-3" id="text-org5c29b44">
 <p>
 Administered by the McGraw Center for Teaching &amp; Learning.  Requirements include
 two-day teacher training, lectures and workshops on pedagogy, and video recording
@@ -431,18 +516,18 @@ and subsequent analysis of teaching as a TA.  Completed August 2016.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline16" class="outline-3">
-<h3 id="orgheadline16">Teaching Assistant</h3>
-<div class="outline-text-3" id="text-orgheadline16">
+<div id="outline-container-org9f54bcb" class="outline-3">
+<h3 id="org9f54bcb">Teaching Assistant</h3>
+<div class="outline-text-3" id="text-org9f54bcb">
 <p>
 Princeton University, Fall 2014, Geosciences 361, "Physics of Earth: The
 Habitable Planet."  Professor George Philander.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline17" class="outline-3">
-<h3 id="orgheadline17">Assistant mentor to GFDL undergraduate summer interns</h3>
-<div class="outline-text-3" id="text-orgheadline17">
+<div id="outline-container-orge919e1e" class="outline-3">
+<h3 id="orge919e1e">Assistant mentor to GFDL undergraduate summer interns</h3>
+<div class="outline-text-3" id="text-orge919e1e">
 <table border="2" cellspacing="0" cellpadding="6" rules="none" frame="none">
 
 
@@ -472,9 +557,9 @@ Habitable Planet."  Professor George Philander.
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline19" class="outline-2">
-<h2 id="orgheadline19">Public Outreach</h2>
-<div class="outline-text-2" id="text-orgheadline19">
+<div id="outline-container-org55d86be" class="outline-2">
+<h2 id="org55d86be">Public Outreach</h2>
+<div class="outline-text-2" id="text-org55d86be">
 <table border="2" cellspacing="0" cellpadding="6" rules="none" frame="none">
 
 
@@ -498,9 +583,9 @@ Habitable Planet."  Professor George Philander.
 <hr/>
 </div>
 </div>
-<div id="outline-container-orgheadline20" class="outline-2">
-<h2 id="orgheadline20">Reviewing</h2>
-<div class="outline-text-2" id="text-orgheadline20">
+<div id="outline-container-org495d8f8" class="outline-2">
+<h2 id="org495d8f8">Reviewing</h2>
+<div class="outline-text-2" id="text-org495d8f8">
 <p>
 Reviewer for <i>Nature Climate Change</i>, <i>Journal of Climate</i>, <i>Journal of the
 Atmospheric Sciences</i>, and GFDL internal manuscript review.
@@ -508,9 +593,9 @@ Atmospheric Sciences</i>, and GFDL internal manuscript review.
 <hr/>
 </div>
 </div>
-<div id="outline-container-orgheadline21" class="outline-2">
-<h2 id="orgheadline21">Selected Presentations</h2>
-<div class="outline-text-2" id="text-orgheadline21">
+<div id="outline-container-org6e0e7bc" class="outline-2">
+<h2 id="org6e0e7bc">Selected Presentations</h2>
+<div class="outline-text-2" id="text-org6e0e7bc">
 <table border="2" cellspacing="0" cellpadding="6" rules="none" frame="none">
 
 
@@ -633,6 +718,9 @@ Atmospheric Sciences</i>, and GFDL internal manuscript review.
 </table>
 </div>
 </div>
+<p>
+<a href="org/cv.org">(page source code)</a>.
+</p>
 </div>
 </body>
 </html>
