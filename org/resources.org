@@ -31,10 +31,12 @@ additions/modifications (or reports of broken links) are welcome.
 | [[http://www.climatecentral.org/][Climate Central]]                  | "Surveys and conducts scientific research on climate change and informs the public of key findings." |
 #+HTML: <hr/>
 * Climate science & meteorology history
-| [[http://www.historicalclimatology.com/][Historical Climatology]] | Portal for climate research from the historical discipline               |
-| [[http://www.oldweather.org/][Old Weather]]            | Citizen-science project: transcribe historical ship logs of weather data |
+| [[http://empslocal.ex.ac.uk/people/staff/gv219/classics.d/index.html][Geoff Vallis's collection of classic papers]] | With useful comments by G. Vallis                                        |
+| [[http://www.historicalclimatology.com/][Historical Climatology]]                      | Portal for climate research from the historical discipline               |
+| [[http://www.oldweather.org/][Old Weather]]                                 | Citizen-science project: transcribe historical ship logs of weather data |
 * Data visualization tools
 #+ATTR_HTML: :rules none :frame none
+| [[https://eol.jsc.nasa.gov/][Gateway to Astronaut Photography of Earth]] | NASA portal to imagery of earth taken by astronauts                                   |
 | [[https://www.martinjucker.com/weather/][Martin Jucker's 3D weather visualizations]] | Beautiful videos, interactive 3D plots, and static images of current and past weather |
 | [[https://earth.nullschool.net/][nullschool.net]]                            | Beautiful, interactive visualization of meteorological and ocean data                 |
 | [[http://www.giss.nasa.gov/tools/panoply/][Panoply]]                                   | NetCDF viewer.  Great for making basic plots quickly.                                 |
@@ -43,6 +45,7 @@ additions/modifications (or reports of broken links) are welcome.
 | [[http://christopherbull.com.au/mkmov/][MkMov]]                                     | Command-line utility (written in Python) for making movies from netCDF files          |
 * Online research tools
 #+ATTR_HTML: :rules none :frame none
+| [[http://mitgcm.org/][MITGCM]]  | M.I.T. General Circulation Model              |
 | [[http://ready.arl.noaa.gov/HYSPLIT_traj.php][HYSPLIT]] | Compute forward and backward air trajectories |
 #+HTML: <hr/>
 * Climate data
@@ -52,7 +55,8 @@ additions/modifications (or reports of broken links) are welcome.
 | [[http://iridl.ldeo.columbia.edu/][Columbia IRI/LDEO Climate Data Library]] |
 ** Individual Data Products
 #+ATTR_HTML: :rules none :frame none
-| [[http://gcmd.nasa.gov/records/GCMD_AERONET_NASA.html][AERONET]] | International aerosol monitoring network |
+| [[http://gcmd.nasa.gov/records/GCMD_AERONET_NASA.html][AERONET]]        | International ground-based instrumental aerosol monitoring network |
+| [[http://www.cmcc.it/c-glors/][C-GLORS & CHOR]] | Ocean reanalysis datasets                                          |
 #+HTML: <hr/>
 * Career
 ** General

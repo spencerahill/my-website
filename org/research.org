@@ -23,5 +23,22 @@ I intend to eventually populate this page with more detailed information about
 the various projects I have worked/am working on, including to the extent
 possible figures, Python code, and model data.  Until then, check out the
 [[file:publications.org][Publications]] page for a list of my papers to date.
+
+* COMMENT Land-atmosphere interactions
+Despite the obvious fact that humans live on land, much of the theory describing
+tropical precipitation assumes (either explicitly or implicitly) an oceanic
+lower boundary.  In part, this is because oceans provide several simplifications
+compared to land.  But ultimately humans (and likely all other terrestrial
+species) will be most impacted by changes to precipitation over land rather than
+over ocean.
+
+** Relevant papers
+
+* COMMENT Zonal-mean circulation
+* COMMENT Monsoon dynamics
+
+* COMMENT Planetary climates
+
+* COMMENT Outreach
 * (link to org source file)                                          :ignore:
 {{{ORGSRC(research)}}}

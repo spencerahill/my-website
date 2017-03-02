@@ -1,14 +1,15 @@
+:PROPERTIES:
 #+INCLUDE: "macros.org"
 #+TITLE: {{{SITETITLE}}}
 #+AUTHOR: Spencer A. Hill
 #+EMAIL: shill@atmos.ucla.edu
 #+DATE:
-#+DESCRIPTION: Academic website of Spencer Hill, PhD student in Princeton AOS program
+#+DESCRIPTION: Academic website of Spencer Hill
 #+KEYWORDS:
 #+OPTIONS: toc:nil ':nil
 #+LANGUAGE: en
 #+HTML: <link rel="stylesheet" type="text/css" href="style.css?v=3">
-# #+INFOJS_OPT: view:info toc:nil
+:END:
 
 {{{NAVBAR}}}
 #+ATTR_HTML: :alt Me on UCLA commencement day 2011 :width 180px :height 208px
@@ -35,17 +36,16 @@ on this site.  Thanks!
 #+HTML: <hr/>
 * Contact
 [[mailto:shill@atmos.ucla.edu][shill@atmos.ucla.edu]]{{{NEWLINE}}}
-+1 (913) 515-8527{{{NEWLINE}}}
 Spencer Hill{{{NEWLINE}}}
-UCLA Department of Atmospheric and Oceanic Sciences{{{NEWLINE}}}
-Box 951565{{{NEWLINE}}}
-Los Angeles, CA 90095-1565
+UCLA Department of Earth, Planetary, and Space Sciences{{{NEWLINE}}}
+595 Charles E. Young Drive East{{{NEWLINE}}}
+Los Angeles, CA 90095
 #+HTML: <hr/>
 * My online presence
 [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]]{{{NEWLINE}}}
-[[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]{{{NEWLINE}}}
 [[https://github.com/spencerahill][Github]]{{{NEWLINE}}}
 [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]]{{{NEWLINE}}}
+[[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]{{{NEWLINE}}}
 [[https://publons.com/author/466456/spencer-a-hill#profile][Publons]]{{{NEWLINE}}}
 #+HTML: <hr/>
 * (link to org source file)                                          :ignore:
