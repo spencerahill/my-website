@@ -19,20 +19,20 @@
 * Overview
 (site last updated {{{modification-time(%Y %B %d)}}})
 
-I am a postdoctoral research fellow working in the UCLA Department of
-Atmospheric and Oceanic Sciences (AOS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Jonathan Mitchell]] of UCLA and
-Westmont College and in the California Institute of Technology Division of
-Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Simona Bordoni]], where I research
-tropical overturning circulations.  Please see my [[file:research.org][Research]] page for more
-information.
+I am a postdoctoral research fellow studying tropical overturning circulations
+(i.e. monsoons, Hadley cells, and the Intertropical Convergence Zone).  I work
+jointly in the UCLA Department of Atmospheric and Oceanic Sciences (AOS) with
+[[http://www2.ess.ucla.edu/~mitch/Home.html][Jonathan Mitchell]] of UCLA and Westmont College and in the California Institute
+of Technology Division of Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Simona
+Bordoni]].  Please see my [[file:research.org][Research]] page for more.
 
-I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://www.fsf.org/][Free]] / [[http://opensource.org/][Open Source]] Software
-movements, scientific programming using the Python language and Emacs Org-Mode,
-and the links between science and aesthetics/culture.  Please see my [[file:resources.org][Resources]]
-and [[file:programming.org][Programming]] pages for more information.
+I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open-Source Software]] movements,
+which manifests through developing open-source software tools for scientists in
+the Python programming language.  Please see the [[file:aospy.org]["aospy"]], [[file:resources.org][Resources]], and
+[[file:programming.org][Programming]] pages for more.
 
-Please contact me with any questions about my research or anything else you find
-on this site.  Thanks!
+Please contact me (information below) with any questions about my research or
+anything else you find on this site.  Thanks!
 #+HTML: <hr/>
 * Contact
 [[mailto:shill@atmos.ucla.edu][shill@atmos.ucla.edu]]{{{NEWLINE}}}

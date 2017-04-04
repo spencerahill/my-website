@@ -232,28 +232,37 @@ for the JavaScript code in this tag.
 <h1 class="title">Spencer A. Hill   <span style="color: gray"> Postdoc</span> UCLA AOS &amp; Caltech GPS</h1>
 <p>
 <hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a> <a href="resources.html">Resources</a> <a href="aospy.html">aospy</a> <a href="programming.html">Programming</a> <a href="personal.html">About Me</a> </span><hr/>
-<span style="font-size:2em"> Research </span><hr/>
-</p>
-<div id="outline-container-org78e233b" class="outline-2">
-<h2 id="org78e233b">Overview</h2>
-<div class="outline-text-2" id="text-org78e233b">
-<p>
-My research is strongly influenced by the work of <a href="http://www.gfdl.noaa.gov/isaac-held-homepage">Isaac Held</a> and others on using
-climate model hierarchies to improve understanding; see <a href="http://library.wmo.int/opac/index.php?lvl=notice_display&amp;id=6209#.Va_9-0WrO_c">Bony et al. 2011</a> and
-<a href="http://dx.doi.org/10.1175/BAMS-86-11-1609">Held 2005</a>.
+<span style="font-size:2em"> aospy: <a href="https://aospy.readthedocs.io">https://aospy.readthedocs.io</a> </span><hr/>
 </p>
 
-<p>
-I intend to eventually populate this page with more detailed information about
-the various projects I have worked/am working on, including to the extent
-possible figures, Python code, and model data.  Until then, check out the
-<a href="publications.html">Publications</a> page for a list of my papers to date.
+
+<div class="figure">
+<p><img src="images/aospy_logo.png" alt="aospy logo" style="float margin:10px" width="400px" />
 </p>
-</div>
 </div>
 
 <p>
-<a href="org/research.org">(Emacs org-mode source code used to generate this page)</a>
+My colleagues and I often lament how much time we spend messing with computer
+code in order to output data or figures.  Also, lacking sufficient metadata to
+describe what they actually do/are, scripts/plots quickly become outdated and
+untrustworthy (e. g. "Did I remember to change the date range in the script when
+I made this plot?").  In addition, performing calculations one by one can be
+impractical when hundreds or thousands are needed (e.g. DJF, JJA, SON, MAM, and
+annual means of multiple variables from multiple experimental runs and/or
+multiple models and/or multiple ensemble members).
+</p>
+
+<p>
+This frustrating inefficiency has led me and collaborator Spencer Clark to
+create a Python package called "aospy" that automates these tasks.  Using aospy,
+it is possible to submit 1000s of calculations spanning across models,
+simulations, variables, and other parameter settings, with a single command.
+</p>
+
+<p>
+We are actively seeking new users!  Learn more about the project via the
+official documentation at <a href="https://aospy.readthedocs.io">https://aospy.readthedocs.io</a>, or check out the code
+itself at our Github repo, <a href="https://github.com/spencerahill/aospy">https://github.com/spencerahill/aospy</a>.
 </p>
 </div>
 </body>

@@ -3,6 +3,38 @@
 {{{NAVBAR}}}
 {{{PAGETITLE(Research)}}}
 * Overview
+My research is strongly influenced by the work of [[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on using
+climate model hierarchies to improve understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and
+[[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]].
+
+I intend to eventually populate this page with more detailed information about
+the various projects I have worked/am working on, including to the extent
+possible figures, Python code, and model data.  Until then, check out the
+[[file:publications.org][Publications]] page for a list of my papers to date.
+
+* COMMENT Hadley cells on Earth and other planets
+(collaborators: Simona Bordoni, Jonathan Mitchell)
+
+* COMMENT Land-atmosphere interactions
+(collaborators: Spencer Clark, Simona Bordoni, Jonathan Mitchell)
+
+Humans live on land and as such are affected much more by variability or forced
+changes (including due to global warming) of precipitation over land vs. over
+ocean.  Yet much of the theory describing tropical precipitation assumes (either
+explicitly or implicitly) an oceanic lower boundary.  In part, this is because
+oceans provide several simplifications compared to land.
+
+* COMMENT The African Sahel
+(collaborators: Yi Ming, Isaac Held, Ming Zhao, Jane Smyth)
+
+The Sahel is the semi-arid transitional region that straddles the southern edge
+of the Sahara desert and the northern edge of appreciable wet-season rainfall.
+The region, which spans many countries and is home to millions of people,
+suffered intense drought during the 1970s.
+
+* COMMENT Zonal-mean circulation and energy transports
+(collaborators: Yi Ming, Isaac Held, Natalie Burls)
+
 Human emissions of greenhouse gases and aerosols alter both the global mean and
 spatial pattern of surface temperatures -- both in the annual mean and
 throughout the seasonal cycle.  Whereas greenhouse gases induce mean warming
@@ -14,31 +46,30 @@ to these changes?  This question drives my research.  Currently, our best
 attempts at its answer are rife with uncertainty, impeding attempts to adapt to
 a changing climate.
 
-My approach to climate modeling research is strongly influenced by the work of
-[[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on climate model hierarchies and using models to improve
-understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and [[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]]. My advisor is [[http://www.gfdl.noaa.gov/yi-ming-homepage][Yi Ming]], and my
-PhD committee includes Isaac Held and [[http://www.gfdl.noaa.gov/leo-donner-homepage][Leo Donner]].
-
-I intend to eventually populate this page with more detailed information about
-the various projects I have worked/am working on, including to the extent
-possible figures, Python code, and model data.  Until then, check out the
-[[file:publications.org][Publications]] page for a list of my papers to date.
-
-* COMMENT Land-atmosphere interactions
-Despite the obvious fact that humans live on land, much of the theory describing
-tropical precipitation assumes (either explicitly or implicitly) an oceanic
-lower boundary.  In part, this is because oceans provide several simplifications
-compared to land.  But ultimately humans (and likely all other terrestrial
-species) will be most impacted by changes to precipitation over land rather than
-over ocean.
-
-** Relevant papers
-
-* COMMENT Zonal-mean circulation
-* COMMENT Monsoon dynamics
-
-* COMMENT Planetary climates
-
 * COMMENT Outreach
+(collaborators: Jonathan Mitchell, Jon Aurnou, Juan Lora, Sean Faulk, Helen Parish,
+and Norris Khoo)
+
+That Earth rotates about its axis once per day profoundly constrains the motions
+of its atmosphere, oceans, and interior.  The same holds for other
+rapidly-rotating planetary bodies.  Many key tenants of geophysical fluid
+dynamics (i.e. the laws of physics governing fluid flows on planetary scales)
+can be nicely demonstrated by placing a tank of water on a rotating surface and
+using things like food coloring to visualize the flows within the tank.  As one
+example, the [[https://www.elsevier.com/books/atmosphere-ocean-and-climate-dynamics/marshall/978-0-08-055670-3][Marshall and Plumb 2007]] textbook is effectively built around such
+laboratory demonstrations.
+
+Demonstrations such as these are of value for students even at the elementary
+school level, but their presence in elementary, middle, and high school
+curricula is limited by prohibitively expensive materials and insufficient
+expertise in the relevant science.  Outreach events at underserved schools by
+university groups are useful but cannot scale.
+
+We are developing a Do-It-Yourself (DIY) "kit" comprising affordable,
+easy-to-find parts that are easily assembled into a functional rotating table
+apparatus, along with instructional materials for teachers on assembling the
+table, executing the demonstrations, and conveying the relevant scientific
+concepts for each demonstration.
+
 * (link to org source file)                                          :ignore:
 {{{ORGSRC(research)}}}
