@@ -11,9 +11,6 @@ gen-html: cv
 gen:
 	gen-cv gen-html
 
-cp-html:
-	cp *.html pub/
-
 cp-cv:
 	cp cv/cv.pdf pub/cv
 
@@ -32,7 +29,7 @@ papers:
 pres:
 	cp pres/*.pdf pub/pres
 
-copy: cp-html cp-cv css images org papers pres
+copy: cp-cv css images org papers pres
 
 push: org
 	scp -r pub/* shill@boreas.atmos.ucla.edu:/Users/shill/website
@@ -45,4 +42,4 @@ all: gen copy push
 clean:
 	rm pub/*
 
-.PHONY: gen-cv gen-html gen cp-cv cp-html css images org papers pres copy push all clean
+.PHONY: gen-cv gen-html gen cp-cv css images org papers pres copy push all clean
