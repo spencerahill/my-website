@@ -1,15 +1,38 @@
 CVPATH="$HOME/Dropbox/cv"
 
-cv:
+gen-cv:
 	emacs $(CVPATH) --batch \
 	--eval="(org-latex-export-to-pdf)" --kill
 
-html: cv
+gen-html: cv
 	emacs org/index.org --batch \
 	--eval="(org-publish-project \"website\")" --kill
 
+gen:
+	gen-cv gen-html
+
+cp-html:
+	cp *.html pub/
+
+cp-cv:
+	cp cv/cv.pdf pub/cv
+
+css:
+	cp css/*.css pub/css
+
+images:
+	cp images/* pub/images
+
 org:
 	cp org/*.org pub/org
+
+papers:
+	cp papers/*.pdf pub/papers
+
+pres:
+	cp pres/*.pdf pub/pres
+
+copy: cp-html cp-cv css images org papers pres
 
 push: org
 	scp -r pub/* shill@boreas.atmos.ucla.edu:/Users/shill/website
@@ -17,10 +40,9 @@ push: org
 	scp -r pub/* shill@erato.atmos.ucla.edu:/data/people/shill
 	exit
 
-all: cv html org push
+all: gen copy push
 
 clean:
-	rm pub/org/*
-	rm pub/*.html
+	rm pub/*
 
-.PHONY: cv html org push
+.PHONY: gen-cv gen-html gen cp-cv cp-html css images org papers pres copy push all clean
