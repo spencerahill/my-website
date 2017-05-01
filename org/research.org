@@ -3,6 +3,13 @@
 {{{NAVBAR}}}
 {{{PAGETITLE(Research)}}}
 * Overview
+I am interested in the atmospheric dynamics of Earth and other planets,
+especially in the Tropics.  This includes work on our theoretical understanding
+of atmospheric circulations as they naturally occur as well as how they are
+perturbed by external forcings.  For Earth, this includes the potential effects of
+human-induced climate change as well as changes in Earth's past driven by
+orbital changes.
+
 My research is strongly influenced by the work of [[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on using
 climate model hierarchies to improve understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and
 [[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]].
