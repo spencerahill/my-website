@@ -13,4 +13,5 @@ at home together.  I'm also an avid music fan/critic and book reader.
 #+CAPTION: Alyssa, Dempsey and me in Cape Cod
 [[file:images/cape_cod.jpg]]
 * (link to org source file)                                          :ignore:
+#+HTML: <hr/>
 {{{ORGSRC(personal)}}}
