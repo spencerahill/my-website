@@ -4,79 +4,168 @@
 {{{PAGETITLE(Research)}}}
 * Overview
 I am interested in the atmospheric dynamics of Earth and other planets,
-especially in the Tropics.  This includes work on our theoretical understanding
-of atmospheric circulations as they naturally occur as well as how they are
-perturbed by external forcings.  For Earth, this includes the potential effects of
-human-induced climate change as well as changes in Earth's past driven by
-orbital changes.
+especially tropical overturning circulations and their attendant features:
+monsoons, Hadley cells, and the Intertropical Convergence Zone (ITCZ).  The
+emphasis is on advancing our theoretical understanding of these circulations,
+both as they naturally occur and how they are perturbed by external
+forcings.  For Earth, the latter includes the potential effects of human-induced
+climate change as well as understanding the salient drivers of Earth's past
+climate states (a.k.a. "paleoclimate").
 
-My research is strongly influenced by the work of [[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on using
-climate model hierarchies to improve understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and
-[[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]].
+See below for summaries of (some of) the projects I'm currently working on or
+have worked on previously, or see the [[file:publications.org][Publications]] and [[file:cv.org][CV]] pages for more formal
+summaries of my research output to date.
 
-I intend to eventually populate this page with more detailed information about
-the various projects I have worked/am working on, including to the extent
-possible figures, Python code, and model data.  Until then, check out the
-[[file:publications.org][Publications]] page for a list of my papers to date.
 
-* COMMENT Hadley cells on Earth and other planets
-(collaborators: Simona Bordoni, Jonathan Mitchell)
+#+HTML: <hr/>
+* Control on migrations of the tropical rainbelt on Earth and other planets
+When averaged across all longitudes (i.e. "zonally averaged"), the atmospheric
+circulation near the equator on most planetary bodies comprises one or two
+(depending on the season) overturning cells; these are the Hadley cells.  The
+ascending branch of this Hadley circulation coincides with strong convergence of
+air in the planetary boundary layer (i.e. near the surface), and in moist
+atmospheres generates a band of strong precipitation.  These convergence and
+precipitation features are collectively known as the Intertropical Convergence
+Zone (ITCZ).
 
-* COMMENT Land-atmosphere interactions
-(collaborators: Spencer Clark, Simona Bordoni, Jonathan Mitchell)
+On Earth, the ITCZ moves north and south during the seasonal cycle, from the
+northern hemisphere subtropics during northern summer to the southern hemisphere
+subtropics during southern summer, and back again.  What sets this latitudinal
+range?  Why doesn't it move farther poleward or less far?  [[https://doi.org/10.1175/JAS-D-16-0014.1][/Faulk et al. 2017/]]
+showed in an "aquaplanet" climate model that, all else being Earth-like,
+planetary rotation rate is one of the dominant controls: the slower the planet
+is rotating, the farther poleward the ITCZ can move.
 
-Humans live on land and as such are affected much more by variability or forced
-changes (including due to global warming) of precipitation over land vs. over
-ocean.  Yet much of the theory describing tropical precipitation assumes (either
-explicitly or implicitly) an oceanic lower boundary.  In part, this is because
-oceans provide several simplifications compared to land.
+We are currently investigating the underlying dynamical and thermodynamic
+influences on this behavior through simulations using an even simpler model
+(i.e. a dry dynamical core), one with no moist processes and even further
+simplified treatments of radiative transfer and other processes.
 
-* COMMENT The African Sahel
-(collaborators: Yi Ming, Isaac Held, Ming Zhao, Jane Smyth)
+#+ATTR_HTML: :alt Adapted from Fig. 1 of Faulk et al. 2017.  Precipitation annual cycle in an aquaplanet model with either Earth-like settings, perpetual solstice insolation, or a planetary rotation rate reduced by 8 times.
+#+ATTR_HTML: :style float margin:10px :width 600px
+#+CAPTION: Adapted from Fig. 1 of /Faulk et al. 2017/.  Zonal mean precipitation in color contours (warm colors = large values) as a function of day of the year in simulations with (top-left) perpetual solsticial insolation or (all other panels) Earth's regular seasonal cycle of insolation.  The panel labels indicate the planetary rotation rate in that simulation relative to the standard Earth rate.
+[[file:images/faulk+2017fig1.png]]
 
+
+#+HTML: <hr/>
+* Vegetation-atmosphere interactions and the "Green Sahara" paleoclimate state
+Roughly 10,000 years ago, most of today's Sahara Desert was not a desert at all;
+paleoclimate proxy records of lake levels, precipitation, and vegetation cover
+suggest that a large portion was vegetated and received many times the amount of
+rainfall compared to today.  The root driver of this "Green Sahara" state was
+almost certainly a stronger gradient of incoming solar radiation ("insolation")
+in the northern hemisphere during summer caused by gradual changes in Earth's
+orbital configuration, which enabled the tropical rainbelt of equatorial Africa
+to extend farther northward.
+
+However, as plants extended into the desert, they also increased its surface
+albedo (i.e. darkened it, thereby increasing its absorption of insolation) and
+increased its capacity to retain water, both of which feed back positively on
+the original vegetation expansion.  A popular hypothesis is that this
+"vegetation-albedo feedback" was a necessary condition for this African Humid
+Period and fueled rapid onset and demise of the Green Sahara roughly 12,000 and
+6,000 years ago, respectively (although there are disagreements as to how rapid
+these climatic changes were).  Climate model simulations of this time period
+generally fail to generate appreciable wettening of the Sahara unless a darkened
+surface is prescribed, thereby hard-coding in the vegetation-driven albedo
+change.
+
+This inability of the full complexity climate models to match the proxy records
+has motivated us to investigate the problem using a series of simpler models.
+The first step is developing a simple moist energy balance model of the region
+that can reproduce the modern day climate and that generates a greening of the
+Sahara when perturbed with the proper orbital changes.  The second step is to
+accomplish the same thing in an idealized moist climate model; this will require
+creating a simple vegetation model that makes surface albedo potentially
+sensitive to e.g. precipitation.
+
+# #+ATTR_HTML: :alt
+# #+ATTR_HTML: :style float margin:10px :width 600px
+# #+CAPTION:
+# [[file:images/faulk+2017fig1.png]]
+
+#+HTML: <hr/>
+* "Meta" thinking on climate model hierarchies
+Numerical simulation using climate models is a central component of my research,
+and my approach to using these models is strongly influenced by the work of
+[[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on using climate model hierarchies to improve
+understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and [[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]].  I am a co-author on a paper
+summarizing the state of hierarchical climate modeling, [[http://nadirjeevanjee.com/papers/jeevanjee2017a.pdf][Jeevanjee et al. 2017]],
+that was inspired by the World Climate Research Programme's [[https://www.wcrp-climate.org/gc-model-hierarchies-home][Model Hierarchies
+Workshop]] at Princeton University in November 2016.
+
+#+ATTR_HTML: :alt Representation of model hierarchy from /Jeevanjee et al. 2017/.
+#+ATTR_HTML: :style float margin:10px :width 600px
+#+CAPTION: From /Jeevanjee et al. 2017/.  We illustrate the model hierarchy as the combination of separate hierarchies for each salient model component.
+[[file:images/jeevanjee_hierarchy_axes.png]]
+
+#+HTML: <hr/>
+* The African Sahel
 The Sahel is the semi-arid transitional region that straddles the southern edge
 of the Sahara desert and the northern edge of appreciable wet-season rainfall.
-The region, which spans many countries and is home to millions of people,
-suffered intense drought during the 1970s.
+The region, which spans several countries and is home to millions of people,
+suffered intense drought during the 1970s.  It is also a veritable poster child
+for uncertainty in future hydroloclimatic changes -- climate model projections
+span from sharp decreases to sharp increases in rainfall in the remainder of
+this century, even for the same assumed future emissions trajectory.
 
-* COMMENT Zonal-mean circulation and energy transports
-(collaborators: Yi Ming, Isaac Held, Natalie Burls)
+In [[https://doi.org/10.1175/JCLI-D-16-0785.1][/Hill et al. 2017/]], we use an atmospheric climate model forced either with
+present-day ocean surface temperatures or with those temperatures uniformly
+warmed by 2 degrees Celsius, and we repeat this pair of simulations in the same
+model but with its standard representation of moist convection swapped out for
+an alternate.  We find that global mean warming acts to dry out the Sahel
+through a (slight variation on a) well-known process, the "upped-ante
+mechanism": warming increases the difference in moisture between the Sahel and
+the adjacent desert, and so prevailing winds from the north acting on this
+increased gradient act to dry the northern Sahel.
 
+Nothing about these arguments seemed to us likely to be valid only for the
+single atmospheric model that we were using, so we then examined uniform warming
+simulations performed in a total of fifteen other atmospheric models developed
+by modeling centers across the world.  In all but one of these other models,
+uniform warming caused drying in the Sahel largely through this mechanism.  This
+was originally reported in Chapter 4 of my Ph.D. thesis; a corresponding journal
+article is forthcoming.
+
+#+ATTR_HTML: :alt Warming-induced rainfall change over the Sahel as simulated by two versions of an atmospheric model.
+#+ATTR_HTML: :style float margin:10px :width 300px
+#+CAPTION: Adapted from Fig. 1 of /Hill et al. 2017/.  Color shading shows precipitation change in response to uniform 2 Kelvin ocean surface warming in two versions of an atmospheric model, differing only in the way moist convection is represented.
+[[file:images/hill+2017fig1.jpg]]
+
+#+HTML: <hr/>
+* Zonal-mean circulation and energy transports
 Human emissions of greenhouse gases and aerosols alter both the global mean and
 spatial pattern of surface temperatures -- both in the annual mean and
 throughout the seasonal cycle.  Whereas greenhouse gases induce mean warming
 that tends to be polar amplified, aerosols cool the globe and, being emitted
 primarily in the northern hemisphere mid-latitudes, cool the northern hemisphere
-relative to the south.  How will atmospheric circulation patterns -- and with
-them the precipitation patterns that society and ecosystems depend on -- respond
-to these changes?  This question drives my research.  Currently, our best
-attempts at its answer are rife with uncertainty, impeding attempts to adapt to
-a changing climate.
+relative to the south.  How will atmospheric circulation and precipitation
+patterns respond to these changes?
 
-* COMMENT Outreach
-(collaborators: Jonathan Mitchell, Jon Aurnou, Juan Lora, Sean Faulk, Helen Parish,
-and Norris Khoo)
+It is commonly argued that the hemispherically-asymmetric aerosol forcing pushes
+the ITCZ toward the southern hemisphere, as part of a strengthening of northward
+energy transport by the Hadley Cells that acts to counter the aerosol cooling
+concentrated in the northern hemisphere.  However, the energy transports also
+depend on the "gross moist stability", i.e. how much energy is transported per
+unit of mass overturning.
 
-That Earth rotates about its axis once per day profoundly constrains the motions
-of its atmosphere, oceans, and interior.  The same holds for other
-rapidly-rotating planetary bodies.  Many key tenants of geophysical fluid
-dynamics (i.e. the laws of physics governing fluid flows on planetary scales)
-can be nicely demonstrated by placing a tank of water on a rotating surface and
-using things like food coloring to visualize the flows within the tank.  As one
-example, the [[https://www.elsevier.com/books/atmosphere-ocean-and-climate-dynamics/marshall/978-0-08-055670-3][Marshall and Plumb 2007]] textbook is effectively built around such
-laboratory demonstrations.
+In [[https://doi.org/10.1175/JCLI-D-14-00165.1][/Hill et al. 2015/]], we use an atmospheric climate model forced by different
+ocean surface temperature patterns to investigate the resulting energy transport
+changes.  In so doing, we create a new approximation for the change in the gross
+moist stability of the Hadley cells, based on the change in the meridional
+(north-south) gradient in ocean surface temperatures.  The simulations confirm
+that, particularly when there is an appreciable spatial pattern to the ocean
+surface warming, the gross moist stability change can actually be an even larger
+contributor to anomalous energy transports than are changes in the overturning
+circulation strength.  However, the closer one gets to the ITCZ, the less
+effective this stability-based mechanism is, which we argue helps explain why
+the ITCZ position is tightly linked to local anomalous energy fluxes.
 
-Demonstrations such as these are of value for students even at the elementary
-school level, but their presence in elementary, middle, and high school
-curricula is limited by prohibitively expensive materials and insufficient
-expertise in the relevant science.  Outreach events at underserved schools by
-university groups are useful but cannot scale.
-
-We are developing a Do-It-Yourself (DIY) "kit" comprising affordable,
-easy-to-find parts that are easily assembled into a functional rotating table
-apparatus, along with instructional materials for teachers on assembling the
-table, executing the demonstrations, and conveying the relevant scientific
-concepts for each demonstration.
+#+ATTR_HTML: :alt Change in gross moist stability, our scaling vs. actual GCM result.
+#+ATTR_HTML: :style float margin:10px :width 600px
+#+CAPTION: Adapted from Fig. 9 of /Hill et al. 2015/.  Hadley cell gross moist stability change in an atmospheric model perturbed with SST anomalies driven by historical aerosol emissions (each row is a different variant of that SST change; see the paper for details).  The left column shows the actual model result, and the right column shows our theoretical prediction.  Areas where the quantities aren't well defined are masked out in gray.
+[[file:images/hill+2015fig9.jpg]]
 
 * (link to org source file)                                          :ignore:
+#+HTML: <hr/>
 {{{ORGSRC(research)}}}
