@@ -12,7 +12,7 @@
 :END:
 
 {{{NAVBAR}}}
-#+ATTR_HTML: :alt Me on UCLA commencement day 2011 :width 180px :height 208px
+#+ATTR_HTML: :alt Me on UCLA commencement day 2011 :width 270px :height 300px
 #+ATTR_HTML: :style float margin:10px
 [[file:images/site_pic.jpeg]]
 #+HTML: <hr/>
@@ -20,16 +20,22 @@
 (site last updated {{{modification-time(%Y %B %d)}}})
 
 I am a postdoctoral research fellow studying tropical overturning circulations
-(i.e. monsoons, Hadley cells, and the Intertropical Convergence Zone).  I work
-jointly in the UCLA Department of Atmospheric and Oceanic Sciences (AOS) with
-[[http://www2.ess.ucla.edu/~mitch/Home.html][Jonathan Mitchell]] of UCLA and Westmont College and in the California Institute
-of Technology Division of Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Simona
+(i.e. [[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]], a.k.a. the
+ITCZ).  I work jointly in the UCLA Department of Atmospheric and Oceanic
+Sciences (AOS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]] and in the California Institute of
+Technology Division of Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Prof. Simona
 Bordoni]].  Please see my [[file:research.org][Research]] page for more.
 
 I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open-Source Software]] movements,
 which manifests through developing open-source software tools for scientists in
-the Python programming language.  Please see the [[file:aospy.org]["aospy"]], [[file:resources.org][Resources]], and
-[[file:programming.org][Programming]] pages for more.
+the Python programming language.  Please see the [[file:aospy.org]["aospy"]],
+[[file:programming.org][Programming]], and [[file:resources.org][Resources]] pages for more.
+
+I also am co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the
+teaching of meteorology, climate science, and other planetary-scale sciences at
+the K-12 through graduate school levels by developing inexpensive, easy-to-use
+kits for performing physical demonstrations of core scientific concepts.  Please
+see the [[file:outreach.org][DIYnamics]] page for more.
 
 Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
@@ -46,7 +52,6 @@ Los Angeles, CA 90095
 [[https://github.com/spencerahill][Github]]{{{NEWLINE}}}
 [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]]{{{NEWLINE}}}
 [[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]{{{NEWLINE}}}
-[[https://publons.com/author/466456/spencer-a-hill#profile][Publons]]{{{NEWLINE}}}
 #+HTML: <hr/>
 * (link to org source file)                                          :ignore:
 {{{ORGSRC(index)}}}
