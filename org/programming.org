@@ -75,10 +75,13 @@ org-mode files that I use to generate the HTML, or check them out at my
 | [[https://emacsformacosx.com/][Emacs for Mac OS X]]   | Easily install GUI version of Emacs on Mac OS X/macOS                              |
 | [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] | Library for linking environment variables that Emacs sees with your system values. |
 |                      | Especially useful for the GUI version of Emacs on OS X/macOS.                      |
+* LaTeX
+| [[http://latexcolor.com/]]              | Copy-pasteable color definitions for \LaTeX{} documents  |
+| [[http://cremeronline.com/LaTeX/minimaltikz.pdf][A very minimal introduction to TikZ]] | Great entry into \LaTeX{} plotting packages TikZ and PGF |
 * Others
-| [[http://cremeronline.com/LaTeX/minimaltikz.pdf][A very minimal introduction to TikZ]] | Great entry into \LaTeX{} plotting packages TikZ and PGF                                      |
 | [[http://nco.sourceforge.net/][netCDF Operator (NCO) toolkit]]       | Library of command-line tools for interacting with netCDF data                                |
 | [[http://www.ohshitgit.com/][Oh shit, git!]]                       | Accessible, humorous take on fixing common mistakes when using the [[https://git-scm.com/][git]] version control system |
 | [[http://www.colordiff.org/][colordiff]]                           | Colorize/prettify the =diff= command-line tool                                                  |
 * (link to org source file)                                          :ignore:
+#+HTML: <hr/>
 {{{ORGSRC(programming)}}}
