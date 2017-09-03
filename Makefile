@@ -1,45 +1,38 @@
-CVPATH="$HOME/Dropbox/cv"
+THISDIR="${PWD}"
+CVPATH="${HOME}/Dropbox/cv"
 
+# TODO: Fix this.  Resulting PDF is blank.
 gen-cv:
-	emacs $(CVPATH) --batch \
-	--eval="(org-latex-export-to-pdf)" --kill
+	cd $(CVPATH)
+	emacs \
+	-u "$(id -un)" \
+	    --batch \
+	    --eval '(load user-init-file)' \
+	    cv.org \
+	    -f org-latex-export-to-pdf \
+	    --kill
+	cd $(THISDIR)
+	cp cv.pdf cv/cv.pdf
+	mv cv.{bbl,tex,pdf} $(CVPATH)
 
-gen-html: cv
-	emacs org/index.org --batch \
-	--eval="(org-publish-project \"website\")" --kill
+# TODO: Verify that this works.
+gen-html:
+	emacs \
+	    -u "$(id -un)" \
+	    --batch \
+	    --eval '(load user-init-file)' \
+	    org/index.org \
+	    -f org-publish-current-project \
+	    -kill
 
-gen:
-	gen-cv gen-html
+push:
+	# Relies on the 'erato' and 'boreas' profiles in my .ssh/config.
+	# Must be connected to the AOS VPN for this to work.
+	scp -r pub/* erato:/data/people/shill
 
-cp-cv:
-	cp cv/cv.pdf pub/cv
-
-css:
-	cp css/*.css pub/css
-
-images:
-	cp images/* pub/images
-
-org:
-	cp org/*.org pub/org
-
-papers:
-	cp papers/*.pdf pub/papers
-
-pres:
-	cp pres/*.pdf pub/pres
-
-copy: cp-cv css images org papers pres
-
-push: org
-	scp -r pub/* shill@boreas.atmos.ucla.edu:/Users/shill/website
-	ssh shill@boreas.atmos.ucla.edu
-	scp -r pub/* shill@erato.atmos.ucla.edu:/data/people/shill
-	exit
-
-all: gen copy push
+all: gen-cv gen-html push
 
 clean:
 	rm pub/*
 
-.PHONY: gen-cv gen-html gen cp-cv css images org papers pres copy push all clean
+.PHONY: gen-cv gen-html push all clean
