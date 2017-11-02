@@ -52,6 +52,3 @@ Los Angeles, CA 90095
 [[https://github.com/spencerahill][Github]]{{{NEWLINE}}}
 [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]]{{{NEWLINE}}}
 [[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]{{{NEWLINE}}}
-#+HTML: <hr/>
-* (link to org source file)                                          :ignore:
-{{{ORGSRC(index)}}}

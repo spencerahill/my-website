@@ -2,7 +2,7 @@
 #+TITLE: {{{SITETITLE}}}
 {{{NAVBAR}}}
 {{{PAGETITLE(Publications)}}}
-#+INCLUDE: "~/Dropbox/cv/publications.org"
+#+INCLUDE: "~/Dropbox/cv/publications.org" :lines "15-"
 * (link to org source file)                                          :ignore:
 #+HTML: <hr/>
 {{{ORGSRC(outreach)}}}
