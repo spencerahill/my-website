@@ -31,7 +31,7 @@ which manifests through developing open-source software tools for scientists in
 the Python programming language.  Please see the [[file:aospy.org]["aospy"]],
 [[file:programming.org][Programming]], and [[file:resources.org][Resources]] pages for more.
 
-I also am co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the
+I am also co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the
 teaching of meteorology, climate science, and other planetary-scale sciences at
 the K-12 through graduate school levels by developing inexpensive, easy-to-use
 kits for performing physical demonstrations of core scientific concepts.  Please
