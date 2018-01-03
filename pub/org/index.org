@@ -26,7 +26,7 @@ Sciences (AOS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan 
 Technology Division of Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Prof. Simona
 Bordoni]].  Please see my [[file:research.org][Research]] page for more.
 
-I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open-Source Software]] movements,
+I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open Source Software]] movements,
 which manifests through developing open-source software tools for scientists in
 the Python programming language.  Please see the [[file:aospy.org]["aospy"]],
 [[file:programming.org][Programming]], and [[file:resources.org][Resources]] pages for more.
