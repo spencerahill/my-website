@@ -46,9 +46,5 @@ Spencer Hill{{{NEWLINE}}}
 UCLA Department of Earth, Planetary, and Space Sciences{{{NEWLINE}}}
 595 Charles E. Young Drive East{{{NEWLINE}}}
 Los Angeles, CA 90095
-#+HTML: <hr/>
-* My online presence
-[[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]]{{{NEWLINE}}}
-[[https://github.com/spencerahill][Github]]{{{NEWLINE}}}
-[[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]]{{{NEWLINE}}}
-[[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]{{{NEWLINE}}}
+
+On the web: [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]] | [[https://github.com/spencerahill][Github]] | [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]] | [[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]
