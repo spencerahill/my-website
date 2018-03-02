@@ -26,7 +26,7 @@ gen-html:
 	    -kill
 
 push:
-	# Relies on the 'erato' and 'boreas' profiles in my .ssh/config.
+	# Relies on the 'erato' and 'aeolus' profiles in my .ssh/config.
 	# Must be connected to the AOS VPN for this to work.
 	scp -r pub/* erato:/data/people/shill
 
