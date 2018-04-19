@@ -47,4 +47,5 @@ UCLA Department of Earth, Planetary, and Space Sciences{{{NEWLINE}}}
 595 Charles E. Young Drive East{{{NEWLINE}}}
 Los Angeles, CA 90095
 
-On the web: [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]] | [[https://github.com/spencerahill][Github]] | [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]] | [[http://stackoverflow.com/users/1706640/spencer-hill][Stack Overflow]]
+On the web: [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]] | [[https://github.com/spencerahill][Github]] | [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]] | [[http://stackoverflow.com/users/1706640/spencer-hill][Stack
+Overflow]] | [[https://github.com/spencerahill/my-website][source code for this website]]
