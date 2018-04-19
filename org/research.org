@@ -165,7 +165,3 @@ the ITCZ position is tightly linked to local anomalous energy fluxes.
 #+ATTR_HTML: :style float margin:10px :width 600px
 #+CAPTION: Adapted from Fig. 9 of /Hill et al. 2015/.  Hadley cell gross moist stability change in an atmospheric model perturbed with SST anomalies driven by historical aerosol emissions (each row is a different variant of that SST change; see the paper for details).  The left column shows the actual model result, and the right column shows our theoretical prediction.  Areas where the quantities aren't well defined are masked out in gray.
 [[file:images/hill+2015fig9.jpg]]
-
-* (link to org source file)                                          :ignore:
-#+HTML: <hr/>
-{{{ORGSRC(research)}}}

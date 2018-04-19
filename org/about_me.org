@@ -12,6 +12,3 @@ at home together.  I'm also an avid music fan/critic and book reader.
 #+ATTR_HTML: :style float margin:10px
 #+CAPTION: Alyssa, Dempsey and me in Cape Cod
 [[file:images/cape_cod.jpg]]
-* (link to org source file)                                          :ignore:
-#+HTML: <hr/>
-{{{ORGSRC(personal)}}}

@@ -89,6 +89,3 @@ additions/modifications (or reports of broken links) are welcome.
 | [[http://xkcd.com/][xkcd]]          | Brilliant science/math comic (note some explicit language/themes)                      |
 | [[http://what-if.xkcd.com/][xkcd what-if?]] | "Serious scientific answers to absurd hypothetical questions"                          |
 | [[http://www.ted.com/][TED]]           | Talks on various topics, scientific and otherwise (some fascinating, many forgettable) |
-* (link to org source file)                                          :ignore:
-#+HTML: <hr/>
-{{{ORGSRC(resources)}}}

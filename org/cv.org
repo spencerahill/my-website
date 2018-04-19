@@ -3,5 +3,3 @@
 {{{NAVBAR}}}
 {{{PAGETITLE(Curriculum Vitae ([[file:cv/cv.pdf][PDF]]))}}}
 #+INCLUDE: "~/Dropbox/cv/cv.org" :lines "12-"
-* (link to org source file)                                          :ignore:
-{{{ORGSRC(cv)}}}

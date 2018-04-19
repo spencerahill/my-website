@@ -25,7 +25,3 @@ simulations, variables, and other parameter settings, with a single command.
 We are actively seeking new users!  Learn more about the project via the
 official documentation at [[https://aospy.readthedocs.io]], or check out the code
 itself at our Github repo, [[https://github.com/spencerahill/aospy]].
-
-* (link to org source file)                                          :ignore:
-#+HTML: <hr/>
-{{{ORGSRC(outreach)}}}

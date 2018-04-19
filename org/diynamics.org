@@ -29,7 +29,3 @@ table, executing the demonstrations, and conveying the relevant scientific
 concepts for each demonstration.
 
 Learn more about the project at its website, https://diynamics.github.io/.
-
-* (link to org source file)                                          :ignore:
-#+HTML: <hr/>
-{{{ORGSRC(outreach)}}}

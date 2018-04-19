@@ -68,9 +68,7 @@ reproducible research and beyond.
 
 In fact, my website and CV are written entirely as org-mode files, which I then
 publish to HTML (and PDF for the CV) using Org-Mode's Publish functionality.
-See the link at the bottom of this and other pages on my site for the raw
-org-mode files that I use to generate the HTML, or check them out at my
-[[https://github.com/spencerahill/my-website][Github repo]] storing my code for this site.
+The source code for all this is available as a [[https://github.com/spencerahill/my-website][Github repository]].
 ** Resources
 | [[https://emacsformacosx.com/][Emacs for Mac OS X]]   | Easily install GUI version of Emacs on Mac OS X/macOS                              |
 | [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] | Library for linking environment variables that Emacs sees with your system values. |
@@ -82,6 +80,3 @@ org-mode files that I use to generate the HTML, or check them out at my
 | [[http://nco.sourceforge.net/][netCDF Operator (NCO) toolkit]]       | Library of command-line tools for interacting with netCDF data                                |
 | [[http://www.ohshitgit.com/][Oh shit, git!]]                       | Accessible, humorous take on fixing common mistakes when using the [[https://git-scm.com/][git]] version control system |
 | [[http://www.colordiff.org/][colordiff]]                           | Colorize/prettify the =diff= command-line tool                                                  |
-* (link to org source file)                                          :ignore:
-#+HTML: <hr/>
-{{{ORGSRC(programming)}}}
