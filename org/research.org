@@ -20,7 +20,7 @@ summaries of my research output to date.
 #+HTML: <hr/>
 * Control on migrations of the tropical rainbelt on Earth and other planets
 When averaged across all longitudes (i.e. "zonally averaged"), the atmospheric
-circulation near the equator on most planetary bodies comprises one or two
+circulation near the equator on many planetary bodies comprises one or two
 (depending on the season) overturning cells; these are the Hadley cells.  The
 ascending branch of this Hadley circulation coincides with strong convergence of
 air in the planetary boundary layer (i.e. near the surface), and in moist
