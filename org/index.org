@@ -2,7 +2,7 @@
 #+INCLUDE: "macros.org"
 #+TITLE: {{{SITETITLE}}}
 #+AUTHOR: Spencer A. Hill
-#+EMAIL: shill@atmos.ucla.edu
+#+EMAIL: shill@caltech.edu
 #+DATE:
 #+DESCRIPTION: Academic website of Spencer Hill
 #+KEYWORDS:
@@ -21,10 +21,10 @@
 
 I am a postdoctoral research fellow studying tropical overturning circulations
 (i.e. [[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]], a.k.a. the
-ITCZ).  I work jointly in the UCLA Department of Atmospheric and Oceanic
-Sciences (AOS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]] and in the California Institute of
-Technology Division of Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Prof. Simona
-Bordoni]].  Please see my [[file:research.org][Research]] page for more.
+ITCZ).  I work jointly in the California Institute of Technology Division of
+Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Prof. Simona Bordoni]] and in the
+UCLA Department of Earth, Planetary, and Space Sciences (EPSS) with
+[[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]].  Please see my [[file:research.org][Research]] page for more.
 
 I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open Source Software]] movements,
 which manifests through developing open-source software tools for scientists in
@@ -47,5 +47,4 @@ UCLA Department of Earth, Planetary, and Space Sciences{{{NEWLINE}}}
 595 Charles E. Young Drive East{{{NEWLINE}}}
 Los Angeles, CA 90095
 
-On the web: [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]] | [[https://github.com/spencerahill][Github]] | [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]] | [[http://stackoverflow.com/users/1706640/spencer-hill][Stack
-Overflow]] | [[https://github.com/spencerahill/my-website][source code for this website]]
+On the web: [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]] | [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]] | [[https://github.com/spencerahill][Github]] | [[http://stackoverflow.com/users/1706640/spencer-hill][StackOverflow]] | [[https://github.com/spencerahill/my-website][source code for this website]]
