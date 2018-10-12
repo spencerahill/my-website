@@ -1,5 +1,5 @@
 :PROPERTIES:
-#+INCLUDE: "macros.org"
+#+INCLUDE: "./macros.org"
 #+TITLE: {{{SITETITLE}}}
 #+AUTHOR: Spencer A. Hill
 #+EMAIL: shill@caltech.edu
@@ -41,7 +41,7 @@ Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
 #+HTML: <hr/>
 * Contact
-[[mailto:shill@atmos.ucla.edu][shill@atmos.ucla.edu]]{{{NEWLINE}}}
+[[mailto:shill@atmos.ucla.edu][shill@gps.caltech.edu]]{{{NEWLINE}}}
 Spencer Hill{{{NEWLINE}}}
 UCLA Department of Earth, Planetary, and Space Sciences{{{NEWLINE}}}
 595 Charles E. Young Drive East{{{NEWLINE}}}
