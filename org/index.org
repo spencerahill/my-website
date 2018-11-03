@@ -26,16 +26,16 @@ Geological and Planetary Sciences (GPS) with [[http://web.gps.caltech.edu/~bordo
 UCLA Department of Earth, Planetary, and Space Sciences (EPSS) with
 [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]].  Please see my [[file:research.org][Research]] page for more.
 
-I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open Source Software]] movements,
-which manifests through developing open-source software tools for scientists in
-the Python programming language.  Please see the [[file:aospy.org]["aospy"]],
-[[file:programming.org][Programming]], and [[file:resources.org][Resources]] pages for more.
-
 I am also co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the
 teaching of meteorology, climate science, and other planetary-scale sciences at
 the K-12 through graduate school levels by developing inexpensive, easy-to-use
 kits for performing physical demonstrations of core scientific concepts.  Please
 see the [[file:outreach.org][DIYnamics]] page for more.
+
+I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open Source Software]] movements,
+which manifests through developing open-source software tools for scientists in
+the Python programming language.  Please see the [[file:aospy.org]["aospy"]],
+[[file:programming.org][Programming]], and [[file:resources.org][Resources]] pages for more.
 
 Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
