@@ -85,21 +85,6 @@ sensitive to e.g. precipitation.
 # [[file:images/faulk+2017fig1.png]]
 
 #+HTML: <hr/>
-* "Meta" thinking on climate model hierarchies
-Numerical simulation using climate models is a central component of my research,
-and my approach to using these models is strongly influenced by the work of
-[[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on using climate model hierarchies to improve
-understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and [[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]].  I am a co-author on a paper
-summarizing the state of hierarchical climate modeling, [[http://nadirjeevanjee.com/papers/jeevanjee2017a.pdf][Jeevanjee et al. 2017]],
-that was inspired by the World Climate Research Programme's [[https://www.wcrp-climate.org/gc-model-hierarchies-home][Model Hierarchies
-Workshop]] at Princeton University in November 2016.
-
-#+ATTR_HTML: :alt Representation of model hierarchy from /Jeevanjee et al. 2017/.
-#+ATTR_HTML: :style float margin:10px :width 600px
-#+CAPTION: From /Jeevanjee et al. 2017/.  We illustrate the model hierarchy as the combination of separate hierarchies for each salient model component.
-[[file:images/jeevanjee_hierarchy_axes.png]]
-
-#+HTML: <hr/>
 * The African Sahel
 The Sahel is the semi-arid transitional region that straddles the southern edge
 of the Sahara desert and the northern edge of appreciable wet-season rainfall.
@@ -120,12 +105,11 @@ the adjacent desert, and so prevailing winds from the north acting on this
 increased gradient act to dry the northern Sahel.
 
 Nothing about these arguments seemed to us likely to be valid only for the
-single atmospheric model that we were using, so we then examined uniform warming
-simulations performed in a total of fifteen other atmospheric models developed
-by modeling centers across the world.  In all but one of these other models,
-uniform warming caused drying in the Sahel largely through this mechanism.  This
-was originally reported in Chapter 4 of my Ph.D. thesis; a corresponding journal
-article is forthcoming.
+single atmospheric model that we were using, so in [[https://doi.org/10.1175/JCLI-D-18-0238.1][/Hill et al. 2018/]] we examine
+uniform warming simulations performed in a total of fifteen other atmospheric
+models developed by modeling centers across the world.  In all but one of these
+other models, uniform warming caused drying in the Sahel largely through this
+mechanism.
 
 #+ATTR_HTML: :alt Warming-induced rainfall change over the Sahel as simulated by two versions of an atmospheric model.
 #+ATTR_HTML: :style float margin:10px :width 300px
@@ -165,3 +149,18 @@ the ITCZ position is tightly linked to local anomalous energy fluxes.
 #+ATTR_HTML: :style float margin:10px :width 600px
 #+CAPTION: Adapted from Fig. 9 of /Hill et al. 2015/.  Hadley cell gross moist stability change in an atmospheric model perturbed with SST anomalies driven by historical aerosol emissions (each row is a different variant of that SST change; see the paper for details).  The left column shows the actual model result, and the right column shows our theoretical prediction.  Areas where the quantities aren't well defined are masked out in gray.
 [[file:images/hill+2015fig9.jpg]]
+* "Meta" thinking on climate model hierarchies
+Numerical simulation using climate models is a central component of my research,
+and my approach to using these models is strongly influenced by the work of
+[[http://www.gfdl.noaa.gov/isaac-held-homepage][Isaac Held]] and others on using climate model hierarchies to improve
+understanding; see [[http://library.wmo.int/opac/index.php?lvl=notice_display&id=6209#.Va_9-0WrO_c][Bony et al. 2011]] and [[http://dx.doi.org/10.1175/BAMS-86-11-1609][Held 2005]].  I am a co-author on a paper
+summarizing the state of hierarchical climate modeling, [[http://nadirjeevanjee.com/papers/jeevanjee2017a.pdf][Jeevanjee et al. 2017]],
+that was inspired by the World Climate Research Programme's [[https://www.wcrp-climate.org/gc-model-hierarchies-home][Model Hierarchies
+Workshop]] at Princeton University in November 2016.
+
+#+ATTR_HTML: :alt Representation of model hierarchy from /Jeevanjee et al. 2017/.
+#+ATTR_HTML: :style float margin:10px :width 600px
+#+CAPTION: From /Jeevanjee et al. 2017/.  We illustrate the model hierarchy as the combination of separate hierarchies for each salient model component.
+[[file:images/jeevanjee_hierarchy_axes.png]]
+
+#+HTML: <hr/>

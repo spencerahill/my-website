@@ -160,6 +160,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -343,29 +356,6 @@ sensitive to e.g. precipitation.
 <hr/>
 </div>
 </div>
-<div id="outline-container-org8b1c5ac" class="outline-2">
-<h2 id="org8b1c5ac">"Meta" thinking on climate model hierarchies</h2>
-<div class="outline-text-2" id="text-org8b1c5ac">
-<p>
-Numerical simulation using climate models is a central component of my research,
-and my approach to using these models is strongly influenced by the work of
-<a href="http://www.gfdl.noaa.gov/isaac-held-homepage">Isaac Held</a> and others on using climate model hierarchies to improve
-understanding; see <a href="http://library.wmo.int/opac/index.php?lvl=notice_display&amp;id=6209#.Va_9-0WrO_c">Bony et al. 2011</a> and <a href="http://dx.doi.org/10.1175/BAMS-86-11-1609">Held 2005</a>.  I am a co-author on a paper
-summarizing the state of hierarchical climate modeling, <a href="http://nadirjeevanjee.com/papers/jeevanjee2017a.pdf">Jeevanjee et al. 2017</a>,
-that was inspired by the World Climate Research Programme's <a href="https://www.wcrp-climate.org/gc-model-hierarchies-home">Model Hierarchies
-Workshop</a> at Princeton University in November 2016.
-</p>
-
-
-<div class="figure">
-<p><img src="images/jeevanjee_hierarchy_axes.png" alt="Representation of model hierarchy from /Jeevanjee et al. 2017/." style="float margin:10px" width="600px" />
-</p>
-<p><span class="figure-number">Figure 2: </span>From <i>Jeevanjee et al. 2017</i>.  We illustrate the model hierarchy as the combination of separate hierarchies for each salient model component.</p>
-</div>
-
-<hr/>
-</div>
-</div>
 <div id="outline-container-org3e53e13" class="outline-2">
 <h2 id="org3e53e13">The African Sahel</h2>
 <div class="outline-text-2" id="text-org3e53e13">
@@ -393,19 +383,18 @@ increased gradient act to dry the northern Sahel.
 
 <p>
 Nothing about these arguments seemed to us likely to be valid only for the
-single atmospheric model that we were using, so we then examined uniform warming
-simulations performed in a total of fifteen other atmospheric models developed
-by modeling centers across the world.  In all but one of these other models,
-uniform warming caused drying in the Sahel largely through this mechanism.  This
-was originally reported in Chapter 4 of my Ph.D. thesis; a corresponding journal
-article is forthcoming.
+single atmospheric model that we were using, so in <a href="https://doi.org/10.1175/JCLI-D-18-0238.1"><i>Hill et al. 2018</i></a> we examine
+uniform warming simulations performed in a total of fifteen other atmospheric
+models developed by modeling centers across the world.  In all but one of these
+other models, uniform warming caused drying in the Sahel largely through this
+mechanism.
 </p>
 
 
 <div class="figure">
 <p><img src="images/hill+2017fig1.jpg" alt="Warming-induced rainfall change over the Sahel as simulated by two versions of an atmospheric model." style="float margin:10px" width="300px" />
 </p>
-<p><span class="figure-number">Figure 3: </span>Adapted from Fig. 1 of <i>Hill et al. 2017</i>.  Color shading shows precipitation change in response to uniform 2 Kelvin ocean surface warming in two versions of an atmospheric model, differing only in the way moist convection is represented.</p>
+<p><span class="figure-number">Figure 2: </span>Adapted from Fig. 1 of <i>Hill et al. 2017</i>.  Color shading shows precipitation change in response to uniform 2 Kelvin ocean surface warming in two versions of an atmospheric model, differing only in the way moist convection is represented.</p>
 </div>
 
 <hr/>
@@ -451,8 +440,31 @@ the ITCZ position is tightly linked to local anomalous energy fluxes.
 <div class="figure">
 <p><img src="images/hill+2015fig9.jpg" alt="Change in gross moist stability, our scaling vs. actual GCM result." style="float margin:10px" width="600px" />
 </p>
-<p><span class="figure-number">Figure 4: </span>Adapted from Fig. 9 of <i>Hill et al. 2015</i>.  Hadley cell gross moist stability change in an atmospheric model perturbed with SST anomalies driven by historical aerosol emissions (each row is a different variant of that SST change; see the paper for details).  The left column shows the actual model result, and the right column shows our theoretical prediction.  Areas where the quantities aren't well defined are masked out in gray.</p>
+<p><span class="figure-number">Figure 3: </span>Adapted from Fig. 9 of <i>Hill et al. 2015</i>.  Hadley cell gross moist stability change in an atmospheric model perturbed with SST anomalies driven by historical aerosol emissions (each row is a different variant of that SST change; see the paper for details).  The left column shows the actual model result, and the right column shows our theoretical prediction.  Areas where the quantities aren't well defined are masked out in gray.</p>
 </div>
+</div>
+</div>
+<div id="outline-container-org8b1c5ac" class="outline-2">
+<h2 id="org8b1c5ac">"Meta" thinking on climate model hierarchies</h2>
+<div class="outline-text-2" id="text-org8b1c5ac">
+<p>
+Numerical simulation using climate models is a central component of my research,
+and my approach to using these models is strongly influenced by the work of
+<a href="http://www.gfdl.noaa.gov/isaac-held-homepage">Isaac Held</a> and others on using climate model hierarchies to improve
+understanding; see <a href="http://library.wmo.int/opac/index.php?lvl=notice_display&amp;id=6209#.Va_9-0WrO_c">Bony et al. 2011</a> and <a href="http://dx.doi.org/10.1175/BAMS-86-11-1609">Held 2005</a>.  I am a co-author on a paper
+summarizing the state of hierarchical climate modeling, <a href="http://nadirjeevanjee.com/papers/jeevanjee2017a.pdf">Jeevanjee et al. 2017</a>,
+that was inspired by the World Climate Research Programme's <a href="https://www.wcrp-climate.org/gc-model-hierarchies-home">Model Hierarchies
+Workshop</a> at Princeton University in November 2016.
+</p>
+
+
+<div class="figure">
+<p><img src="images/jeevanjee_hierarchy_axes.png" alt="Representation of model hierarchy from /Jeevanjee et al. 2017/." style="float margin:10px" width="600px" />
+</p>
+<p><span class="figure-number">Figure 4: </span>From <i>Jeevanjee et al. 2017</i>.  We illustrate the model hierarchy as the combination of separate hierarchies for each salient model component.</p>
+</div>
+
+<hr/>
 </div>
 </div>
 </div>
