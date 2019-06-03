@@ -45,9 +45,10 @@ additions/modifications (or reports of broken links) are welcome.
 | [[http://christopherbull.com.au/mkmov/][MkMov]]                                     | Command-line utility (written in Python) for making movies from netCDF files          |
 * Online research tools
 # #+ATTR_HTML: :rules none :frame none
-| [[http://www2.cesm.ucar.edu/working_groups/CVC/cvdp/][CVDP]]    | NCAR Climate Variability Diagnostics Package  |
-| [[http://mitgcm.org/][MITGCM]]  | M.I.T. General Circulation Model              |
-| [[http://ready.arl.noaa.gov/HYSPLIT_traj.php][HYSPLIT]] | Compute forward and backward air trajectories |
+| [[http://detexify.kirelabs.org/classify.html][Detexify]] | Draw a symbol, get the LaTeX command for it.  |
+| [[http://www2.cesm.ucar.edu/working_groups/CVC/cvdp/][CVDP]]     | NCAR Climate Variability Diagnostics Package  |
+| [[http://mitgcm.org/][MITGCM]]   | M.I.T. General Circulation Model              |
+| [[http://ready.arl.noaa.gov/HYSPLIT_traj.php][HYSPLIT]]  | Compute forward and backward air trajectories |
 #+HTML: <hr/>
 * Climate data
 ** Data Portals/Databases
