@@ -26,11 +26,11 @@ Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Prof. Simona Bordoni
 Planetary, and Space Sciences (EPSS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]].  Please see
 my [[file:research.org][Research]] page for more.
 
-In August 2019, I will become a postdoctoral research scientist at Columbia
-University, working at the Lamont-Doherty Earth Observatory through an Earth
-Institute Postdoctoral Fellowship and advised by [[http://www.columbia.edu/~ahs129/home.html][Dr. Adam Sobel]] and [[https://www.ldeo.columbia.edu/~biasutti/][Dr. Michela
-Biasutti]] on a project seeking to improve forecasting of the Indian monsoon
-summer rainfall on seasonal to interannual timescales.
+In August 2019, I will start a new position as a postdoctoral research fellow at
+Columbia University, working at the Lamont-Doherty Earth Observatory through an
+Earth Institute Postdoctoral Fellowship and advised by [[http://www.columbia.edu/~ahs129/home.html][Dr. Adam Sobel]] and
+[[https://www.ldeo.columbia.edu/~biasutti/][Dr. Michela Biasutti]] on a project seeking to improve forecasting of the Indian
+monsoon summer rainfall on seasonal to interannual timescales.
 
 I am also co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the
 teaching of meteorology, climate science, and other planetary-scale sciences at
