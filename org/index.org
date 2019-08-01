@@ -20,11 +20,11 @@
 (site last updated: {{{modification-time(%Y %B %d)}}})
 
 I am a postdoctoral research fellow studying tropical overturning circulations
-(i.e. [[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]], a.k.a. the
-ITCZ).  I work jointly in the Caltech Division of Geological and Planetary
-Sciences (GPS) with [[http://web.gps.caltech.edu/~bordoni/][Prof. Simona Bordoni]] and in the UCLA Department of Earth,
-Planetary, and Space Sciences (EPSS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]].  Please see
-my [[file:research.org][Research]] page for more.
+([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]).  I work
+jointly in the Caltech Division of Geological and Planetary Sciences (GPS) with
+[[http://web.gps.caltech.edu/~bordoni/][Prof. Simona Bordoni]] and in the UCLA Department of Earth, Planetary, and Space
+Sciences (EPSS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]].  Please see my [[file:research.org][Research]] page for
+more.
 
 In August 2019, I will start a new position as a postdoctoral research fellow at
 Columbia University, working at the Lamont-Doherty Earth Observatory through an
