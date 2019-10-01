@@ -3,12 +3,18 @@
 {{{NAVBAR}}}
 {{{PAGETITLE(About Me)}}}
 
-I live in Los Angeles with my wife, Alyssa, and our dog, Dempsey.  When not
-doing science, I love exploring the area with Alyssa and Dempsey: hiking the
-many nearby mountain trails (Dempsey's favorite), trying new restaurants and
-coffee shops, running, going to the dog park, seeing movies, and just relaxing
-at home together.  I'm also an avid music fan/critic and book reader.
-#+ATTR_HTML: :alt Alyssa, Dempsey and me in Cape Cod :width 300px
+I live in New York City with my wife, Alyssa, and our dog, Dempsey.  When not
+doing science, I love exploring the city and surrounding area with Alyssa and
+Dempsey: off-leash hours in Central Park (Dempsey's favorite), trying new
+restaurants and coffee shops, running, seeing movies, and just relaxing at home
+together.  I'm also an avid music fan/critic and book reader and an aspiring
+gardener.
+#+ATTR_HTML: :alt Alyssa, Dempsey and me in Cape Cod in 2014 :width 300px
 #+ATTR_HTML: :style float margin:10px
-#+CAPTION: Alyssa, Dempsey and me in Cape Cod
-[[file:images/cape_cod.jpg]]
+#+CAPTION: Alyssa, Dempsey and me in Cape Cod in 2014.
+[[file:images/cape_cod_2014.jpg]]
+
+#+ATTR_HTML: :alt Alyssa, Dempsey and me in Cape Cod in 2019 :width 600px
+#+ATTR_HTML: :style float margin:10px
+#+CAPTION: Return trip almost exactly 5 years later!
+[[file:images/cape_cod_2019.jpg]]

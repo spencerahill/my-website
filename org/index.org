@@ -12,25 +12,25 @@
 :END:
 
 {{{NAVBAR}}}
-#+ATTR_HTML: :alt Me on UCLA commencement day 2011 :width 270px :height 300px
+#+ATTR_HTML: :alt Me in Kansas City, December 2018 :width 270px :height 270px
 #+ATTR_HTML: :style float margin:10px
 [[file:images/site_pic.jpeg]]
 #+HTML: <hr/>
 * Overview
 (site last updated: {{{modification-time(%Y %B %d)}}})
 
-I am a postdoctoral research fellow studying tropical overturning circulations
-([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]).  I work
-jointly in the Caltech Division of Geological and Planetary Sciences (GPS) with
-[[http://web.gps.caltech.edu/~bordoni/][Prof. Simona Bordoni]] and in the UCLA Department of Earth, Planetary, and Space
-Sciences (EPSS) with [[http://www2.ess.ucla.edu/~mitch/Home.html][Prof. Jonathan Mitchell]].  Please see my [[file:research.org][Research]] page for
+I am an atmospheric scientist interested in tropical overturning circulations
+([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]) --- why they
+exist, how they ebb and flow over the course of each year, how they may have
+changed in Earth's history, how they may change in Earth's future, and even how
+they behave in other planetary atmospheres.  Please see my [[file:research.org][Research]] page for
 more.
 
-In August 2019, I will start a new position as a postdoctoral research fellow at
-Columbia University, working at the Lamont-Doherty Earth Observatory through an
-Earth Institute Postdoctoral Fellowship and advised by [[http://www.columbia.edu/~ahs129/home.html][Dr. Adam Sobel]] and
-[[https://www.ldeo.columbia.edu/~biasutti/][Dr. Michela Biasutti]] on a project seeking to improve forecasting of the Indian
-monsoon summer rainfall on seasonal to interannual timescales.
+I work at Columbia University, specifically the Lamont-Doherty Earth
+Observatory, where I am funded by an Earth Institute Postdoctoral Fellowship and
+advised by [[http://www.columbia.edu/~ahs129/home.html][Dr. Adam Sobel]] and [[https://www.ldeo.columbia.edu/~biasutti/][Dr. Michela Biasutti]].  We are working on a project
+seeking to improve forecasting of the Indian monsoon summer rainfall on seasonal
+to interannual timescales.
 
 I am also co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the
 teaching of meteorology, climate science, and other planetary-scale sciences at
@@ -40,16 +40,16 @@ see the [[file:outreach.org][DIYnamics]] page or the [[https://diynamics.github.
 
 I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open Source Software]] movements,
 which manifests through developing open-source software tools for scientists in
-the Python programming language.  Please see the [[file:aospy.org]["aospy"]],
-[[file:programming.org][Programming]], and [[file:resources.org][Resources]] pages for more.
+the Python programming language.  Please see the [[file:aospy.org]["aospy"]], [[file:programming.org][Programming]], and
+[[file:resources.org][Resources]] pages for more.
 
 Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
 #+HTML: <hr/>
 
 * Contact
-[[mailto:shill@atmos.ucla.edu][shill@gps.caltech.edu]] | Spencer Hill | UCLA Dept. of Earth, Planetary, and Space
-Sciences | 595 Charles E. Young Drive East | Los Angeles, CA 90095
+[[mailto:shill@ldeo.columbia.edu][shill@ldeo.columbia.edu]] | Spencer Hill | 207B Oceanography | Lamont-Doherty
+Earth Observatory | 61 Route 9W | Palisades, NY 10964
 
 On the web: [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]] | [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]] | [[https://github.com/spencerahill][Github]] |
 [[http://stackoverflow.com/users/1706640/spencer-hill][StackOverflow]] | [[https://github.com/spencerahill/my-website][source code for this website]]
