@@ -2,7 +2,7 @@
 #+INCLUDE: "./macros.org"
 #+TITLE: {{{SITETITLE}}}
 #+AUTHOR: Spencer A. Hill
-#+EMAIL: shill@caltech.edu
+#+EMAIL: shill@ldeo.columbia.edu
 #+DATE:
 #+DESCRIPTION: Academic website of Spencer Hill
 #+KEYWORDS:
