@@ -4,7 +4,7 @@
 #+AUTHOR: Spencer A. Hill
 #+EMAIL: shill@ldeo.columbia.edu
 #+DATE:
-#+DESCRIPTION: Academic website of Spencer Hill
+#+DESCRIPTION: Spencer Hill's academic website
 #+KEYWORDS:
 #+OPTIONS: toc:nil ':nil
 #+LANGUAGE: en
