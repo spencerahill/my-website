@@ -1,2 +1,4 @@
 push:
-	scp -r pub/* shill@dizzy.ldeo.columbia.edu:/home/shill/public_html
+	ncftpput -u shill -R ftp.ldeo.columbia.edu /home/shill/ public_html
+
+.phony: push
