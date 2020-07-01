@@ -17,7 +17,7 @@
 [[file:images/site_pic.jpeg]]
 #+HTML: <hr/>
 * Overview
-(site last updated: {{{modification-time(%Y %B %d)}}})
+(site last updated {{{modification-time(%Y %B %d)}}})
 
 I am an atmospheric scientist interested in tropical overturning circulations
 ([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]) --- why they
