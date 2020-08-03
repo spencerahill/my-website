@@ -36,7 +36,8 @@ I am also co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project
 teaching of meteorology, climate science, and other planetary-scale sciences at
 the K-12 through graduate school levels by developing inexpensive, easy-to-use
 kits for performing physical demonstrations of core scientific concepts.  Please
-see the [[file:outreach.org][DIYnamics]] page or the [[https://diynamics.github.io/][official DIYnamics website]] for more.
+see the [[file:outreach.org][DIYnamics]] page, the [[https://diynamics.github.io/][official DIYnamics website]], or the [[https://www.youtube.com/channel/UCnUHxOSVY4G4OFbF8XL1qUg][DIYnamics YouTube
+channel]] for more.
 
 I am also interested in the [[http://www.openscience.org/blog/][Open Science]] and [[http://opensource.org/][Open Source Software]] movements,
 which manifests through developing open-source software tools for scientists in

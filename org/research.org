@@ -3,6 +3,8 @@
 {{{NAVBAR}}}
 {{{PAGETITLE(Research)}}}
 * Overview
+(2020-08-03 note: I'm overdue to update this page, which is a little outdated!)
+
 I am interested in the atmospheric dynamics of Earth and other planets,
 especially tropical overturning circulations and their attendant features:
 monsoons, Hadley cells, and the Intertropical Convergence Zone (ITCZ).  The
