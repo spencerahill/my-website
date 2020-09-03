@@ -51,5 +51,3 @@ anything else you find on this site.  Thanks!
 * Contact
 [[mailto:shill@ldeo.columbia.edu][shill@ldeo.columbia.edu]] | Spencer Hill | 207B Oceanography | Lamont-Doherty
 Earth Observatory | 61 Route 9W | Palisades, NY 10964
-
-On the web: [[https://scholar.google.com/citations?user=8CTKqWEAAAAJ&hl=en][Google Scholar]] | [[https://twitter.com/spencerahill][Twitter (=@spencerahill=)]] | [[https://github.com/spencerahill][Github]] | [[https://github.com/spencerahill/my-website][source code for this website]]
