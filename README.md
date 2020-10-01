@@ -1,5 +1,5 @@
 # Source code for my academic website
-This repository comprises the source code I use to generate [my academic website](https://www.its.caltech.edu/~shill/).  I write the website as a set of [Emacs org-mode](http://orgmode.org/) files, and then use org's [publishing](http://orgmode.org/manual/Publishing.html) capabilities to generate the HTML.
+This repository comprises the source code I used to generate [my academic website](https://www.its.caltech.edu/~shill/). I wrote the website as a set of [Emacs org-mode](http://orgmode.org/) files, and then used org's [publishing](http://orgmode.org/manual/Publishing.html) capabilities to generate the HTML.
 
 I chose to host this on Github because I really like org-mode and thought that my website provides a nice, non-trivial example of using org's export capabilites.  (I also have a [repo for my C.V.](https://github.com/spencerahill/my-cv), which is also written in org, which is much simpler.)
 
