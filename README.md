@@ -13,3 +13,4 @@ I will eventually populate this with instructions on how to publish the HTML fil
 
 # Usage
 Please feel free to copy any part of this repo for your own uses -- although make sure you delete my actual website contents and replace them with your own!  See the License for actual legal details.
+#i would like to contribute into this project and will try at my end with some new changes. Thanks a ton.
