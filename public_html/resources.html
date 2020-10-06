@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -195,50 +195,26 @@
 <link rel="stylesheet"
                        href="./css/style.css" type="text/css"/>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -252,9 +228,9 @@ useful in my scientific endeavors to date.  Your mileage may vary.  I will add
 to it as things come up and I find the time.  Suggestions for
 additions/modifications (or reports of broken links) are welcome.
 </p>
-<div id="outline-container-org8b47d81" class="outline-2">
-<h2 id="org8b47d81">Climate science blogs</h2>
-<div class="outline-text-2" id="text-org8b47d81">
+<div id="outline-container-org1a5c4c1" class="outline-2">
+<h2 id="org1a5c4c1">Climate science blogs</h2>
+<div class="outline-text-2" id="text-org1a5c4c1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -294,9 +270,9 @@ additions/modifications (or reports of broken links) are welcome.
 <hr/>
 </div>
 </div>
-<div id="outline-container-org81dd1fe" class="outline-2">
-<h2 id="org81dd1fe">Climate science podcasts</h2>
-<div class="outline-text-2" id="text-org81dd1fe">
+<div id="outline-container-org81d1b68" class="outline-2">
+<h2 id="org81d1b68">Climate science podcasts</h2>
+<div class="outline-text-2" id="text-org81d1b68">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -319,9 +295,9 @@ additions/modifications (or reports of broken links) are welcome.
 </table>
 </div>
 </div>
-<div id="outline-container-orgc5f8d3b" class="outline-2">
-<h2 id="orgc5f8d3b">Science communication</h2>
-<div class="outline-text-2" id="text-orgc5f8d3b">
+<div id="outline-container-org8ca250d" class="outline-2">
+<h2 id="org8ca250d">Science communication</h2>
+<div class="outline-text-2" id="text-org8ca250d">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -370,9 +346,9 @@ additions/modifications (or reports of broken links) are welcome.
 <hr/>
 </div>
 </div>
-<div id="outline-container-orgc3530d1" class="outline-2">
-<h2 id="orgc3530d1">Climate science &amp; meteorology history</h2>
-<div class="outline-text-2" id="text-orgc3530d1">
+<div id="outline-container-orgf341d7d" class="outline-2">
+<h2 id="orgf341d7d">Climate science &amp; meteorology history</h2>
+<div class="outline-text-2" id="text-orgf341d7d">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -400,9 +376,9 @@ additions/modifications (or reports of broken links) are welcome.
 </table>
 </div>
 </div>
-<div id="outline-container-org604cff9" class="outline-2">
-<h2 id="org604cff9">Data visualization tools</h2>
-<div class="outline-text-2" id="text-org604cff9">
+<div id="outline-container-org9ce2841" class="outline-2">
+<h2 id="org9ce2841">Data visualization tools</h2>
+<div class="outline-text-2" id="text-org9ce2841">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -450,9 +426,9 @@ additions/modifications (or reports of broken links) are welcome.
 </table>
 </div>
 </div>
-<div id="outline-container-orgeea662b" class="outline-2">
-<h2 id="orgeea662b">Online research tools</h2>
-<div class="outline-text-2" id="text-orgeea662b">
+<div id="outline-container-orga60e968" class="outline-2">
+<h2 id="orga60e968">Online research tools</h2>
+<div class="outline-text-2" id="text-orga60e968">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -486,13 +462,13 @@ additions/modifications (or reports of broken links) are welcome.
 <hr/>
 </div>
 </div>
-<div id="outline-container-org04fb05b" class="outline-2">
-<h2 id="org04fb05b">Climate data</h2>
-<div class="outline-text-2" id="text-org04fb05b">
+<div id="outline-container-org206e68d" class="outline-2">
+<h2 id="org206e68d">Climate data</h2>
+<div class="outline-text-2" id="text-org206e68d">
 </div>
-<div id="outline-container-org1f67f13" class="outline-3">
-<h3 id="org1f67f13">Data Portals/Databases</h3>
-<div class="outline-text-3" id="text-org1f67f13">
+<div id="outline-container-org1d78424" class="outline-3">
+<h3 id="org1d78424">Data Portals/Databases</h3>
+<div class="outline-text-3" id="text-org1d78424">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -515,9 +491,9 @@ additions/modifications (or reports of broken links) are welcome.
 </table>
 </div>
 </div>
-<div id="outline-container-org14664e1" class="outline-3">
-<h3 id="org14664e1">Individual Data Products</h3>
-<div class="outline-text-3" id="text-org14664e1">
+<div id="outline-container-org79ce550" class="outline-3">
+<h3 id="org79ce550">Individual Data Products</h3>
+<div class="outline-text-3" id="text-org79ce550">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -542,13 +518,13 @@ additions/modifications (or reports of broken links) are welcome.
 </div>
 </div>
 </div>
-<div id="outline-container-org146980a" class="outline-2">
-<h2 id="org146980a">Career</h2>
-<div class="outline-text-2" id="text-org146980a">
+<div id="outline-container-org55170ff" class="outline-2">
+<h2 id="org55170ff">Career</h2>
+<div class="outline-text-2" id="text-org55170ff">
 </div>
-<div id="outline-container-orgb333ba8" class="outline-3">
-<h3 id="orgb333ba8">General</h3>
-<div class="outline-text-3" id="text-orgb333ba8">
+<div id="outline-container-org073fb39" class="outline-3">
+<h3 id="org073fb39">General</h3>
+<div class="outline-text-3" id="text-org073fb39">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -571,13 +547,13 @@ additions/modifications (or reports of broken links) are welcome.
 </table>
 </div>
 </div>
-<div id="outline-container-org3b3edfd" class="outline-3">
-<h3 id="org3b3edfd">Graduate School</h3>
-<div class="outline-text-3" id="text-org3b3edfd">
+<div id="outline-container-org4f3a8a4" class="outline-3">
+<h3 id="org4f3a8a4">Graduate School</h3>
+<div class="outline-text-3" id="text-org4f3a8a4">
 </div>
-<div id="outline-container-orgcd92c61" class="outline-4">
-<h4 id="orgcd92c61">Survival tips</h4>
-<div class="outline-text-4" id="text-orgcd92c61">
+<div id="outline-container-orgbe180c4" class="outline-4">
+<h4 id="orgbe180c4">Survival tips</h4>
+<div class="outline-text-4" id="text-orgbe180c4">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -605,9 +581,9 @@ additions/modifications (or reports of broken links) are welcome.
 </table>
 </div>
 </div>
-<div id="outline-container-org819bb69" class="outline-4">
-<h4 id="org819bb69">Funding</h4>
-<div class="outline-text-4" id="text-org819bb69">
+<div id="outline-container-orgcff7f84" class="outline-4">
+<h4 id="orgcff7f84">Funding</h4>
+<div class="outline-text-4" id="text-orgcff7f84">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -640,9 +616,9 @@ additions/modifications (or reports of broken links) are welcome.
 </div>
 </div>
 </div>
-<div id="outline-container-orgd8f4330" class="outline-3">
-<h3 id="orgd8f4330">Undergraduate AOS scholarships</h3>
-<div class="outline-text-3" id="text-orgd8f4330">
+<div id="outline-container-org0da5944" class="outline-3">
+<h3 id="org0da5944">Undergraduate AOS scholarships</h3>
+<div class="outline-text-3" id="text-org0da5944">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -667,9 +643,9 @@ additions/modifications (or reports of broken links) are welcome.
 </div>
 </div>
 </div>
-<div id="outline-container-orge6f27cb" class="outline-2">
-<h2 id="orge6f27cb">For Fun</h2>
-<div class="outline-text-2" id="text-orge6f27cb">
+<div id="outline-container-org34168f1" class="outline-2">
+<h2 id="org34168f1">For Fun</h2>
+<div class="outline-text-2" id="text-org34168f1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
