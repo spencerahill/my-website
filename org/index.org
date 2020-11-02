@@ -26,10 +26,18 @@ predict their variations from year to year, how they may have changed in Earth's
 history, how they may change in Earth's future, and even how they behave in
 other planetary atmospheres.  Please see my [[file:research.org][Research]] page for more.
 
+<<<<<<< HEAD
 I work at the Lamont-Doherty Earth Observatory at Columbia University, where I
 am funded by an Earth Institute Postdoctoral Fellowship and advised by [[http://www.columbia.edu/~ahs129/home.html][Dr. Adam
 Sobel]] and [[https://www.ldeo.columbia.edu/~biasutti/][Dr. Michela Biasutti]].  We are working on a project seeking to improve
 forecasting of the Indian monsoon summer rainfall on seasonal timescales.
+=======
+I work at Columbia University, specifically the Lamont-Doherty Earth
+Observatory, where I am funded by an Earth Institute Postdoctoral Fellowship and
+advised by [[http://www.columbia.edu/~ahs129/home.html][Dr. Adam Sobel]] and [[https://www.ldeo.columbia.edu/~biasutti/][Dr. Michela Biasutti]].  We are working on a project
+seeking to improve forecasting of the Indian monsoon summer rainfall on seasonal
+to interannual timescales.
+>>>>>>> parent of 49c8034... Misc small recent updates
 
 I am also co-leader of the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the
 teaching of meteorology, climate science, and other planetary-scale sciences at

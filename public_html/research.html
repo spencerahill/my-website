@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: auto;
+    overflow: visible;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -195,26 +195,50 @@
 <link rel="stylesheet"
                        href="./css/style.css" type="text/css"/>
 <script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
 <!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
 </script>
 </head>
 <body>
@@ -224,9 +248,9 @@
 <hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a>  <a href="aospy.html">aospy</a>  <a href="diynamics.html">DIYnamics</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="about_me.html">About Me</a> </span><hr/>
 <span style="font-size:2em"> Research </span><hr/>
 </p>
-<div id="outline-container-org9e7e543" class="outline-2">
-<h2 id="org9e7e543">Overview</h2>
-<div class="outline-text-2" id="text-org9e7e543">
+<div id="outline-container-org4a76d14" class="outline-2">
+<h2 id="org4a76d14">Overview</h2>
+<div class="outline-text-2" id="text-org4a76d14">
 <p>
 (2020-08-03 note: I'm overdue to update this page, which is a little outdated!)
 </p>
@@ -252,9 +276,9 @@ summaries of my research output to date.
 <hr/>
 </div>
 </div>
-<div id="outline-container-org280cc92" class="outline-2">
-<h2 id="org280cc92">Control on migrations of the tropical rainbelt on Earth and other planets</h2>
-<div class="outline-text-2" id="text-org280cc92">
+<div id="outline-container-orgf7e719a" class="outline-2">
+<h2 id="orgf7e719a">Control on migrations of the tropical rainbelt on Earth and other planets</h2>
+<div class="outline-text-2" id="text-orgf7e719a">
 <p>
 When averaged across all longitudes (i.e. "zonally averaged"), the atmospheric
 circulation near the equator on many planetary bodies comprises one or two
@@ -284,7 +308,7 @@ simplified treatments of radiative transfer and other processes.
 </p>
 
 
-<div id="orgfc99212" class="figure">
+<div class="figure">
 <p><img src="images/faulk+2017fig1.png" alt="Adapted from Fig. 1 of Faulk et al. 2017.  Precipitation annual cycle in an aquaplanet model with either Earth-like settings, perpetual solstice insolation, or a planetary rotation rate reduced by 8 times." style="float margin:10px" width="600px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Adapted from Fig. 1 of <i>Faulk et al. 2017</i>.  Zonal mean precipitation in color contours (warm colors = large values) as a function of day of the year in simulations with (top-left) perpetual solsticial insolation or (all other panels) Earth's regular seasonal cycle of insolation.  The panel labels indicate the planetary rotation rate in that simulation relative to the standard Earth rate.</p>
@@ -294,9 +318,9 @@ simplified treatments of radiative transfer and other processes.
 <hr/>
 </div>
 </div>
-<div id="outline-container-org3dc8043" class="outline-2">
-<h2 id="org3dc8043">Vegetation-atmosphere interactions and the "Green Sahara" paleoclimate state</h2>
-<div class="outline-text-2" id="text-org3dc8043">
+<div id="outline-container-orgd191fe3" class="outline-2">
+<h2 id="orgd191fe3">Vegetation-atmosphere interactions and the "Green Sahara" paleoclimate state</h2>
+<div class="outline-text-2" id="text-orgd191fe3">
 <p>
 Roughly 10,000 years ago, most of today's Sahara Desert was not a desert at all;
 paleoclimate proxy records of lake levels, precipitation, and vegetation cover
@@ -336,9 +360,9 @@ sensitive to e.g. precipitation.
 <hr/>
 </div>
 </div>
-<div id="outline-container-org974b629" class="outline-2">
-<h2 id="org974b629">The African Sahel</h2>
-<div class="outline-text-2" id="text-org974b629">
+<div id="outline-container-org28cd325" class="outline-2">
+<h2 id="org28cd325">The African Sahel</h2>
+<div class="outline-text-2" id="text-org28cd325">
 <p>
 The Sahel is the semi-arid transitional region that straddles the southern edge
 of the Sahara desert and the northern edge of appreciable wet-season rainfall.
@@ -371,7 +395,7 @@ mechanism.
 </p>
 
 
-<div id="orgf22cfa3" class="figure">
+<div class="figure">
 <p><img src="images/hill+2017fig1.jpg" alt="Warming-induced rainfall change over the Sahel as simulated by two versions of an atmospheric model." style="float margin:10px" width="300px" />
 </p>
 <p><span class="figure-number">Figure 2: </span>Adapted from Fig. 1 of <i>Hill et al. 2017</i>.  Color shading shows precipitation change in response to uniform 2 Kelvin ocean surface warming in two versions of an atmospheric model, differing only in the way moist convection is represented.</p>
@@ -380,9 +404,9 @@ mechanism.
 <hr/>
 </div>
 </div>
-<div id="outline-container-orge319b5d" class="outline-2">
-<h2 id="orge319b5d">Zonal-mean circulation and energy transports</h2>
-<div class="outline-text-2" id="text-orge319b5d">
+<div id="outline-container-org4bee42a" class="outline-2">
+<h2 id="org4bee42a">Zonal-mean circulation and energy transports</h2>
+<div class="outline-text-2" id="text-org4bee42a">
 <p>
 Human emissions of greenhouse gases and aerosols alter both the global mean and
 spatial pattern of surface temperatures &#x2013; both in the annual mean and
@@ -417,16 +441,16 @@ the ITCZ position is tightly linked to local anomalous energy fluxes.
 </p>
 
 
-<div id="orgcde29f7" class="figure">
+<div class="figure">
 <p><img src="images/hill+2015fig9.jpg" alt="Change in gross moist stability, our scaling vs. actual GCM result." style="float margin:10px" width="600px" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Adapted from Fig. 9 of <i>Hill et al. 2015</i>.  Hadley cell gross moist stability change in an atmospheric model perturbed with SST anomalies driven by historical aerosol emissions (each row is a different variant of that SST change; see the paper for details).  The left column shows the actual model result, and the right column shows our theoretical prediction.  Areas where the quantities aren't well defined are masked out in gray.</p>
 </div>
 </div>
 </div>
-<div id="outline-container-orgc38e247" class="outline-2">
-<h2 id="orgc38e247">"Meta" thinking on climate model hierarchies</h2>
-<div class="outline-text-2" id="text-orgc38e247">
+<div id="outline-container-orgf50457f" class="outline-2">
+<h2 id="orgf50457f">"Meta" thinking on climate model hierarchies</h2>
+<div class="outline-text-2" id="text-orgf50457f">
 <p>
 Numerical simulation using climate models is a central component of my research,
 and my approach to using these models is strongly influenced by the work of
@@ -438,7 +462,7 @@ Workshop</a> at Princeton University in November 2016.
 </p>
 
 
-<div id="org15779f6" class="figure">
+<div class="figure">
 <p><img src="images/jeevanjee_hierarchy_axes.png" alt="Representation of model hierarchy from /Jeevanjee et al. 2017/." style="float margin:10px" width="600px" />
 </p>
 <p><span class="figure-number">Figure 4: </span>From <i>Jeevanjee et al. 2017</i>.  We illustrate the model hierarchy as the combination of separate hierarchies for each salient model component.</p>
