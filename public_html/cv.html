@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -195,50 +195,26 @@
 <link rel="stylesheet"
                        href="./css/style.css" type="text/css"/>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -248,9 +224,9 @@ for the JavaScript code in this tag.
 <hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a>  <a href="aospy.html">aospy</a>  <a href="diynamics.html">DIYnamics</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="about_me.html">About Me</a> </span><hr/>
 <span style="font-size:2em"> Curriculum Vitae (<a href="cv/cv.pdf">PDF</a>) </span><hr/>
 </p>
-<div id="outline-container-org622aa4c" class="outline-2">
-<h2 id="org622aa4c">Contact information</h2>
-<div class="outline-text-2" id="text-org622aa4c">
+<div id="outline-container-orgaaa0c73" class="outline-2">
+<h2 id="orgaaa0c73">Contact information</h2>
+<div class="outline-text-2" id="text-orgaaa0c73">
 <p>
 <a href="mailto:shill@ldeo.columbia.edu">shill@ldeo.columbia.edu</a><br />
 <a href="https://www.ldeo.columbia.edu/~shill">https://www.ldeo.columbia.edu/~shill</a><br />
@@ -270,13 +246,13 @@ Github: <a href="https://github.com/spencerahill">https://github.com/spencerahil
 </p>
 </div>
 </div>
-<div id="outline-container-orga135a5b" class="outline-2">
-<h2 id="orga135a5b">Employment history</h2>
-<div class="outline-text-2" id="text-orga135a5b">
+<div id="outline-container-org64ce233" class="outline-2">
+<h2 id="org64ce233">Employment history</h2>
+<div class="outline-text-2" id="text-org64ce233">
 </div>
-<div id="outline-container-org7a7ce4d" class="outline-3">
-<h3 id="org7a7ce4d">Current position</h3>
-<div class="outline-text-3" id="text-org7a7ce4d">
+<div id="outline-container-org4633892" class="outline-3">
+<h3 id="org4633892">Current position</h3>
+<div class="outline-text-3" id="text-org4633892">
 <p>
 Earth Institute Research Fellow, Columbia University
 Lamont-Doherty Earth Observatory.  Advisors Dr. Michela Biasutti and Dr. Adam
@@ -285,9 +261,9 @@ Sobel.  August 2019-August 2021.
 </div>
 </div>
 
-<div id="outline-container-org5f79a41" class="outline-3">
-<h3 id="org5f79a41">Past positions</h3>
-<div class="outline-text-3" id="text-org5f79a41">
+<div id="outline-container-org7491cd1" class="outline-3">
+<h3 id="org7491cd1">Past positions</h3>
+<div class="outline-text-3" id="text-org7491cd1">
 <ul class="org-ul">
 <li>Foster and Coco Stanback Postdoctoral Research Fellow, California Institute of
 Technology Division of Geological and Planetary Sciences (GPS), and Visiting
@@ -302,22 +278,22 @@ GPS.  Advisors Prof. Simona Bordoni and Prof. Jonathan Mitchell September 2016
 </div>
 </div>
 </div>
-<div id="outline-container-orgff8bd5d" class="outline-2">
-<h2 id="orgff8bd5d">Education</h2>
-<div class="outline-text-2" id="text-orgff8bd5d">
+<div id="outline-container-org1c61a37" class="outline-2">
+<h2 id="org1c61a37">Education</h2>
+<div class="outline-text-2" id="text-org1c61a37">
 </div>
-<div id="outline-container-orge1ec1e1" class="outline-3">
-<h3 id="orge1ec1e1">Ph.D. | Princeton University | Program in Atmospheric and Oceanic Sciences</h3>
-<div class="outline-text-3" id="text-orge1ec1e1">
+<div id="outline-container-org19be67c" class="outline-3">
+<h3 id="org19be67c">Ph.D. | Princeton University | Program in Atmospheric and Oceanic Sciences</h3>
+<div class="outline-text-3" id="text-org19be67c">
 <p>
 Conferred September 2016 | Advisor Yi Ming | Committee members: Isaac
 Held, Leo Donner, Ming Zhao
 </p>
 </div>
 </div>
-<div id="outline-container-org3c10627" class="outline-3">
-<h3 id="org3c10627">B.S. | UCLA | Dept. of AOS and Dept. of Applied Mathematics</h3>
-<div class="outline-text-3" id="text-org3c10627">
+<div id="outline-container-orgb51684f" class="outline-3">
+<h3 id="orgb51684f">B.S. | UCLA | Dept. of AOS and Dept. of Applied Mathematics</h3>
+<div class="outline-text-3" id="text-orgb51684f">
 <p>
 AOS/Applied Mathematics double major | Conferred June 2011 |
 Magna Cum Laude | Phi Beta Kappa | UCLA College Honors
@@ -326,13 +302,13 @@ Magna Cum Laude | Phi Beta Kappa | UCLA College Honors
 </div>
 </div>
 </div>
-<div id="outline-container-orgc04a259" class="outline-2">
-<h2 id="orgc04a259">Publications</h2>
-<div class="outline-text-2" id="text-orgc04a259">
+<div id="outline-container-org7bb63a7" class="outline-2">
+<h2 id="org7bb63a7">Publications</h2>
+<div class="outline-text-2" id="text-org7bb63a7">
 </div>
-<div id="outline-container-org23ce7c0" class="outline-3">
-<h3 id="org23ce7c0">Submitted/under review/in revision</h3>
-<div class="outline-text-3" id="text-org23ce7c0">
+<div id="outline-container-org0d58715" class="outline-3">
+<h3 id="org0d58715">Submitted/under review/in revision</h3>
+<div class="outline-text-3" id="text-org0d58715">
 <ol class="org-ol">
 <li>Mitchell, Jonathan L. and <b>Spencer A. Hill</b>.  "Constraints from invariant
 subtropical vertical velocities on the scalings of Hadley cell strength and
@@ -341,9 +317,9 @@ Sciences</i>.  <a href="https://arxiv.org/abs/1911.05860">https://arxiv.org/abs/
 </ol>
 </div>
 </div>
-<div id="outline-container-org139ec46" class="outline-3">
-<h3 id="org139ec46">Peer-reviewed</h3>
-<div class="outline-text-3" id="text-org139ec46">
+<div id="outline-container-org61e063a" class="outline-3">
+<h3 id="org61e063a">Peer-reviewed</h3>
+<div class="outline-text-3" id="text-org61e063a">
 <ol class="org-ol">
 <li>(2020) <b>Hill, Spencer A.</b>, Simona Bordoni, and Jonathan L. Mitchell.
 "Axisymmetric Hadley Cell theory with a fixed tropopause temperature rather
@@ -405,9 +381,9 @@ brightening of tropical marine stratocumulus."  <i>Geophysical Research Letters<
 </ol>
 </div>
 </div>
-<div id="outline-container-org1fe44ef" class="outline-3">
-<h3 id="org1fe44ef">PhD thesis</h3>
-<div class="outline-text-3" id="text-org1fe44ef">
+<div id="outline-container-org0ff8295" class="outline-3">
+<h3 id="org0ff8295">PhD thesis</h3>
+<div class="outline-text-3" id="text-org0ff8295">
 <p>
 (2016) <b>Hill, Spencer A.</b> "Energetic and hydrological responses of Hadley
 circulations and the African Sahel to sea surface temperature perturbations."
@@ -416,9 +392,9 @@ PhD Thesis, Princeton University Program in Atmospheric and Oceanic Sciences.
 </p>
 </div>
 </div>
-<div id="outline-container-org6ec162e" class="outline-3">
-<h3 id="org6ec162e">Non peer-reviewed</h3>
-<div class="outline-text-3" id="text-org6ec162e">
+<div id="outline-container-org32e5f3b" class="outline-3">
+<h3 id="org32e5f3b">Non peer-reviewed</h3>
+<div class="outline-text-3" id="text-org32e5f3b">
 <ol class="org-ol">
 <li>Numerous blog posts for the DIYnamics blog.  Available at
 <a href="https://diynamics.github.io/blog/author/spencer-hill.html">https://diynamics.github.io/blog/author/spencer-hill.html</a>.</li>
@@ -432,9 +408,9 @@ review of <a href="http://press.princeton.edu/titles/9773.html"><i>Atmosphere, C
 </ol>
 </div>
 </div>
-<div id="outline-container-orgd00f86b" class="outline-3">
-<h3 id="orgd00f86b">Software</h3>
-<div class="outline-text-3" id="text-orgd00f86b">
+<div id="outline-container-orgf4a7c9a" class="outline-3">
+<h3 id="orgf4a7c9a">Software</h3>
+<div class="outline-text-3" id="text-orgf4a7c9a">
 <ol class="org-ol">
 <li>(2018) <b>Hill, Spencer A.</b> and Spencer Clark.  "<code>aospy</code>: automated climate
 data analysis and management."  Version 0.3.1.  <a href="https://aospy.readthedocs.io">https://aospy.readthedocs.io</a>.
@@ -445,9 +421,9 @@ doi: <a href="https://doi.org/10.5281/zenodo.1490928">10.5281/zenodo.1490928</a>
 </div>
 </div>
 </div>
-<div id="outline-container-orgc10b4c2" class="outline-2">
-<h2 id="orgc10b4c2">Research and Professional Experiences</h2>
-<div class="outline-text-2" id="text-orgc10b4c2">
+<div id="outline-container-orgb22086b" class="outline-2">
+<h2 id="orgb22086b">Research and Professional Experiences</h2>
+<div class="outline-text-2" id="text-orgb22086b">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -531,9 +507,9 @@ doi: <a href="https://doi.org/10.5281/zenodo.1490928">10.5281/zenodo.1490928</a>
 <hr/>
 </div>
 </div>
-<div id="outline-container-org251af53" class="outline-2">
-<h2 id="org251af53">Major Honors and Awards</h2>
-<div class="outline-text-2" id="text-org251af53">
+<div id="outline-container-org577c37a" class="outline-2">
+<h2 id="org577c37a">Major Honors and Awards</h2>
+<div class="outline-text-2" id="text-org577c37a">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -592,13 +568,13 @@ doi: <a href="https://doi.org/10.5281/zenodo.1490928">10.5281/zenodo.1490928</a>
 <hr/>
 </div>
 </div>
-<div id="outline-container-orgf64d40c" class="outline-2">
-<h2 id="orgf64d40c">Teaching &amp; Mentoring</h2>
-<div class="outline-text-2" id="text-orgf64d40c">
+<div id="outline-container-orgc1f72d6" class="outline-2">
+<h2 id="orgc1f72d6">Teaching &amp; Mentoring</h2>
+<div class="outline-text-2" id="text-orgc1f72d6">
 </div>
-<div id="outline-container-orgd45b067" class="outline-3">
-<h3 id="orgd45b067">Princeton Teaching Transcript certification</h3>
-<div class="outline-text-3" id="text-orgd45b067">
+<div id="outline-container-org085053f" class="outline-3">
+<h3 id="org085053f">Princeton Teaching Transcript certification</h3>
+<div class="outline-text-3" id="text-org085053f">
 <p>
 Administered by the Princeton University McGraw Center for Teaching &amp; Learning.
 Requirements include two-day teacher training, lectures and workshops on
@@ -607,18 +583,18 @@ Completed August 2016.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf9f1c05" class="outline-3">
-<h3 id="orgf9f1c05">Teaching Assistant</h3>
-<div class="outline-text-3" id="text-orgf9f1c05">
+<div id="outline-container-org8faf1a1" class="outline-3">
+<h3 id="org8faf1a1">Teaching Assistant</h3>
+<div class="outline-text-3" id="text-org8faf1a1">
 <p>
 Princeton University, Fall 2014, Geosciences 361, "Physics of Earth: The
 Habitable Planet."  Professor George Philander.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf86cb3a" class="outline-3">
-<h3 id="orgf86cb3a">Mentorship</h3>
-<div class="outline-text-3" id="text-orgf86cb3a">
+<div id="outline-container-org9ed74d1" class="outline-3">
+<h3 id="org9ed74d1">Mentorship</h3>
+<div class="outline-text-3" id="text-org9ed74d1">
 <ul class="org-ul">
 <li>Advisor to Barnard University undergraduate student Valentina Rojas-Posada on
 project linking Indian summer rainfall variability with societal outcomes
@@ -633,9 +609,9 @@ Finlayson (2014), Colin Raymond (2013)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6fb6d72" class="outline-3">
-<h3 id="org6fb6d72">Guest lectures</h3>
-<div class="outline-text-3" id="text-org6fb6d72">
+<div id="outline-container-org0318a7a" class="outline-3">
+<h3 id="org0318a7a">Guest lectures</h3>
+<div class="outline-text-3" id="text-org0318a7a">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -674,23 +650,17 @@ Finlayson (2014), Colin Raymond (2013)</li>
 </div>
 </div>
 </div>
-<div id="outline-container-org892a15d" class="outline-2">
-<h2 id="org892a15d">Public Outreach</h2>
-<div class="outline-text-2" id="text-org892a15d">
+<div id="outline-container-orgbbe384a" class="outline-2">
+<h2 id="orgbbe384a">Public Outreach</h2>
+<div class="outline-text-2" id="text-orgbbe384a">
 </div>
-<div id="outline-container-orga9ef015" class="outline-3">
-<h3 id="orga9ef015">"DIYnamics" project</h3>
-<div class="outline-text-3" id="text-orga9ef015">
+<div id="outline-container-org1a988b5" class="outline-3">
+<h3 id="org1a988b5">"DIYnamics" project</h3>
+<div class="outline-text-3" id="text-org1a988b5">
 </div>
-<<<<<<< HEAD
-<div id="outline-container-org433191f" class="outline-4">
-<h4 id="org433191f">Overview</h4>
-<div class="outline-text-4" id="text-org433191f">
-=======
-<div id="outline-container-orgdc6aad3" class="outline-4">
-<h4 id="orgdc6aad3">Overview</h4>
-<div class="outline-text-4" id="text-orgdc6aad3">
->>>>>>> parent of 49c8034... Misc small recent updates
+<div id="outline-container-orgc52a936" class="outline-4">
+<h4 id="orgc52a936">Overview</h4>
+<div class="outline-text-4" id="text-orgc52a936">
 <p>
 Developing inexpensive, easy-to-assemble rotating tank platforms for use in
 teaching fundamental principles of Earth science at levels from K-12 science
@@ -701,9 +671,9 @@ assembly instruction, instructional videos, and a website:
 </div>
 </div>
 
-<div id="outline-container-orga2be89b" class="outline-4">
-<h4 id="orga2be89b">Press</h4>
-<div class="outline-text-4" id="text-orga2be89b">
+<div id="outline-container-orgbcec873" class="outline-4">
+<h4 id="orgbcec873">Press</h4>
+<div class="outline-text-4" id="text-orgbcec873">
 <ul class="org-ul">
 <li>UCLA press release (<a href="http://newsroom.ucla.edu/releases/a-50-do-it-yourself-device-designed-at-ucla-makes-science-fun-for-students-of-all-ages"><code>link</code></a>)</li>
 <li>Story on UCLA Physical Sciences Division website (<a href="https://www.physicalsciences.ucla.edu/spinlab/"><code>link</code></a>)</li>
@@ -712,9 +682,9 @@ assembly instruction, instructional videos, and a website:
 </div>
 </div>
 
-<div id="outline-container-org9e4289d" class="outline-4">
-<h4 id="org9e4289d">Outreach events</h4>
-<div class="outline-text-4" id="text-org9e4289d">
+<div id="outline-container-org00e6cf4" class="outline-4">
+<h4 id="org00e6cf4">Outreach events</h4>
+<div class="outline-text-4" id="text-org00e6cf4">
 <p>
 Organized and/or participated in numerous DIYnamics public outreach events from
 2017 onward, all documented on the DIYnamics blog: <a href="https://diynamics.github.io/pages/blog.html">https://diynamics.github.io/pages/blog.html</a>
@@ -722,9 +692,9 @@ Organized and/or participated in numerous DIYnamics public outreach events from
 </div>
 </div>
 </div>
-<div id="outline-container-org21777a5" class="outline-3">
-<h3 id="org21777a5">Outreach activities prior to DIYnamics</h3>
-<div class="outline-text-3" id="text-org21777a5">
+<div id="outline-container-org4b29703" class="outline-3">
+<h3 id="org4b29703">Outreach activities prior to DIYnamics</h3>
+<div class="outline-text-3" id="text-org4b29703">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -749,19 +719,13 @@ Organized and/or participated in numerous DIYnamics public outreach events from
 </div>
 </div>
 </div>
-<div id="outline-container-org5311d10" class="outline-2">
-<h2 id="org5311d10">Software: <code>aospy</code></h2>
-<div class="outline-text-2" id="text-org5311d10">
+<div id="outline-container-org5682a91" class="outline-2">
+<h2 id="org5682a91">Software: <code>aospy</code></h2>
+<div class="outline-text-2" id="text-org5682a91">
 </div>
-<<<<<<< HEAD
-<div id="outline-container-orgc52a936" class="outline-3">
-<h3 id="orgc52a936">Overview</h3>
-<div class="outline-text-3" id="text-orgc52a936">
-=======
-<div id="outline-container-orgbcab2b1" class="outline-3">
-<h3 id="orgbcab2b1">Overview</h3>
-<div class="outline-text-3" id="text-orgbcab2b1">
->>>>>>> parent of 49c8034... Misc small recent updates
+<div id="outline-container-org950098b" class="outline-3">
+<h3 id="org950098b">Overview</h3>
+<div class="outline-text-3" id="text-org950098b">
 <p>
 Created and actively develop "aospy," an open source Python package for
 automating computations that use gridded climate or weather data.  Enables
@@ -773,9 +737,9 @@ netCDF file.  Actively used by researchers at multiple institutions.
 </div>
 </div>
 
-<div id="outline-container-org971f3a0" class="outline-3">
-<h3 id="org971f3a0">Resources</h3>
-<div class="outline-text-3" id="text-org971f3a0">
+<div id="outline-container-orgfee9712" class="outline-3">
+<h3 id="orgfee9712">Resources</h3>
+<div class="outline-text-3" id="text-orgfee9712">
 <ul class="org-ul">
 <li>Documentation: <a href="https://aospy.readthedocs.io">https://aospy.readthedocs.io</a></li>
 <li>Source code: <a href="https://github.com/spencerahill/aospy">https://github.com/spencerahill/aospy</a></li>
@@ -783,30 +747,31 @@ netCDF file.  Actively used by researchers at multiple institutions.
 </div>
 </div>
 </div>
-<div id="outline-container-org9513363" class="outline-2">
-<h2 id="org9513363">Reviewing</h2>
-<div class="outline-text-2" id="text-org9513363">
+<div id="outline-container-orge569ace" class="outline-2">
+<h2 id="orge569ace">Reviewing</h2>
+<div class="outline-text-2" id="text-orge569ace">
 <ul class="org-ul">
 <li>Proposal reviewer for NSF Climate and Large-scale Dynamics, NSF EarthCube,
 NASA Juno Participating Scientist Program</li>
 <li>Article reviewer for <i>Nature Climate Change</i>, <i>npj Climate and Atmospheric
-Science</i>, <i>Journal of Climate</i>, <i>Quarterly Journal of the Royal Meteorological
-Society</i>, <i>Geophysical Research Letters</i>, <i>Journal of the Atmospheric
-Sciences</i>, <i>Geoscientific Model Development</i>, <i>Climatic Change</i>, <i>Climate
-Dynamics</i>, <i>Journal of Geophysical Research - Atmospheres</i>, GFDL internal
-manuscript review.</li>
+Science</i>, <i>Journal of Advances in Modeling Earth Systems</i>, <i>Journal of
+Climate</i>, <i>Quarterly Journal of the Royal Meteorological Society</i>,
+<i>Geophysical Research Letters</i>, <i>Journal of the Atmospheric Sciences</i>,
+<i>Geoscientific Model Development</i>, <i>Climatic Change</i>, <i>Climate Dynamics</i>,
+<i>Journal of Geophysical Research - Atmospheres</i>, GFDL internal manuscript
+review.</li>
 </ul>
 <hr/>
 </div>
 </div>
 
-<div id="outline-container-orgde89922" class="outline-2">
-<h2 id="orgde89922">Presentations</h2>
-<div class="outline-text-2" id="text-orgde89922">
+<div id="outline-container-org9515cf2" class="outline-2">
+<h2 id="org9515cf2">Presentations</h2>
+<div class="outline-text-2" id="text-org9515cf2">
 </div>
-<div id="outline-container-org770b56f" class="outline-3">
-<h3 id="org770b56f">Invited</h3>
-<div class="outline-text-3" id="text-org770b56f">
+<div id="outline-container-org8d3cddf" class="outline-3">
+<h3 id="org8d3cddf">Invited</h3>
+<div class="outline-text-3" id="text-org8d3cddf">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -860,9 +825,9 @@ manuscript review.</li>
 </div>
 </div>
 
-<div id="outline-container-org922616a" class="outline-3">
-<h3 id="org922616a">Others</h3>
-<div class="outline-text-3" id="text-org922616a">
+<div id="outline-container-org1c9bdd6" class="outline-3">
+<h3 id="org1c9bdd6">Others</h3>
+<div class="outline-text-3" id="text-org1c9bdd6">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 

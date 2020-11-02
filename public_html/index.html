@@ -41,7 +41,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -197,50 +197,26 @@
 <link rel="stylesheet"
                        href="./css/style.css" type="text/css"/>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -252,24 +228,16 @@ for the JavaScript code in this tag.
 <hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a>  <a href="aospy.html">aospy</a>  <a href="diynamics.html">DIYnamics</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="about_me.html">About Me</a> </span><hr/>
 </p>
 
-<<<<<<< HEAD
-<div id="org1a4d80c" class="figure">
-=======
-<div class="figure">
->>>>>>> parent of 49c8034... Misc small recent updates
+<div id="org3f722ff" class="figure">
 <p><img src="images/site_pic.jpeg" alt="Me in Kansas City, December 2018" style="float margin:10px" width="270px" height="270px" />
 </p>
 </div>
 <hr/>
-<div id="outline-container-org3b689d1" class="outline-2">
-<h2 id="org3b689d1">Overview</h2>
-<div class="outline-text-2" id="text-org3b689d1">
+<div id="outline-container-org272a30d" class="outline-2">
+<h2 id="org272a30d">Overview</h2>
+<div class="outline-text-2" id="text-org272a30d">
 <p>
-<<<<<<< HEAD
 (site last updated 2020 November 02)
-=======
-(site last updated 2020 September 03)
->>>>>>> parent of 49c8034... Misc small recent updates
 </p>
 
 <p>
@@ -282,18 +250,10 @@ other planetary atmospheres.  Please see my <a href="research.html">Research</a>
 </p>
 
 <p>
-<<<<<<< HEAD
 I work at the Lamont-Doherty Earth Observatory at Columbia University, where I
 am funded by an Earth Institute Postdoctoral Fellowship and advised by <a href="http://www.columbia.edu/~ahs129/home.html">Dr. Adam
 Sobel</a> and <a href="https://www.ldeo.columbia.edu/~biasutti/">Dr. Michela Biasutti</a>.  We are working on a project seeking to improve
 forecasting of the Indian monsoon summer rainfall on seasonal timescales.
-=======
-I work at Columbia University, specifically the Lamont-Doherty Earth
-Observatory, where I am funded by an Earth Institute Postdoctoral Fellowship and
-advised by <a href="http://www.columbia.edu/~ahs129/home.html">Dr. Adam Sobel</a> and <a href="https://www.ldeo.columbia.edu/~biasutti/">Dr. Michela Biasutti</a>.  We are working on a project
-seeking to improve forecasting of the Indian monsoon summer rainfall on seasonal
-to interannual timescales.
->>>>>>> parent of 49c8034... Misc small recent updates
 </p>
 
 <p>
@@ -320,9 +280,9 @@ anything else you find on this site.  Thanks!
 </div>
 </div>
 
-<div id="outline-container-orgddb37bf" class="outline-2">
-<h2 id="orgddb37bf">Contact</h2>
-<div class="outline-text-2" id="text-orgddb37bf">
+<div id="outline-container-orgc7225bb" class="outline-2">
+<h2 id="orgc7225bb">Contact</h2>
+<div class="outline-text-2" id="text-orgc7225bb">
 <p>
 <a href="mailto:shill@ldeo.columbia.edu">shill@ldeo.columbia.edu</a> | Spencer Hill | 207B Oceanography | Lamont-Doherty
 Earth Observatory | 61 Route 9W | Palisades, NY 10964
