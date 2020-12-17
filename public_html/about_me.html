@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -195,57 +195,33 @@
 <link rel="stylesheet"
                        href="./css/style.css" type="text/css"/>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
 <div id="content">
 <h1 class="title">Spencer A. Hill   <span style="color: gray"> Postdoc</span> Lamont-Doherty Earth Observatory, Columbia University</h1>
 <p>
-<hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="cv.html">CV</a>  <a href="aospy.html">aospy</a>  <a href="diynamics.html">DIYnamics</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="about_me.html">About Me</a> </span><hr/>
+<hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> <a href="publications.html">Publications</a> <a href="cv/cv.pdf">CV</a> <a href="aospy.html">aospy</a>  <a href="diynamics.html">DIYnamics</a> <a href="resources.html">Resources</a> <a href="programming.html">Programming</a> <a href="about_me.html">About Me</a> </span><hr/>
 <span style="font-size:2em"> About Me </span><hr/>
 </p>
 
@@ -258,14 +234,14 @@ together.  I'm also an avid music fan/critic and book reader and an aspiring
 gardener.
 </p>
 
-<div class="figure">
+<div id="orgf3e1b4a" class="figure">
 <p><img src="images/cape_cod_2014.jpg" alt="Alyssa, Dempsey and me in Cape Cod in 2014" style="float margin:10px" width="300px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Alyssa, Dempsey and me in Cape Cod in 2014.</p>
 </div>
 
 
-<div class="figure">
+<div id="orgf9ec831" class="figure">
 <p><img src="images/cape_cod_2019.jpg" alt="Alyssa, Dempsey and me in Cape Cod in 2019" style="float margin:10px" width="600px" />
 </p>
 <p><span class="figure-number">Figure 2: </span>Return trip almost exactly 5 years later!</p>
