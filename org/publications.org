@@ -7,7 +7,7 @@
 ** Submitted/under review/in revision
 1. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
-   Submitted to /Journal of Climate/.
+   Submitted to /Journal of Climate/.  [[https://arxiv.org/abs/2012.09228]].
    {{{LINK("papers/symm-asymm-warming_jcli-submitted_2col.pdf", PDF.)}}}
 2. *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Dynamical
    constraints on the solsticial Hadley Cell ascending edge in Earth's

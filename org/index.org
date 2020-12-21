@@ -45,7 +45,7 @@ see the [[file:outreach.org][DIYnamics]] page, the [[https://diynamics.github.io
 channel]] for more.
 
 I am also interested in developing software tools for scientists in the Python
-programming language.  Please see the [[file:aospy.org][aospy]] and [[file:resources.org][Resources]] pages for more.
+programming language.  Please see my [[https://aospy.readthedocs.io][aospy]] package and [[file:resources.org][Resources]] page for more.
 
 Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
