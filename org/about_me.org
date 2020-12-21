@@ -1,14 +1,15 @@
+:PROPERTIES:
 #+INCLUDE: "macros.org"
 #+TITLE: {{{SITETITLE}}}
 {{{NAVBAR}}}
 {{{PAGETITLE(About Me)}}}
-
+:END:
 I live in New York City with my wife, Alyssa, and our dog, Dempsey.  When not
 doing science, I love exploring the city and surrounding area with Alyssa and
 Dempsey: off-leash hours in Central Park (Dempsey's favorite), trying new
-restaurants and coffee shops, running, seeing movies, and just relaxing at home
-together.  I'm also an avid music fan/critic and book reader and an aspiring
-gardener.
+restaurants, reading books in coffee shops, running, seeing movies, etc.  I'm
+also an avid reader, music fan/critic (OK, borderline snob), and
+gardener and an aspiring bass guitarist.
 #+ATTR_HTML: :alt Alyssa, Dempsey and me in Cape Cod in 2014 :width 300px
 #+ATTR_HTML: :style float margin:10px
 #+CAPTION: Alyssa, Dempsey and me in Cape Cod in 2014.

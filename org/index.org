@@ -9,9 +9,8 @@
 #+OPTIONS: toc:nil ':nil
 #+LANGUAGE: en
 #+HTML: <link rel="stylesheet" type="text/css" href="style.css?v=3">
-:END:
-
 {{{NAVBAR}}}
+:END:
 #+ATTR_HTML: :alt Me in Kansas City, December 2018 :width 270px :height 270px
 #+ATTR_HTML: :style float margin:10px
 [[file:images/site_pic.jpeg]]
@@ -20,11 +19,17 @@
 (site last updated {{{modification-time(%Y %B %d)}}})
 
 I am a climate scientist interested in tropical overturning circulations
-([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]) --- why they
-exist, how they ebb and flow over the course of each year, how well we can
-predict their variations from year to year, how they may have changed in Earth's
-history, how they may change in Earth's future, and even how they behave in
-other planetary atmospheres.  Please see my [[file:publications.org][Publications]] page for more.
+([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]):
+
+- Why they exist in the first place
+- How they ebb and flow over the course of each year
+- How well we can predict their variations from year to year
+- How those year-to-year variations affect agricultural and economic outcomes
+- How they may have changed in Earth's history
+- How they may change in Earth's future
+- How they behave in other planetary atmospheres.
+
+Please see my [[file:publications.org][Publications]] page for more.
 
 I work at the Lamont-Doherty Earth Observatory at Columbia University, where I
 am funded by an Earth Institute Postdoctoral Fellowship and advised by [[http://www.columbia.edu/~ahs129/home.html][Dr. Adam
@@ -39,14 +44,12 @@ kits for performing physical demonstrations of core scientific concepts.  Please
 see the [[file:outreach.org][DIYnamics]] page, the [[https://diynamics.github.io/][official DIYnamics website]], or the [[https://www.youtube.com/channel/UCnUHxOSVY4G4OFbF8XL1qUg][DIYnamics YouTube
 channel]] for more.
 
-I am also interested in developing software tools for scientists in
-the Python programming language.  Please see the [[file:aospy.org][aospy]], [[file:programming.org][Programming]], and
-[[file:resources.org][Resources]] pages for more.
+I am also interested in developing software tools for scientists in the Python
+programming language.  Please see the [[file:aospy.org][aospy]] and [[file:resources.org][Resources]] pages for more.
 
 Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
 #+HTML: <hr/>
-
 * Contact
 [[mailto:shill@ldeo.columbia.edu][shill@ldeo.columbia.edu]] | Spencer Hill | 207B Oceanography | Lamont-Doherty
 Earth Observatory | 61 Route 9W | Palisades, NY 10964

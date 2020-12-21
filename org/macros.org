@@ -1,6 +1,6 @@
 #+MACRO: NEWLINE @@latex:\\@@ @@html:<BR>@@
 #+MACRO: COLOR @@latex:\color{$1}$2\color{black}@@ @@html:<span style="color: $1">$2</span>@@
 #+MACRO: SITETITLE Spencer A. Hill  {{{COLOR(gray, Postdoc)}}} Lamont-Doherty Earth Observatory, Columbia University
-#+MACRO: NAVBAR @@html:<hr/><span style="font-size:1em;color:gray">@@ [[file:index.org][Home]] [[file:publications.org][Publications]] [[file:cv/cv.pdf][CV]] [[file:aospy.org][aospy]]  [[file:diynamics.org][DIYnamics]] [[file:resources.org][Resources]] [[file:programming.org][Programming]] [[file:about_me.org][About Me]] @@html:</span><hr/>@@
+#+MACRO: NAVBAR @@html:<hr/><span style="font-size:1em;color:gray">@@ [[file:index.org][Home]] | [[file:publications.org][Publications]] [[file:cv/cv.pdf][CV]] | [[https://diynamics.github.io/][DIYnamics]] [[https://aospy.readthedocs.io][aospy]] | [[file:resources.org][Resources]] [[file:about_me.org][About Me]] @@html:</span><hr/>@@
 #+MACRO: PAGETITLE @@html:<span style="font-size:2em">@@ $1 @@html:</span><hr/>@@
 #+MACRO: LINK @@html:<a href=$1>$2</a>@@

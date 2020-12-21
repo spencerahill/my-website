@@ -1,92 +1,90 @@
+:PROPERTIES:
 #+INCLUDE: "macros.org"
 #+TITLE: {{{SITETITLE}}}
 {{{NAVBAR}}}
 {{{PAGETITLE(Resources)}}}
-This page comprises a loosely organized heap of links to resources I have found
-useful in my scientific endeavors to date.  Your mileage may vary.  I will add
-to it as things come up and I find the time.  Suggestions for
-additions/modifications (or reports of broken links) are welcome.
-* Climate science blogs
-# #+ATTR_HTML: :rules none :frame none
-| [[http://www.gfdl.noaa.gov/blog/isaac-held/][Isaac Held's blog]]                   |
-| [[http://realclimate.org/][Real Climate]]                        |
-| [[http://www.wunderground.com/blog/JeffMasters/article.html][Jeff Masters' blog]]                  |
-| [[http://adamsobel.org/][Adam Sobel's blog]]                   |
-| [[http://climate-dynamics.org/blog/][Tapio Schneider's Group blog]]        |
-| [[http://www.climate-lab-book.ac.uk/][Climate Lab Book (Ed Hawkins)]]       |
-| [[http://judithcurry.com/][Climate Etc. (Judy Curry)]]           |
-#+HTML: <hr/>
-* Climate science podcasts
-# #+ATTR_HTML: :rules none :frame none
-| [[http://forecastpod.org/][Forecast]]         | Hosted by Michael White, Nature's climate science editor |
-| [[https://soundcloud.com/warmregardspodcast][Our Warm Regards]] | Hosted by Eric Holthaus, Andy Revkin, and Jacquelyn Gill |
+:END:
+This page comprises a loosely organized collection of resources I have found
+useful.  Your mileage may vary.
 * Science communication
-# #+ATTR_HTML: :rules none :frame none
-| [[http://betterfigures.org/][Better Figures]]                   | "Constructive criticism of the graphics of climate science"                                          |
-| [[http://www.principiae.be/][Principiae]]                       | Material (some free) on science communication                                                        |
-| [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]                     | Fascinating and beautiful books on effective data displays                                           |
-| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]]            | Classic text on writing succinctly and clearly                                                       |
-| [[http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf][Beamer customization cheat sheet]] | Quick reference for how to tinker with elements of Beamer presentations                              |
-| [[https://www.climatecommunication.org/][Climate Communication]]            | "Support[ing] scientists in improving their communication and outreach"                              |
-| [[http://www.climatecentral.org/][Climate Central]]                  | "Surveys and conducts scientific research on climate change and informs the public of key findings." |
-#+HTML: <hr/>
-* Climate science & meteorology history
+** Figures
+| [[http://betterfigures.org/][Better Figures]] | "Constructive criticism of the graphics of climate science" |
+| [[http://www.principiae.be/][Principiae]]     | Materials on effective figures (and slides and writing)     |
+| [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]   | Classic books on effective data displays                    |
+** Writing
+| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]] | "Omit needless words!"                                   |
+| [[https://www.amazon.com/Sense-Style-Thinking-Persons-Writing/dp/0143127799][The Sense of Style]]    | Excellent modern writing guide                           |
+| [[https://www.amazon.com/Writing-10th-Anniversary-Memoir-Craft/dp/1439156816][On Writing]]            | Nominally about fiction but valuable for nonfiction also |
+** LaTeX
+| [[http://latexcolor.com/]]              | Copy-pasteable color definitions for LaTeX documents                    |   |
+| [[http://cremeronline.com/LaTeX/minimaltikz.pdf][A very minimal introduction to TikZ]] | Great entry into LaTeX plotting packages TikZ and PGF                   |   |
+| [[http://detexify.kirelabs.org/classify.html][Detexify]]                            | Draw a symbol, get the LaTeX command for it.                            |   |
+| [[http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf][Beamer customization cheat sheet]]    | Quick reference for how to tinker with elements of Beamer presentations |   |
+** Reproducible research via org-mode
+[[http://orgmode.org/][Org-mode]] is an extension of the [[https://www.gnu.org/software/emacs/emacs.html][Emacs]] text editor for creating outline-like
+documents, with lots of functionality for embedding to-do lists, links, code,
+and images and for converting the files to LaTeX, HTML, and other formats.
+
+This integration of elements typically found in scientific manuscripts makes
+Org-mode a potentially useful vehicle for [[http://reproducibleresearch.net/][reproducible research]] -- checkout this
+[[http://kitchingroup.cheme.cmu.edu/blog/2014/08/08/What-we-are-using-org-mode-for/][page]].
+
+In fact, my website is written as a collection of org-mode files, published
+to HTML using org's publish functionality.  Source code [[https://github.com/spencerahill/my-website][here]].
+
+| [[https://emacsformacosx.com/][Emacs for Mac OS X]]   | Easily install GUI version of Emacs on Mac OS X/macOS                              |
+| [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] | Library for linking environment variables that Emacs sees with your system values. |
+* Python
+I am an avid user of the [[https://www.python.org/][Python]] programming language, which is modern, powerful,
+elegant, open-source, and well-documented.  In addition to the [[file:aospy.org][aospy]] project, I
+also have a few other, less polished open-source Python packages that I have
+created as side projects; they are available on [[https://github.com/spencerahill][my Github]].
+** Core packages I use
+| [[https://pangeo.io/][pangeo]]     | Community platform for Big Data geoscience |
+| [[http://xarray.pydata.org][xarray]]     | N-dimensional labeled arrays and datasets  |
+| [[http://dask.pydata.org/en/latest/][dask]]       | Parallel computing and memory chunking     |
+| [[http://matplotlib.org/][matplotlib]] | For plotting                               |
+| [[http://scitools.org.uk/cartopy/docs/latest/index.html][cartopy]]    | For plotting maps                          |
+** Python environments and package managers
+| [[https://docs.conda.io/projects/conda][conda]]      | ~conda env create~ and ~conda install~ are your friend :) |
+| [[https://rabernat.medium.com/custom-conda-environments-for-data-science-on-hpc-clusters-32d58c63aa95][miniconda]]  | Guide to setting up conda environments on HPC Clusters    |
+| [[https://jupyterlab.readthedocs.io][Jupyterlab]] | Web-based interactive python interface                    |
+* Research tools
+** Climate science & meteorology history
 | [[http://empslocal.ex.ac.uk/people/staff/gv219/classics.d/index.html][Geoff Vallis's collection of classic papers]] | With useful comments by G. Vallis                                        |
-| [[http://www.historicalclimatology.com/][Historical Climatology]]                      | Portal for climate research from the historical discipline               |
 | [[http://www.oldweather.org/][Old Weather]]                                 | Citizen-science project: transcribe historical ship logs of weather data |
-* Data visualization tools
-# #+ATTR_HTML: :rules none :frame none
-| [[https://eol.jsc.nasa.gov/][Gateway to Astronaut Photography of Earth]] | NASA portal to imagery of earth taken by astronauts                                   |
-| [[https://www.martinjucker.com/weather/][Martin Jucker's 3D weather visualizations]] | Beautiful videos, interactive 3D plots, and static images of current and past weather |
-| [[https://earth.nullschool.net/][nullschool.net]]                            | Beautiful, interactive visualization of meteorological and ocean data                 |
-| [[http://www.giss.nasa.gov/tools/panoply/][Panoply]]                                   | NetCDF viewer.  Great for making basic plots quickly.                                 |
-| [[http://www.unidata.ucar.edu/software/idv/][Unidata IDV (Integrated Data Viewer)]]      | "Java-based software framework for analyzing and visualizing geoscience data"         |
-| [[https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html][Brian Mapes' IDV extension]]                | IDV extension with Tropics-relevant data, methods, etc.                               |
-| [[http://christopherbull.com.au/mkmov/][MkMov]]                                     | Command-line utility (written in Python) for making movies from netCDF files          |
-* Online research tools
-# #+ATTR_HTML: :rules none :frame none
-| [[http://detexify.kirelabs.org/classify.html][Detexify]] | Draw a symbol, get the LaTeX command for it.  |
-| [[http://www2.cesm.ucar.edu/working_groups/CVC/cvdp/][CVDP]]     | NCAR Climate Variability Diagnostics Package  |
+** Models
 | [[http://mitgcm.org/][MITGCM]]   | M.I.T. General Circulation Model              |
 | [[http://ready.arl.noaa.gov/HYSPLIT_traj.php][HYSPLIT]]  | Compute forward and backward air trajectories |
-#+HTML: <hr/>
-* Climate data
-** Data Portals/Databases
-# #+ATTR_HTML: :rules none :frame none
-| [[http://gcmd.gsfc.nasa.gov/index.html][NASA Global Change Master Directory]]    |
-| [[http://iridl.ldeo.columbia.edu/][Columbia IRI/LDEO Climate Data Library]] |
+** Climate data portals
+| [[https://climatedataguide.ucar.edu/][NCAR Climate Data Guide]]                   |
+| [[http://gcmd.gsfc.nasa.gov/index.html][NASA Global Change Master Directory]]       |
+| [[http://iridl.ldeo.columbia.edu/][Columbia IRI Climate Data Library]]         |
 | [[http://www.aos.wisc.edu/weather/wx_obs/Satellite.html][U. Wisc. weather satellite imagery portal]] |
-** Individual Data Products
-# #+ATTR_HTML: :rules none :frame none
-| [[http://gcmd.nasa.gov/records/GCMD_AERONET_NASA.html][AERONET]]        | International ground-based instrumental aerosol monitoring network |
-| [[http://www.cmcc.it/c-glors/][C-GLORS & CHOR]] | Ocean reanalysis datasets                                          |
-#+HTML: <hr/>
+** Data visualization
+| [[https://earth.nullschool.net/][nullschool.net]]                            | Beautiful, interactive visualization of meteorological and ocean data                 |
+| [[https://eol.jsc.nasa.gov/][Gateway to Astronaut Photography of Earth]] | NASA portal to imagery of earth taken by astronauts                                   |
+| [[https://www.martinjucker.com/weather/][Martin Jucker's 3D weather visualizations]] | Beautiful videos, interactive 3D plots, and static images of current and past weather |
+** Command line utilities
+| [[http://nco.sourceforge.net/][netCDF Operator (NCO) toolkit]] | Library of command-line tools for interacting with netCDF data     |
+| [[http://mama.indstate.edu/users/ice/tree/][tree command]]                  | recursive directory listing command; install on MacOS via homebrew |
+| [[http://www.colordiff.org/][colordiff]]                     | Colorize/prettify the =diff= command-line tool                     |
 * Career
-** General
-# #+ATTR_HTML: :rules none :frame none
-| [[http://disccrs.org/career][DISCCRS career resources page]] | Links to tons of great resources                     |
-| [[http://sites.agu.org/careers/career-advice-webinars/][AGU career advice webinars]]    | Various topics; slides/etc. available for past ones. |
-** Graduate School
-*** Survival tips
-# #+ATTR_HTML: :rules none :frame none
-| [[https://www.insidehighered.com/advice/2011/06/06/advice_for_graduate_students][Advice for Grad Students I]]  | General advice; must-read for early grad students    |
-| [[https://www.insidehighered.com/advice/2011/06/08/advice_on_writing_for_graduate_students][Advice for Grad Students II]] | Writing advice: thesis, papers, etc.                 |
-| [[http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2006_11_10/nodoi.4277528898545922912][Mastering Your Ph.D.]]        | Series by /Science/ on graduate school in the sciences |
-*** Funding
-# #+ATTR_HTML: :rules none :frame none
-| [[http://www.nsfgrfp.org/][NSF Graduate Research Fellowship Program]]                                                       |
-| [[http://ndseg.asee.org/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]] (they funded me) |
-| [[http://www.hertzfoundation.org/dx/fellowships/fellowshipaward.aspx][Hertz Foundation Graduate Fellowship Award]]                                                     |
-| [[http://www.epa.gov/ncer/fellow/][Environmental Protection Agency STAR]]                                                           |
-| [[http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={B6CDCEA6-8EDD-A48A-FAF8-E588F66661C3}&path=open][NASA Earth and Space Science Fellowship]]                                                        |
-#+HTML: <hr/>
-** Undergraduate AOS scholarships
-# #+ATTR_HTML: :rules none :frame none
-| [[http://www.oesd.noaa.gov/scholarships/hollings.html#page=timeline][NOAA Hollings Scholarship]]                                       | Open to undergraduate sophomores; funding and NOAA internship |
-| [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship and Excellence in Education Program]] | For undergraduate juniors in sciences                         |
-#+HTML: <hr/>
-* For Fun
-# #+ATTR_HTML: :rules none :frame none
-| [[http://xkcd.com/][xkcd]]          | Brilliant science/math comic (note some explicit language/themes)                      |
-| [[http://what-if.xkcd.com/][xkcd what-if?]] | "Serious scientific answers to absurd hypothetical questions"                          |
-| [[http://www.ted.com/][TED]]           | Talks on various topics, scientific and otherwise (some fascinating, many forgettable) |
+** Climate science podcasts (w/ discussion of career trajectories)
+| [[https://adamsobel.org/podcast/][Deep Convection]] | Hosted by Adam Sobel                                     |
+| [[http://forecastpod.org/][Forecast]]        | Hosted by Michael White, Nature's climate science editor |
+** Career advice books
+These take a tough-love, no-nonsense approach that I find useful.
+| [[https://theprofessorisin.com/buy-the-book/][The Professer is In]]         |
+| [[https://www.amazon.com/Good-Work-You-Can-Get/dp/1421437961][Good Work if You Can Get It]] |
+** Postdoctoral fellowships
+| [[https://cpaess.ucar.edu/cgc][NOAA Climate and Global Change Postdoctoral Fellowship]]        |
+| [[https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12779][NSF Atmospheric and Geospace Sciences Postdoctoral Fellowship]] |
+** Graduate school fellowships
+| [[http://www.nsfgrfp.org/][NSF Graduate Research Fellowship]]                                              |
+| [[https://ndseg.sysplus.com/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]] |
+| [[https://www.hertzfoundation.org/the-fellowship/about/][Hertz Foundation Graduate Fellowship]]                                          |
+| [[https://astrobiology.nasa.gov/funding/future-investigators-in-nasa-earth-and-space-sci-2/][NASA FINESST]]                                                                  |
+** Undergraduate scholarships
+| [[https://www.noaa.gov/office-education/hollings-scholarship][NOAA Hollings Scholarship]]   | Open to undergraduate sophomores; funding and NOAA internship |
+| [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship]] | For undergraduate juniors in sciences                         |

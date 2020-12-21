@@ -1,7 +1,9 @@
+:PROPERTIES:
 #+INCLUDE: "macros.org"
 #+TITLE: {{{SITETITLE}}}
 {{{NAVBAR}}}
 {{{PAGETITLE(Publications)}}}
+:END:
 ** Submitted/under review/in revision
 1. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
@@ -73,21 +75,17 @@
     *39*, L15707, 5 pp. doi:
     [[http://dx.doi.org/10.1029/2012GL052064][10.1029/2012GL052064]]. {{{LINK("papers/hill+ming2012.pdf", PDF.)}}}
     {{{LINK("papers/hill+ming2012supp.pdf", Supplementary material PDF.)}}}
+** Non peer-reviewed
+1. Numerous blog posts for the DIYnamics blog.  Available at
+   https://diynamics.github.io/blog/author/spencer-hill.html.
+2. (2012) *Hill, Spencer A.*  "A head in the clouds elucidates climate" (book
+   review of [[http://press.princeton.edu/titles/9773.html][/Atmosphere, Clouds, and Climate/]] by David Randall). /Science/, *337*,
+   1 pp., doi: [[http://dx.doi.org/10.1126/science.1225615][10.1126/science.1225615]].  {{{LINK("papers/hill2012.pdf", PDF.)}}}
 ** PhD thesis
 (2016) *Hill, Spencer A.* "Energetic and hydrological responses of Hadley
 circulations and the African Sahel to sea surface temperature perturbations."
 PhD Thesis, Princeton University Program in Atmospheric and Oceanic Sciences.
 {{{LINK("papers/spencer_hill_phd_thesis.pdf", PDF.)}}}
-** Non peer-reviewed
-1. Numerous blog posts for the DIYnamics blog.  Available at
-   https://diynamics.github.io/blog/author/spencer-hill.html.
-2. (2017) *Hill, Spencer A.* and Spencer K. Clark.  "What’s needed for the Future
-   of AOS Python?  Tools for Automating AOS Data Analysis and Management."
-   Invited guest blog post on "PyAOS" blog.  URL:
-   http://pyaos.johnny-lin.com/?p=1546.
-3. (2012) *Hill, Spencer A.*  "A head in the clouds elucidates climate" (book
-   review of [[http://press.princeton.edu/titles/9773.html][/Atmosphere, Clouds, and Climate/]] by David Randall). /Science/, *337*,
-   1 pp., doi: [[http://dx.doi.org/10.1126/science.1225615][10.1126/science.1225615]].  {{{LINK("papers/hill2012.pdf", PDF.)}}}
 ** Software
 1. (2018) *Hill, Spencer A.* and Spencer Clark.  "=aospy=: automated climate
    data analysis and management."  Version 0.3.1.  [[https://aospy.readthedocs.io]].
