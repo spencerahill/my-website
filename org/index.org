@@ -18,7 +18,7 @@
 * Overview
 (site last updated {{{modification-time(%Y %B %d)}}})
 
-I am a climate scientist interested in tropical overturning circulations
+Welcome!  I am a climate scientist interested in tropical overturning circulations
 ([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]):
 
 - Why they exist
