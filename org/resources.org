@@ -8,7 +8,6 @@ This page comprises a loosely organized collection of resources I have found
 useful.  Your mileage may vary.
 * Science communication
 ** Figures
-| [[http://betterfigures.org/][Better Figures]] | "Constructive criticism of the graphics of climate science" |
 | [[http://www.principiae.be/][Principiae]]     | Materials on effective figures (and slides and writing)     |
 | [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]   | Classic books on effective data displays                    |
 ** Writing

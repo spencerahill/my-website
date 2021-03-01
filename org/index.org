@@ -19,7 +19,7 @@
 (site last updated {{{modification-time(%Y %B %d)}}})
 
 Welcome!  I am a climate scientist interested in tropical overturning circulations
-([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]):
+([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]).  Specifically:
 
 - Why they exist
 - Why they aren't bigger or smaller, farther poleward or equatorward
