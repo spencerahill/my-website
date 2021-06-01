@@ -5,20 +5,25 @@
 {{{PAGETITLE(Publications)}}}
 :END:
 ** Submitted/under review/in revision
-1. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
+1. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.
+   "Indian summer monsoon rainfall interannual variability: spatial signatures
+   and teleconnections."  Under review, /Journal of Climate/.
+   https://arxiv.org/abs/2104.12306.
+   {{{LINK("papers/ensinoo-ismr-jjas_2col.pdf", PDF.)}}}
+2. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
    In revision, /Journal of Climate/.  [[https://arxiv.org/abs/2012.09228]].
    {{{LINK("papers/symm-asymm-warming_jcli-submitted_2col.pdf", PDF.)}}}
 ** Peer-reviewed
 1. *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Solsticial
-   Hadley Cell ascending edge theory from supercriticality."  Accepted,
-   /Journal of the Atmospheric Sciences/.  [[https://arxiv.org/abs/2011.05966]].
-   {{{LINK("papers/had-cell-eta0_v3_2col.pdf", PDF.)}}}
+   Hadley Cell ascending edge theory from supercriticality."  Accepted, /Journal
+   of the Atmospheric Sciences/.  doi: [[https://doi.org/10.1175/JAS-D-20-0341.1]].
+   {{{LINK("papers/had-cell-supercrit_accepted.pdf", PDF.)}}}
 2. Mitchell, Jonathan L. and *Spencer A. Hill*.  "Constraints from invariant
    subtropical vertical velocities on the scalings of Hadley cell strength and
-   downdraft width with rotation rate."  Accepted, /Journal of the
-   Atmospheric Sciences/.  doi: [[https://doi.org/10.1175/JAS-D-20-0191.1][10.1175/JAS-D-20-0191.1]].
-   {{{LINK("papers/mitchell-hill-2021-jas-accepted.pdf", PDF.)}}}
+   downdraft width with rotation rate."  /Journal of the
+   Atmospheric Sciences/, *78*, 1445-1463.  doi: [[https://doi.org/10.1175/JAS-D-20-0191.1][10.1175/JAS-D-20-0191.1]].
+   {{{LINK("papers/mitchell-hill_omega-gov_jas-2021.pdf", PDF.)}}}
 3. (2020) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.
    "Axisymmetric Hadley Cell theory with a fixed tropopause temperature rather
    than height."  /Journal of the Atmospheric Sciences/, *77*, 1279-1294.  doi:

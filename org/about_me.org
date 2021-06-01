@@ -4,7 +4,7 @@
 {{{NAVBAR}}}
 {{{PAGETITLE(About Me)}}}
 :END:
-I live in New York City with my wife, Alyssa, and our dog, Dempsey.  When not
+I live in New York City with my wife, our daughter, and our dog.  When not
 doing science, I love exploring the city and surrounding area with Alyssa and
 Dempsey: off-leash hours in Central Park (Dempsey's favorite), trying new
 restaurants, reading books in coffee shops, running, seeing movies, etc.  I'm
