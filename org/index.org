@@ -16,7 +16,7 @@
 [[file:images/site_pic.jpeg]]
 #+HTML: <hr/>
 * Overview
-(site last updated {{{modification-time(%Y %B %d)}}})
+# (site last updated {{{modification-time(%Y %B %d)}}})
 
 Welcome!  I am a climate scientist interested in tropical overturning circulations
 ([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]).  Specifically:
@@ -33,10 +33,9 @@ Welcome!  I am a climate scientist interested in tropical overturning circulatio
 Please see my [[file:publications.org][Publications]] page for more.
 
 I work at the [[https://www.ldeo.columbia.edu/][Lamont-Doherty Earth Observatory]] at [[https://www.columbia.edu/][Columbia University]], where I
-am funded by an [[https://www.earth.columbia.edu/][Earth Institute]] Postdoctoral Fellowship and advised by [[http://www.columbia.edu/~ahs129/home.html][Adam
-Sobel]] and [[https://www.ldeo.columbia.edu/~biasutti/][Michela Biasutti]].  Along with [[https://www.earth.columbia.edu/articles/view/2371/][Mark Cane]] and collaborators in
-India, we are working on a project seeking to improve forecasts of Indian
-monsoon summer rainfall on seasonal timescales.
+collaborate with [[http://www.columbia.edu/~ahs129/home.html][Adam Sobel]], [[https://www.ldeo.columbia.edu/~biasutti/][Michela Biasutti]], and [[https://www.earth.columbia.edu/articles/view/2371/][Mark Cane]] on a project
+seeking to improve forecasts of Indian monsoon summer rainfall on seasonal
+timescales.
 
 I also co-lead the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the teaching of
 meteorology, climate science, and other planetary-scale sciences at the K-12

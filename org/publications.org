@@ -4,19 +4,19 @@
 {{{NAVBAR}}}
 {{{PAGETITLE(Publications)}}}
 :END:
-** In preparation
-1. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.
-   "Indian summer monsoon rainfall interannual variability: spatial signatures
-   and teleconnections."  https://arxiv.org/abs/2104.12306.
-   {{{LINK("papers/ensinoo-ismr-jjas_2col.pdf", PDF.)}}}
 ** Submitted/under review/in revision
-1. Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of An
+1. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.  "On
+   the all-India rainfall index and sub-India rainfall heterogeneity."
+   Submitted, /Geophysical Research Letters/.
+   https://arxiv.org/abs/2104.12306.
+   {{{LINK("papers/airi-subindia-telecon.pdf", PDF.)}}}
+2. Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of An
    Equatorial Continent On The Tropical Rain Belt. Part 2: Summer Monsoons."
-   Submitted, /Journal of Climate/.
-2. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
+   In revision, /Journal of Climate/.
+3. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
-   In revision, /Journal of Climate/.  [[https://arxiv.org/abs/2012.09228]].
-   {{{LINK("papers/symm-asymm-warming_jcli-submitted_2col.pdf", PDF.)}}}
+   Revised for, /Journal of Climate/.  [[https://arxiv.org/abs/2012.09228]].
+   {{{LINK("papers/symm-asymm-warming_v2_2col.pdf", PDF.)}}}
 ** Peer-reviewed
 1. *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Solsticial
    Hadley Cell ascending edge theory from supercriticality."  /Journal of the
