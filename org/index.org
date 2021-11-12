@@ -2,7 +2,7 @@
 #+INCLUDE: "./macros.org"
 #+TITLE: {{{SITETITLE}}}
 #+AUTHOR: Spencer A. Hill
-#+EMAIL: shill@ldeo.columbia.edu
+#+EMAIL: spencerh@princeton.edu
 #+DATE:
 #+DESCRIPTION: Spencer Hill's academic website
 #+KEYWORDS:
@@ -32,10 +32,11 @@ Welcome!  I am a climate scientist interested in tropical overturning circulatio
 
 Please see my [[file:publications.org][Publications]] page for more.
 
-I work at the [[https://www.ldeo.columbia.edu/][Lamont-Doherty Earth Observatory]] at [[https://www.columbia.edu/][Columbia University]], where I
-collaborate with [[http://www.columbia.edu/~ahs129/home.html][Adam Sobel]], [[https://www.ldeo.columbia.edu/~biasutti/][Michela Biasutti]], and [[https://www.earth.columbia.edu/articles/view/2371/][Mark Cane]] on a project
-seeking to improve forecasts of Indian monsoon summer rainfall on seasonal
-timescales.
+I work in the [[https://aos.princeton.edu/][Program in Atmospheric and Oceanic Sciences]] at [[https://www.princeton.edu/][Princeton
+University]].  I also hold an adjunct position at the [[https://www.ldeo.columbia.edu/][Lamont-Doherty Earth
+Observatory]] at [[https://www.columbia.edu/][Columbia University]], where I collaborate with [[https://www.ldeo.columbia.edu/~biasutti/][Michela
+Biasutti]] on a project investigating the role of energy transports by tropical
+transient disturbances in setting the location of the ITCZ.
 
 I also co-lead the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the teaching of
 meteorology, climate science, and other planetary-scale sciences at the K-12
@@ -50,5 +51,8 @@ Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
 #+HTML: <hr/>
 * Contact
-[[mailto:shill@ldeo.columbia.edu][shill@ldeo.columbia.edu]] | Spencer Hill | 207B Oceanography | Lamont-Doherty
-Earth Observatory | 61 Route 9W | Palisades, NY 10964
+[[mailto:spencerh@princeton.edu][spencerh@princeton.edu]] | NOAA Geophysical Fluid Dynamics Laboratory | 201
+Forrestal Road | Princeton, NJ 08540
+
+[[mailto:shill@ldeo.columbia.edu][shill@ldeo.columbia.edu]] | 207B Oceanography | Lamont-Doherty Earth Observatory |
+61 Route 9W | Palisades, NY 10964

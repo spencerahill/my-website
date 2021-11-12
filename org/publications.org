@@ -7,15 +7,15 @@
 ** Submitted/under review/in revision
 1. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.  "On
    the all-India rainfall index and sub-India rainfall heterogeneity."
-   Submitted, /Geophysical Research Letters/.
+   In revision, /Geophysical Research Letters/.
    https://arxiv.org/abs/2104.12306.
    {{{LINK("papers/airi-subindia-telecon.pdf", PDF.)}}}
 2. Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of An
-   Equatorial Continent On The Tropical Rain Belt. Part 2: Summer Monsoons."
-   In revision, /Journal of Climate/.
+   Equatorial Continent On The Tropical Rain Belt. Part 2: Summer Monsoons."  In
+   revision, /Journal of Climate/.  [[https://doi.org/10.1002/essoar.10508669.1][https://doi.org/10.1002/essoar.10508669.1]].
 3. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
-   Revised for, /Journal of Climate/.  [[https://arxiv.org/abs/2012.09228]].
+   Revised for /Journal of Climate/.  [[https://arxiv.org/abs/2012.09228]].
    {{{LINK("papers/symm-asymm-warming_v2_2col.pdf", PDF.)}}}
 ** Peer-reviewed
 1. *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Solsticial
