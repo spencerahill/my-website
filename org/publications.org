@@ -7,9 +7,9 @@
 ** Submitted/under review/in revision
 1. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.  "On
    the all-India rainfall index and sub-India rainfall heterogeneity."
-   In revision, /Geophysical Research Letters/.
+   Revised for /Geophysical Research Letters/.
    https://arxiv.org/abs/2104.12306.
-   {{{LINK("papers/airi-subindia-telecon.pdf", PDF.)}}}
+   {{{LINK("papers/airi-subindia-telecon_v2.pdf", PDF.)}}}
 2. Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of An
    Equatorial Continent On The Tropical Rain Belt. Part 2: Summer Monsoons."  In
    revision, /Journal of Climate/.  [[https://doi.org/10.1002/essoar.10508669.1][https://doi.org/10.1002/essoar.10508669.1]].

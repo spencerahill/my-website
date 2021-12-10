@@ -13,6 +13,7 @@ useful.  Your mileage may vary.
 ** Writing
 | [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]] | "Omit needless words!"                                   |
 | [[https://www.amazon.com/Sense-Style-Thinking-Persons-Writing/dp/0143127799][The Sense of Style]]    | Excellent modern writing guide                           |
+| [[https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241][Writing Science]]       | Excellent science-specific writing guide                 |
 | [[https://www.amazon.com/Writing-10th-Anniversary-Memoir-Craft/dp/1439156816][On Writing]]            | Nominally about fiction but valuable for nonfiction also |
 ** LaTeX
 | [[http://latexcolor.com/]]              | Copy-pasteable color definitions for LaTeX documents                    |   |
