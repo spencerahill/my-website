@@ -5,15 +5,19 @@
 {{{PAGETITLE(Publications)}}}
 :END:
 ** Submitted/under review/in revision
-1. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.  "On
+1. *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Toward a
+   unified theory for the Hadley cell descending and ascending edges."
+   Submitted to /Journal of the Atmospheric Sciences/.
+   {{{LINK("papers/had-cell-fixed-ro_2col.pdf", PDF.)}}}
+2. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.  "On
    the all-India rainfall index and sub-India rainfall heterogeneity."
    Revised for /Geophysical Research Letters/.
    https://arxiv.org/abs/2104.12306.
    {{{LINK("papers/airi-subindia-telecon_v2.pdf", PDF.)}}}
-2. Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of An
+3. Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of An
    Equatorial Continent On The Tropical Rain Belt. Part 2: Summer Monsoons."  In
    revision, /Journal of Climate/.  [[https://doi.org/10.1002/essoar.10508669.1][https://doi.org/10.1002/essoar.10508669.1]].
-3. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
+4. *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
    Revised for /Journal of Climate/.  [[https://arxiv.org/abs/2012.09228]].
    {{{LINK("papers/symm-asymm-warming_v2_2col.pdf", PDF.)}}}
