@@ -8,6 +8,7 @@
 1. *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Toward a
    unified theory for the Hadley cell descending and ascending edges."
    Submitted to /Journal of the Atmospheric Sciences/.
+   [[https://arxiv.org/abs/2112.07731][https://arxiv.org/abs/2112.07731]].
    {{{LINK("papers/had-cell-fixed-ro_2col.pdf", PDF.)}}}
 2. *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.  "On
    the all-India rainfall index and sub-India rainfall heterogeneity."
