@@ -18,8 +18,9 @@
 * Overview
 # (site last updated {{{modification-time(%Y %B %d)}}})
 
-Welcome!  I am a climate scientist interested in tropical overturning circulations
-([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]).  Specifically:
+Welcome!  I am a climate scientist interested in tropical overturning
+circulations ([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]
+a.k.a. the ITCZ).  Specifically:
 
 - Why they exist
 - Why they aren't bigger or smaller, farther poleward or equatorward
@@ -44,8 +45,14 @@ through graduate school levels by developing inexpensive, easy-to-use kits for
 performing physical demonstrations of core scientific concepts.  Please the
 DIYnamics [[https://diynamics.github.io/][website]] and [[https://www.youtube.com/channel/UCnUHxOSVY4G4OFbF8XL1qUg][YouTube]] channel for more.
 
-I am also interested in developing software tools for scientists in the Python
-programming language.  Please see my [[https://aospy.readthedocs.io][aospy]] package and [[file:resources.org][Resources]] page for more.
+I am also interested in developing software tools for scientists in the
+Python programming language.  Please see my [[https://aospy.readthedocs.io][aospy]] package and [[file:resources.org][Resources]] page for
+more.
+
+Finally, I am also interested in the connections between weather and climate
+science on the one hand with music, literature, poetry, and other forms of human
+expression on the other hand.  I tweet about this from my account [[https://twitter.com/spencerahill][@spencerahill]]
+using the hashtag [[https://twitter.com/hashtag/CliSciHiFi][#CliSciHiFi]].
 
 Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!

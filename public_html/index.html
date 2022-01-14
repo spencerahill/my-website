@@ -5,13 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Spencer A. Hill   <span style="color: gray"> Associate Research Scholar</span> Program in Atmospheric and Oceanic Sciences, Princeton University</title>
-<meta name="generator" content="Org mode" />
+<title>Spencer A. Hill  @@latex:\color{gray} Associate Research Scholar\color{black}@@ @@html:&lt;span style="color: gray"&gt; Associate Research Scholar&lt;/span&gt;@@ Program in Atmospheric and Oceanic Sciences, Princeton University</title>
 <meta name="author" content="Spencer A. Hill" />
-<meta name="description" content="Spencer Hill's academic website"
- />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="description" content="Spencer Hill's academic website" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -32,8 +31,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -42,21 +42,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -192,42 +192,19 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
-  /*]]>*/-->
 </style>
 <link rel="stylesheet"
                        href="./css/style.css" type="text/css"/>
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Spencer A. Hill   <span style="color: gray"> Associate Research Scholar</span> Program in Atmospheric and Oceanic Sciences, Princeton University</h1>
 <link rel="stylesheet" type="text/css" href="style.css?v=3">
 <p>
-<hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> | <a href="publications.html">Publications</a> <a href="cv/cv_spencer-hill.pdf">CV</a> | <a href="https://diynamics.github.io/">DIYnamics</a> <a href="https://aospy.readthedocs.io">aospy</a> | <a href="resources.html">Resources</a> <a href="about_me.html">About Me</a> </span><hr/>
+<hr/><span style="font-size:1em;color:gray"> <a href="index.html">Home</a> | <a href="publications.html">Publications</a> <a href="cv/cv_spencer-hill.pdf">CV</a> | <a href="https://diynamics.github.io/">DIYnamics</a> | <a href="resources.html">Resources</a> <a href="about_me.html">About Me</a> </span><hr/>
 </p>
 
-<div id="org56d146c" class="figure">
+<div id="orgeb88ab2" class="figure">
 <p><img src="images/site_pic.jpeg" alt="Me in Kansas City, December 2018" style="float margin:10px" width="270px" height="270px" />
 </p>
 </div>
@@ -236,8 +213,9 @@
 <h2 id="org272a30d">Overview</h2>
 <div class="outline-text-2" id="text-org272a30d">
 <p>
-Welcome!  I am a climate scientist interested in tropical overturning circulations
-(<a href="https://en.wikipedia.org/wiki/Monsoon">monsoons</a>, <a href="https://en.wikipedia.org/wiki/Hadley_cell">Hadley cells</a>, and the <a href="https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone">Intertropical Convergence Zone</a>).  Specifically:
+Welcome!  I am a climate scientist interested in tropical overturning
+circulations (<a href="https://en.wikipedia.org/wiki/Monsoon">monsoons</a>, <a href="https://en.wikipedia.org/wiki/Hadley_cell">Hadley cells</a>, and the <a href="https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone">Intertropical Convergence Zone</a>
+a.k.a. the ITCZ).  Specifically:
 </p>
 
 <ul class="org-ul">
@@ -272,8 +250,16 @@ DIYnamics <a href="https://diynamics.github.io/">website</a> and <a href="https:
 </p>
 
 <p>
-I am also interested in developing software tools for scientists in the Python
-programming language.  Please see my <a href="https://aospy.readthedocs.io">aospy</a> package and <a href="resources.html">Resources</a> page for more.
+I am also interested in developing software tools for scientists in the
+Python programming language.  Please see my <a href="https://aospy.readthedocs.io">aospy</a> package and <a href="resources.html">Resources</a> page for
+more.
+</p>
+
+<p>
+Finally, I am also interested in the connections between weather and climate
+science on the one hand with music, literature, poetry, and other forms of human
+expression on the other hand.  I tweet about this from my account <a href="https://twitter.com/spencerahill">@spencerahill</a>
+using the hashtag <a href="https://twitter.com/hashtag/CliSciHiFi">#CliSciHiFi</a>.
 </p>
 
 <p>

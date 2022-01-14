@@ -11,26 +11,28 @@ useful.  Your mileage may vary.
 | [[http://www.principiae.be/][Principiae]]     | Materials on effective figures (and slides and writing)     |
 | [[http://www.edwardtufte.com/tufte/index][Edward Tufte]]   | Classic books on effective data displays                    |
 ** Writing
-| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]] | "Omit needless words!"                                   |
-| [[https://www.amazon.com/Sense-Style-Thinking-Persons-Writing/dp/0143127799][The Sense of Style]]    | Excellent modern writing guide                           |
-| [[https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241][Writing Science]]       | Excellent science-specific writing guide                 |
-| [[https://www.amazon.com/Writing-10th-Anniversary-Memoir-Craft/dp/1439156816][On Writing]]            | Nominally about fiction but valuable for nonfiction also |
+| [[http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X][The Elements of Style]], Strunk and White             | /The/ starting place.  "Omit needless words!"                                                       |
+| [[https://www.amazon.com/Sense-Style-Thinking-Persons-Writing/dp/0143127799][The Sense of Style]], Steven Pinker                   | Excellent modern writing guide                                                                      |
+| [[https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241][Writing Science]], Joshua Schimel                     | Excellent science-specific writing guide                                                            |
+| [[https://www.amazon.com/Writing-10th-Anniversary-Memoir-Craft/dp/1439156816][On Writing]], Stephen King (yes, /that/ Stephen King) | Classic.  Nominally about fiction but invaluable to science writing                                 |
+| [[https://smile.amazon.com/Swim-Pond-Rain-Russians-Writing-ebook/dp/B0871LKPJ3][A Swim in a Pond in the Rain]], George Saunders       | Ditto.  Just replace "art/writer/story" etc. with "science/scientist/article" etc. and it all holds |
 ** LaTeX
 | [[http://latexcolor.com/]]              | Copy-pasteable color definitions for LaTeX documents                    |   |
 | [[http://cremeronline.com/LaTeX/minimaltikz.pdf][A very minimal introduction to TikZ]] | Great entry into LaTeX plotting packages TikZ and PGF                   |   |
 | [[http://detexify.kirelabs.org/classify.html][Detexify]]                            | Draw a symbol, get the LaTeX command for it.                            |   |
 | [[http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf][Beamer customization cheat sheet]]    | Quick reference for how to tinker with elements of Beamer presentations |   |
-** Reproducible research via org-mode
+** Emacs and org-mode
 [[http://orgmode.org/][Org-mode]] is an extension of the [[https://www.gnu.org/software/emacs/emacs.html][Emacs]] text editor for creating outline-like
 documents, with lots of functionality for embedding to-do lists, links, code,
 and images and for converting the files to LaTeX, HTML, and other formats.
 
-This integration of elements typically found in scientific manuscripts makes
-Org-mode a potentially useful vehicle for [[http://reproducibleresearch.net/][reproducible research]] -- checkout this
-[[http://kitchingroup.cheme.cmu.edu/blog/2014/08/08/What-we-are-using-org-mode-for/][page]].
+In fact, my website is written as a collection of org-mode files, published to
+HTML using org's publish functionality.  Source code [[https://github.com/spencerahill/my-website][here]].  (Though since I
+created it while a graduate student, other tools for making good academic websites
+have improved a lot, and I'm not 100% sure I'd recommend doing it this way these
+days!)
 
-In fact, my website is written as a collection of org-mode files, published
-to HTML using org's publish functionality.  Source code [[https://github.com/spencerahill/my-website][here]].
+Some useful Emacs-related things:
 
 | [[https://emacsformacosx.com/][Emacs for Mac OS X]]   | Easily install GUI version of Emacs on Mac OS X/macOS                              |
 | [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] | Library for linking environment variables that Emacs sees with your system values. |
@@ -75,8 +77,8 @@ created as side projects; they are available on [[https://github.com/spencerahil
 | [[http://forecastpod.org/][Forecast]]        | Hosted by Michael White, Nature's climate science editor |
 ** Career advice books
 These take a tough-love, no-nonsense approach that I find useful.
-| [[https://theprofessorisin.com/buy-the-book/][The Professer is In]]         |
-| [[https://www.amazon.com/Good-Work-You-Can-Get/dp/1421437961][Good Work if You Can Get It]] |
+| [[https://theprofessorisin.com/buy-the-book/][The Professor is In]], Karen Kelsky          |
+| [[https://www.amazon.com/Good-Work-You-Can-Get/dp/1421437961][Good Work if You Can Get It]], Jason Brennan |
 ** Postdoctoral fellowships
 | [[https://cpaess.ucar.edu/cgc][NOAA Climate and Global Change Postdoctoral Fellowship]]        |
 | [[https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12779][NSF Atmospheric and Geospace Sciences Postdoctoral Fellowship]] |
