@@ -20,8 +20,9 @@
    Accepted, /Journal of Climate/.  [[https://doi.org/10.1002/essoar.10508669.1][https://doi.org/10.1002/essoar.10508669.1]].
 2. (2022) *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.
    "On the all-India rainfall index and sub-India rainfall heterogeneity."
-   Accepted, /Geophysical Research Letters/.  doi: [[https://doi.org/10.1029/2021GL096541][10.1029/2021GL096541]].
-   {{{LINK("papers/airi-subindia-telecon_v2.pdf", PDF.)}}}
+   /Geophysical Research Letters/, *49*, e2021GL096541, 10 pp.  doi:
+   [[https://doi.org/10.1029/2021GL096541][10.1029/2021GL096541]].  {{{LINK("papers/airi-subindia-telecon.pdf",
+   PDF.)}}}
 3. (2021) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.
    "Solsticial Hadley Cell ascending edge theory from supercriticality."
    /Journal of the Atmospheric Sciences/, *78*, 1999-2011.  doi:
