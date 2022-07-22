@@ -13,8 +13,8 @@
    doi: [[https://doi.org/10.1175/JCLI-D-20-0972.1][10.1175/JCLI-D-20-0972.1]].
 2. (2022) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Toward a
    unified theory for the Hadley cell descending and ascending edges."
-   Accepted, /Journal of the Atmospheric Sciences/.
-   [[https://arxiv.org/abs/2112.07731][https://arxiv.org/abs/2112.07731]].  {{{LINK("papers/had-cell-fixed-ro_v3_2col.pdf", PDF.)}}}
+   Accepted, /Journal of the Atmospheric Sciences/.  doi: [[https://doi.org/10.1175/JAS-D-21-0328.1][10.1175/JAS-D-21-0328.1]].
+   {{{LINK("papers/had-cell-fixed-ro_v3_2col.pdf", PDF.)}}}
 3. (2022) Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of
    An Equatorial Continent On The Tropical Rain Belt. Part 2: Summer Monsoons."
    /Journal of Climate/, *35*, 3091–3107.  doi:
