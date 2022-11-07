@@ -11,9 +11,8 @@
 ** Peer-reviewed
 1. (2022) *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
-   Accepted, /Journal of Climate/.
-   {{{LINK("papers/symm-asymm-warming_v5_2col.pdf", PDF.)}}}
-   doi: [[https://doi.org/10.1175/JCLI-D-20-0972.1][10.1175/JCLI-D-20-0972.1]].
+   /Journal of Climate/, *35*, 3157-3172.  doi: [[https://doi.org/10.1175/JCLI-D-20-0972.1][10.1175/JCLI-D-20-0972.1]].
+   {{{LINK("papers/symm-asymm-warming.pdf", PDF.)}}}
 2. (2022) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Toward a
    unified theory for the Hadley cell descending and ascending edges."
    /Journal of the Atmospheric Sciences/, *79*, 2515-2528.  doi: [[https://doi.org/10.1175/JAS-D-21-0328.1][10.1175/JAS-D-21-0328.1]].
