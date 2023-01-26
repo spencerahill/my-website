@@ -8,89 +8,89 @@
 1. Ahmed, Fiaz, JD Neelin, *SA Hill*, K Schiro, and H Su.  "A process model for
    ITCZ narrowing under warming highlights clear-sky water vapor feedbacks and
    gross moist stability changes in AMIP models." In revision, /Journal of Climate/.
-2. Mahfouz, N, *SA Hill*, H Guo, and Y MingThe.  "The radiative and cloud
-   responses to sea salt aerosol geoengineering in GFDL models."  Submitted to
-   /Geophysical Research Letters/."
 ** Peer-reviewed
-1. (2022) *Hill, Spencer A.*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
+1. (2023) Mahfouz, N, *SA Hill*, H Guo, and Y MingThe.  "The radiative and cloud
+   responses to sea salt aerosol geoengineering in GFDL models."
+   /Geophysical Research Letters/," *50*, e2022GL102340.  doi: [[https://doi.org/10.1029/2022GL102340][10.1029/2022GL102340]].
+2. (2022) *Hill, SA*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
    "Symmetric and antisymmetric components of polar-amplified warming."
    /Journal of Climate/, *35*, 3157-3172.  doi: [[https://doi.org/10.1175/JCLI-D-20-0972.1][10.1175/JCLI-D-20-0972.1]].
    {{{LINK("papers/symm-asymm-warming.pdf", PDF.)}}}
-2. (2022) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.  "Toward a
+3. (2022) *Hill, SA*, Simona Bordoni, and Jonathan L. Mitchell.  "Toward a
    unified theory for the Hadley cell descending and ascending edges."
    /Journal of the Atmospheric Sciences/, *79*, 2515-2528.  doi: [[https://doi.org/10.1175/JAS-D-21-0328.1][10.1175/JAS-D-21-0328.1]].
    {{{LINK("papers/had-cell-fixed-ro.pdf", PDF.)}}}
-3. (2022) Biasutti, Michela, *Hill, Spencer A.*, and Aiko Voigt.  "The Effect Of
+4. (2022) Biasutti, Michela, *Hill, SA*, and Aiko Voigt.  "The Effect Of
    An Equatorial Continent On The Tropical Rain Belt. Part 2: Summer Monsoons."
    /Journal of Climate/, *35*, 3091–3107.  doi:
    [[https://doi.org/10.1175/JCLI-D-21-0588.1][10.1175/JCLI-D-21-0588.1]].   {{{LINK("papers/biasutti-tracmip-monsoon.pdf", PDF.)}}}
-4. (2022) *Hill, Spencer A.*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.
+5. (2022) *Hill, SA*, Adam H. Sobel, Michela Biasutti, and Mark A. Cane.
    "On the all-India rainfall index and sub-India rainfall heterogeneity."
    /Geophysical Research Letters/, *49*, e2021GL096541, 10 pp.  doi:
    [[https://doi.org/10.1029/2021GL096541][10.1029/2021GL096541]].  {{{LINK("papers/airi-subindia-telecon.pdf",
    PDF.)}}}
-5. (2021) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.
+6. (2021) *Hill, SA*, Simona Bordoni, and Jonathan L. Mitchell.
    "Solsticial Hadley Cell ascending edge theory from supercriticality."
    /Journal of the Atmospheric Sciences/, *78*, 1999-2011.  doi:
    [[https://doi.org/10.1175/JAS-D-20-0341.1]].
    {{{LINK("papers/had-cell-supercrit.pdf", PDF.)}}}
-6. (2021) Mitchell, Jonathan L. and *Spencer A. Hill*.  "Constraints from
+7. (2021) Mitchell, Jonathan L. and *SA Hill*.  "Constraints from
    invariant subtropical vertical velocities on the scalings of Hadley cell
    strength and downdraft width with rotation rate."  /Journal of the
    Atmospheric Sciences/, *78*, 1445-1463.  doi: [[https://doi.org/10.1175/JAS-D-20-0191.1][10.1175/JAS-D-20-0191.1]].
    {{{LINK("papers/mitchell-hill_omega-gov_jas-2021.pdf", PDF.)}}}
-7. (2020) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.
+8. (2020) *Hill, SA*, Simona Bordoni, and Jonathan L. Mitchell.
    "Axisymmetric Hadley Cell theory with a fixed tropopause temperature rather
    than height."  /Journal of the Atmospheric Sciences/, *77*, 1279-1294.  doi:
    [[https://doi.org/10.1175/JAS-D-19-0169.1][10.1175/JAS-D-19-0169.1]].  {{{LINK("papers/had-cell-trop-depth.pdf",
    PDF.)}}}
-8. (2019) *Hill, Spencer A.* "Theories for past and future monsoon rainfall
+9. (2019) *Hill, SA* "Theories for past and future monsoon rainfall
    changes."  /Current Climate Change Reports/, *5*, 160-171.  doi:
    [[https://doi.org/10.1007%2Fs40641-019-00137-8][10.1007%2Fs40641-019-00137-8]].  Online access: https://rdcu.be/bHFCZ.
    {{{LINK("papers/hill-2019-monsoons-review.pdf", PDF.)}}}
-9. (2019) *Hill, Spencer A.*, Simona Bordoni, and Jonathan L. Mitchell.
-   "Axisymmetric constraints on cross-equatorial Hadley cell extent."
-   /Journal of the Atmospheric Sciences/, *76*, 1547-1564.  doi: [[https://doi.org/10.1175/JAS-D-18-0306.1][10.1175/JAS-D-18-0306.1]].
-   {{{LINK("papers/axisym-had-cell.pdf", PDF.)}}}
-10. (2018) *Hill, Spencer A.*, Juan M. Lora, Norris Khoo, Sean P. Faulk, and
+10. (2019) *Hill, SA*, Simona Bordoni, and Jonathan L. Mitchell.
+    "Axisymmetric constraints on cross-equatorial Hadley cell extent."
+    /Journal of the Atmospheric Sciences/, *76*, 1547-1564.  doi: [[https://doi.org/10.1175/JAS-D-18-0306.1][10.1175/JAS-D-18-0306.1]].
+    {{{LINK("papers/axisym-had-cell.pdf", PDF.)}}}
+11. (2018) *Hill, SA*, Juan M. Lora, Norris Khoo, Sean P. Faulk, and
     Jonathan M.  Aurnou.  "Affordable rotating fluid demonstrations for
     geoscience education: The /DIYnamics/ project."  /Bulletin of the
     American Meteorological Society/, *99*, 2529-2538.  doi:
     [[https://doi.org/10.1175/BAMS-D-17-0215.1][10.1175/BAMS-D-17-0215.1]].  {{{LINK("papers/hill+2018_diynamics_bams.pdf", PDF.)}}}
     {{{LINK("http://newsroom.ucla.edu/releases/a-50-do-it-yourself-device-designed-at-ucla-makes-science-fun-for-students-of-all-ages", UCLA press release.)}}}
-11. (2018) *Hill, Spencer A.*, Yi Ming, and Ming Zhao.  "Robust responses of the
+12. (2018) *Hill, SA*, Yi Ming, and Ming Zhao.  "Robust responses of the
     Sahelian hydrological cycle to global warming."  /Journal of
     Climate/, *31*, 9793-9814.  doi: [[https://doi.org/10.1175/JCLI-D-18-0238.1][10.1175/JCLI-D-18-0238.1]].
     {{{LINK("papers/hill_ming_zhao_sahel_2018.pdf", PDF.)}}}
     {{{LINK("papers/hill_ming_zhao_sahel_2018_supp.pdf", Supplementary material.)}}}
-12. (2018) Smyth, Jane, *Spencer A. Hill*, and Yi Ming.  "Simulated responses of
+13. (2018) Smyth, Jane, *SA Hill*, and Yi Ming.  "Simulated responses of
     the West African monsoon and zonal-mean tropical precipitation to early
     Holocene orbital forcing."  /Geophysical Research Letters/, *45*,
     12,049-12,057.  doi: [[https://doi.org/10.1029/2018GL080494][10.1029/2018GL080494]].
     {{{LINK("papers/smyth_hill_ming2018.pdf", PDF.)}}}
     {{{LINK("papers/smyth_hill_ming2018supp.pdf", Supplementary material.)}}}
-13. (2017) *Hill, Spencer A.*, Yi Ming, Isaac M. Held, and Ming Zhao.  "A moist
+14. (2017) *Hill, SA*, Yi Ming, Isaac M. Held, and Ming Zhao.  "A moist
     static energy budget-based analysis of the Sahel rainfall response to uniform
     oceanic warming."  /Journal of Climate/, *30*, 5637-5660.  doi:
     [[doi:10.1175/JCLI-D-16-0785.1][10.1175/JCLI-D-16-0785.1]].  {{{LINK("papers/2017sahel_mse_precip.pdf", PDF.)}}}
-14. (2017) Brown, Patrick T., Yi Ming, Wenhong Li, and *Spencer A. Hill*.  "Change
+15. (2017) Brown, Patrick T., Yi Ming, Wenhong Li, and *SA Hill*.  "Change
     in the magnitude and mechanisms of unforced low-frequency surface temperature
     variability in a warmer climate."  /Nature Climate Change/, *7*, 743-748.
     doi: [[https://doi.org/10.1038/nclimate3381][10.1038/nclimate3381]].
     {{{LINK("papers/brown+2017nature_cc.pdf", PDF.)}}}
     {{{LINK("papers/brown+2017nature_cc_supp.pdf", Supplementary material PDF.)}}}
     {{{LINK("https://nicholas.duke.edu/about/news/warmer-world-may-bring-more-local-less-global-temperature-variability", Duke University press release.)}}}
-15. (2017) Jeevanjee, Nadir, Pedram Hassanzadeh, *Spencer A. Hill*, and Aditi
+16. (2017) Jeevanjee, Nadir, Pedram Hassanzadeh, *SA Hill*, and Aditi
     Sheshadri.  "A perspective on climate model hierarchies."  /Journal
     of Advances in Modeling Earth Systems/, *9*, 1760-1771.  doi: [[doi:10.1002/2017MS001038][10.1002/2017MS001038]].
     {{{LINK("papers/jeevanjee+2017hierarchies.pdf", PDF.)}}}
-16. (2015) *Hill, Spencer A.*, Yi Ming, and Isaac M. Held.  "Mechanisms of forced
+17. (2015) *Hill, SA*, Yi Ming, and Isaac M. Held.  "Mechanisms of forced
     tropical meridional energy flux change."  /Journal of Climate/, *28*,
     1725-1742.  doi: [[http://dx.doi.org/10.1175/JCLI-D-14-00165.1][10.1175/JCLI-D-14-00165.1]].
     {{{LINK("papers/hill+2015_full_with_corr.pdf", PDF.)}}}
     + Corrigendum: [[https://dx.doi.org/10.1175/JCLI-D-16-0485.1]].
       {{{LINK("papers/hill+2015corr.pdf", PDF.)}}}
-17. (2012) *Hill, Spencer A.* and Yi Ming.  "Nonlinear climate response to regional
+18. (2012) *Hill, SA* and Yi Ming.  "Nonlinear climate response to regional
     brightening of tropical marine stratocumulus."  /Geophysical Research Letters/,
     *39*, L15707, 5 pp. doi:
     [[http://dx.doi.org/10.1029/2012GL052064][10.1029/2012GL052064]]. {{{LINK("papers/hill+ming2012.pdf", PDF.)}}}
@@ -98,7 +98,7 @@
 ** Non peer-reviewed
 1. Numerous blog posts for the DIYnamics blog.  Available at
    https://diynamics.github.io/blog/author/spencer-hill.html.
-2. (2012) *Hill, Spencer A.*  "A head in the clouds elucidates climate" (book
+2. (2012) *Hill, SA*  "A head in the clouds elucidates climate" (book
    review of [[http://press.princeton.edu/titles/9773.html][/Atmosphere, Clouds, and Climate/]] by David Randall). /Science/, *337*,
    1 pp., doi: [[http://dx.doi.org/10.1126/science.1225615][10.1126/science.1225615]].  {{{LINK("papers/hill2012.pdf", PDF.)}}}
 ** PhD thesis
@@ -110,4 +110,3 @@ PhD Thesis, Princeton University Program in Atmospheric and Oceanic Sciences.
 1. (2018) *Hill, Spencer A.* and Spencer Clark.  "=aospy=: automated climate
    data analysis and management."  Version 0.3.1.  [[https://aospy.readthedocs.io]].
    doi: [[https://doi.org/10.5281/zenodo.1490928][10.5281/zenodo.1490928]].
-2. (2016) Hoyer, Stephan et al.  "xarray: v0.8.0."  doi: [[doi:10.5281/zenodo.59499][10.5281/zenodo.59499]].
