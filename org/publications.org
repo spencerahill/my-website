@@ -5,11 +5,14 @@
 {{{PAGETITLE(Publications)}}}
 :END:
 ** Submitted/under review/in revision
-1. Ahmed, Fiaz, JD Neelin, *SA Hill*, K Schiro, and H Su.  "A process model for
+1. Moscoso JE, RE Tripoli, S Chen, H Gonzalez, *SA Hill*, N Khoo, TL
+   Lonner, JM Aurnou.  "Low-cost table-top experiments for teaching multi-scale
+   geophysical fluid dynamics.''  Submitted, /Frontiers in Marine Science/.
+2. Ahmed, Fiaz, JD Neelin, *SA Hill*, K Schiro, and H Su.  "A process model for
    ITCZ narrowing under warming highlights clear-sky water vapor feedbacks and
    gross moist stability changes in AMIP models." In revision, /Journal of Climate/.
 ** Peer-reviewed
-1. (2023) Mahfouz, N, *SA Hill*, H Guo, and Y MingThe.  "The radiative and cloud
+1. (2023) Mahfouz, N, *SA Hill*, H Guo, and Y Ming.  "The radiative and cloud
    responses to sea salt aerosol geoengineering in GFDL models."
    /Geophysical Research Letters/," *50*, e2022GL102340.  doi: [[https://doi.org/10.1029/2022GL102340][10.1029/2022GL102340]].
 2. (2022) *Hill, SA*, Natalie J. Burls, Alexey Fedorov, and Timothy M. Merlis.
