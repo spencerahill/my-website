@@ -5,9 +5,12 @@
 {{{PAGETITLE(Publications)}}}
 :END:
 ** Submitted/under review/in revision
-1. Biasutti M, M Ting, *SA Hill*, "The world’s monsoons: dynamics and change."
+1. Zurita-Gotor P, IM Held, TM Merlis, CY Chang, **SA Hill**, CG MacDonald.
+   ``Non-uniqueness in ITCZ latitude due to radiation-circulation coupling in an
+   idealized GCM.''  Submitted, /Journal of Advances in Modeling Earth Systems/.
+2. Biasutti M, M Ting, *SA Hill*, "The world’s monsoons: dynamics and change."
    Submitted, /Physics Today/.
-2. Moscoso JE, RE Tripoli, S Chen, H Gonzalez, *SA Hill*, N Khoo, TL
+3. Moscoso JE, RE Tripoli, S Chen, H Gonzalez, *SA Hill*, N Khoo, TL
    Lonner, JM Aurnou.  "Low-cost table-top experiments for teaching multi-scale
    geophysical fluid dynamics.''  Submitted, /Frontiers in Marine Science/.
 ** Peer-reviewed
