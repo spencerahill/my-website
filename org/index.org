@@ -37,9 +37,10 @@ I work in the [[https://aos.princeton.edu/][Program in Atmospheric and Oceanic S
 University]].  I also hold an adjunct position at the [[https://www.ldeo.columbia.edu/][Lamont-Doherty Earth
 Observatory]] at [[https://www.columbia.edu/][Columbia University]], where I collaborate with [[https://www.ldeo.columbia.edu/~biasutti/][Michela
 Biasutti]] on a project investigating the role of energy transports by tropical
-transient disturbances in setting the location of the ITCZ.  In August 2023, I
-will join the [[https://www.ccny.cuny.edu/eas][Department of Earth and
-Atmospheric Sciences]] at [[https://www.ccny.cuny.edu/][The City College of New York]] as an Assistant Professor.
+transient disturbances in setting the location of the ITCZ.
+
+On August 25th, 2023, I will join the [[https://www.ccny.cuny.edu/eas][Department of Earth and Atmospheric
+Sciences]] at [[https://www.ccny.cuny.edu/][The City College of New York]] as an Assistant Professor.
 
 I also co-lead the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the teaching of
 meteorology, climate science, and other planetary-scale sciences at the K-12
