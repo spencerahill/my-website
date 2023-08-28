@@ -1,6 +1,6 @@
 #+MACRO: NEWLINE @@html:<BR>@@
 #+MACRO: COLOR @@html:<span style="color: $1">$2</span>@@
-#+MACRO: SITETITLE Spencer A. Hill  {{{COLOR(gray, Associate Research Scholar)}}} Program in Atmospheric and Oceanic Sciences, Princeton University
+#+MACRO: SITETITLE Spencer A. Hill  {{{COLOR(gray, Assistant Professor)}}} Dept. of Earth and Atmospheric Sciences, The City College of New York
 #+MACRO: NAVBAR @@html:<hr/><span style="font-size:1em;color:gray">@@ [[file:index.org][Home]] | [[file:publications.org][Publications]] [[file:cv/cv_spencer-hill.pdf][CV]] | [[https://diynamics.github.io/][DIYnamics]] | [[file:resources.org][Resources]] [[file:about_me.org][About Me]] @@html:</span><hr/>@@
 #+MACRO: PAGETITLE @@html:<span style="font-size:2em">@@ $1 @@html:</span><hr/>@@
 #+MACRO: LINK @@html:<a href=$1>$2</a>@@

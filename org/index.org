@@ -13,7 +13,7 @@
 :END:
 #+ATTR_HTML: :alt Me in Kansas City, December 2018 :width 270px :height 270px
 #+ATTR_HTML: :style float margin:10px
-[[file:images/site_pic.jpeg]]
+[[file:images/site-pic_2023-08.jpg]]
 #+HTML: <hr/>
 * Overview
 # (site last updated {{{modification-time(%Y %B %d)}}})
@@ -33,16 +33,15 @@ a.k.a. the ITCZ).  Specifically:
 
 Please see my [[file:publications.org][Publications]] page for more.
 
-I work in the [[https://aos.princeton.edu/][Program in Atmospheric and Oceanic Sciences]] at [[https://www.princeton.edu/][Princeton
-University]].  I also hold an adjunct position at the [[https://www.ldeo.columbia.edu/][Lamont-Doherty Earth
+I work in the [[https://www.ccny.cuny.edu/eas][Department of Earth and Atmospheric
+Sciences]] at [[https://www.ccny.cuny.edu/][The City College of New York]] as an Assistant Professor.
+
+I also hold an adjunct position at the [[https://www.ldeo.columbia.edu/][Lamont-Doherty Earth
 Observatory]] at [[https://www.columbia.edu/][Columbia University]], where I collaborate with [[https://www.ldeo.columbia.edu/~biasutti/][Michela
 Biasutti]] on a project investigating the role of energy transports by tropical
 transient disturbances in setting the location of the ITCZ.
 
-On August 25th, 2023, I will join the [[https://www.ccny.cuny.edu/eas][Department of Earth and Atmospheric
-Sciences]] at [[https://www.ccny.cuny.edu/][The City College of New York]] as an Assistant Professor.
-
-I also co-lead the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the teaching of
+I also co-founded the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the teaching of
 meteorology, climate science, and other planetary-scale sciences at the K-12
 through graduate school levels by developing inexpensive, easy-to-use kits for
 performing physical demonstrations of core scientific concepts.  Please the
@@ -61,8 +60,5 @@ Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!
 #+HTML: <hr/>
 * Contact
-[[mailto:spencerh@princeton.edu][spencerh@princeton.edu]] | NOAA Geophysical Fluid Dynamics Laboratory | 201
-Forrestal Road | Princeton, NJ 08540
-
-[[mailto:shill@ldeo.columbia.edu][shill@ldeo.columbia.edu]] | 207B Oceanography | Lamont-Doherty Earth Observatory |
-61 Route 9W | Palisades, NY 10964
+[[mailto:shill1@ccny.cuny.edu][shill1@ccny.cuny.edu]] | Room 733 | Marshak Science Building | The City College of
+New York | 160 Convent Avenue | New York, NY 10031
