@@ -18,7 +18,10 @@
 * Overview
 # (site last updated {{{modification-time(%Y %B %d)}}})
 
-Welcome!  I am a climate scientist interested in tropical overturning
+Welcome!  This is the landing page for the NYCITTI research group.  That's New York Climate
+Investigations: Theory to Impacts.
+
+NYCITTI is led by me, Spencer Hill.  I am a climate scientist interested in tropical overturning
 circulations ([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]
 a.k.a. the ITCZ).  Specifically:
 
@@ -41,20 +44,19 @@ Observatory]] at [[https://www.columbia.edu/][Columbia University]], where I col
 Biasutti]] on a project investigating the role of energy transports by tropical
 transient disturbances in setting the location of the ITCZ.
 
+I am also interested in the connections between weather and climate
+science on the one hand with music, literature, poetry, and other forms of human
+expression on the other hand.  I tweet about this from my account [[https://twitter.com/spencerahill][@spencerahill]]
+using the hashtag [[https://twitter.com/hashtag/CliSciHiFi][#CliSciHiFi]].
+
 I also co-founded the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the teaching of
 meteorology, climate science, and other planetary-scale sciences at the K-12
 through graduate school levels by developing inexpensive, easy-to-use kits for
 performing physical demonstrations of core scientific concepts.  Please the
 DIYnamics [[https://diynamics.github.io/][website]] and [[https://www.youtube.com/channel/UCnUHxOSVY4G4OFbF8XL1qUg][YouTube]] channel for more.
 
-I am also interested in developing software tools for scientists in the
-Python programming language.  Please see my [[https://aospy.readthedocs.io][aospy]] package and [[file:resources.org][Resources]] page for
-more.
-
-Finally, I am also interested in the connections between weather and climate
-science on the one hand with music, literature, poetry, and other forms of human
-expression on the other hand.  I tweet about this from my account [[https://twitter.com/spencerahill][@spencerahill]]
-using the hashtag [[https://twitter.com/hashtag/CliSciHiFi][#CliSciHiFi]].
+Finally, I am also interested in developing software tools for scientists in the Python
+programming language.  Please see my [[file:resources.org][Resources]] page for more.
 
 Please contact me (information below) with any questions about my research or
 anything else you find on this site.  Thanks!

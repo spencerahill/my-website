@@ -10,11 +10,11 @@
    Resolutions."  Submitted to /Journal of Advances in Modeling Earth Systems/.
 2. Byrne MP, G Hegerl, J. Scheff, ..., *SA Hill*, et al. ``Theory and
    the future of land-climate science.''  Submitted, /Nature Geosciences/.
-3. Zurita-Gotor P, IM Held, TM Merlis, CY Chang, **SA Hill**, CG MacDonald.
-   ``Non-uniqueness in ITCZ latitude due to radiation-circulation coupling in an
-   idealized GCM.''  In revision, /Journal of Advances in Modeling Earth
-   Systems/.
 ** Peer-reviewed
+1. Zurita-Gotor P, IM Held, TM Merlis, CY Chang, **SA Hill**, CG MacDonald.
+   ``Non-uniqueness in ITCZ latitude due to radiation-circulation coupling in an
+   idealized GCM.''  Accepted, /Journal of Advances in Modeling Earth
+   Systems/.
 1. Biasutti M, M Ting, *SA Hill*, "The dynamics and changes of the world’s
    monsoons."  Accepted, /Physics Today/.
 2. (2023) Moscoso JE, RE Tripoli, S Chen, H Gonzalez, *SA Hill*, N Khoo, TL
