@@ -11,22 +11,12 @@
 #+HTML: <link rel="stylesheet" type="text/css" href="style.css?v=3">
 {{{NAVBAR}}}
 :END:
-#+ATTR_HTML: :alt Me in Kansas City, December 2018 :width 270px :height 270px
-#+ATTR_HTML: :style float margin:10px
-[[file:images/site-pic_2023-08.jpg]]
-#+HTML: <hr/>
 * Overview
-# (site last updated {{{modification-time(%Y %B %d)}}})
-
-Welcome!  This is the landing page for the NYCITTI research group.  That's New York Climate
-Investigations: Theory to Impacts.
-
-NYCITTI is led by me, Spencer Hill.  I am a climate scientist interested in tropical overturning
+Welcome!  I am a climate scientist interested in tropical overturning
 circulations ([[https://en.wikipedia.org/wiki/Monsoon][monsoons]], [[https://en.wikipedia.org/wiki/Hadley_cell][Hadley cells]], and the [[https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone][Intertropical Convergence Zone]]
 a.k.a. the ITCZ).  Specifically:
 
-- Why they exist
-- Why they aren't bigger or smaller, farther poleward or equatorward
+- Why they exist when and where they do
 - How they ebb and flow over the course of each year
 - How well we can predict their variations from year to year
 - How those year-to-year variations affect agricultural and economic outcomes
@@ -34,7 +24,12 @@ a.k.a. the ITCZ).  Specifically:
 - How they may change in Earth's future
 - How they behave in other planetary atmospheres.
 
-Please see my [[file:publications.org][Publications]] page for more.
+I'm also interested in how weather and climate impact real-world outcomes for
+New York City.  I explore all this with the other talented members of my New
+York Climate Investigations: Theory To Impacts (New York CITTI) research group.
+Please see the [[file:publications.org][Publications]] page to learn more about our past work, the [[file:group.org][Group]]
+page to learn more about who we are, and the [[file:opportunities.org][Opportunities]] page to learn more
+about joining us.
 
 I work in the [[https://www.ccny.cuny.edu/eas][Department of Earth and Atmospheric
 Sciences]] at [[https://www.ccny.cuny.edu/][The City College of New York]] as an Assistant Professor.

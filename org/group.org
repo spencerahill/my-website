@@ -1,0 +1,35 @@
+:PROPERTIES:
+#+INCLUDE: "macros.org"
+#+TITLE: {{{SITETITLE}}}
+{{{NAVBAR}}}
+{{{PAGETITLE(The New York CITTI Research Group)}}}
+:END:
+
+#+ATTR_HTML: :alt New York CITTI logo :width 600px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/nycitti-logo.jpg]]
+
+Welcome to the New York Climate Investigations: Theory To Impacts, a.k.a. New York
+CITTI, research group.  We seek end-to-end understanding of climate processes,
+meaning from fundamental analytical theory to quantifying their real-world
+impacts.  We have two main research strands:
+
+1. Monsoon rainfall.  What controls when, where, and how intensely it rains
+   within Earth's monsoon systems?
+2. Weather and climate impacts on New York City.
+
+* Group members
+** Spencer Hill (Assistant Professor, CCNY EAS)
+#+ATTR_HTML: :alt Spencer Hill :width 270px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/site-pic_2023-08.jpg]]
+
+Beyond science, my big passions are my family (wife, daughter, dog), and music.
+I deeply love my adopted hometown of NYC.  My favorite pizza in the city (and
+therefore the world) is Lucali for whole pie and Bleecker Street Pizza for
+slices.  My favorite bagels in the city (and therefore the world) are Absolute
+Bagel for a bagel w/ cream cheese and the original Russ & Daughters for a lox
+sandwich.
+** Haochang Luo (Postdoc, CCNY EAS, joining April 2024)
+** Greg Randazzo (M.S. student, CCNY EAS, since August 2023)
+** Alex Parsells (Ph.D. student, Columbia University DEES, since September 2022)
