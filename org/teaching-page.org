@@ -1,0 +1,12 @@
+:PROPERTIES:
+#+INCLUDE: "macros.org"
+#+TITLE: {{{SITETITLE}}}
+{{{NAVBAR}}}
+{{{PAGETITLE(Teaching)}}}
+:END:
+
+* Current courses (Spring 2024)
+- [[https://spencerahill.github.io/clim-change-course_2024/home.html][EAS 48800 / EAS B8800 / SUS 7300B: Climate and Climate Change]]
+#+HTML: <hr/>
+* Past courses
+- Fall 2023: [[https://spencerahill.github.io/stat-methods-course/home.html][EAS 42000 / EAS A4200: Statistical Methods in Earth and Atmospheric Sciences]]
