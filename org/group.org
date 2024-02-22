@@ -39,6 +39,14 @@ dynamics.  His research interests include convection, precipitation, tropical
 meteorology, climate change, and multi-scale interactions.
 #+HTML: <hr/>
 ** Greg Randazzo (M.S. student, CCNY EAS, since August 2023)
+#+ATTR_HTML: :alt Greg Randazzo :height 270px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/greg-randazzo.jpg]]
+
+Inspired by the 2023 Northeast wildfire season, I am currently working to
+understand the influence of large scale synoptic features on the trajectory of
+wildfire smoke plumes. In my free time I love learning foreign languages and
+taking care of my plants.  https://dynamicplanet.net/
 #+HTML: <hr/>
 ** Alex Parsells (Ph.D. student, Columbia University DEES, since September 2022)
 #+ATTR_HTML: :alt Alex Parsells :width 270px
