@@ -32,7 +32,7 @@ slices.  My favorite bagels in the city (and therefore the world) are Absolute
 Bagel for a bagel w/ cream cheese and the original Russ & Daughters for a lox
 sandwich.
 #+HTML: <hr/>
-** Haochang Luo (Postdoc, CCNY EAS, joining April 2024)
+** Haochang Luo (Postdoc, CCNY EAS, since April 2024)
 Haochang graduated from the University of Michigan with a PhD in Climate and
 Space Sciences and Engineering.  Most of his research focuses on tropical
 dynamics.  His research interests include convection, precipitation, tropical

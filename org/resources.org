@@ -87,6 +87,9 @@ These take a tough-love, no-nonsense approach that I find useful.
 | [[https://ndseg.sysplus.com/][Dept. of Defense National Defense Science and Engineering Graduate Fellowship]] |
 | [[https://www.hertzfoundation.org/the-fellowship/about/][Hertz Foundation Graduate Fellowship]]                                          |
 | [[https://astrobiology.nasa.gov/funding/future-investigators-in-nasa-earth-and-space-sci-2/][NASA FINESST]]                                                                  |
-** Undergraduate scholarships
-| [[https://www.noaa.gov/office-education/hollings-scholarship][NOAA Hollings Scholarship]]   | Open to undergraduate sophomores; funding and NOAA internship |
-| [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship]] | For undergraduate juniors in sciences                         |
+** Undergraduate scholarships, national
+| [[https://www.noaa.gov/office-education/epp-msi][NOAA Jose E. Serrano EPP/MSI scholarship]] | For underrepresented minorities; funding and NOAA internship  |
+| [[https://www.noaa.gov/office-education/hollings-scholarship][NOAA Hollings Scholarship]]                | Open to undergraduate sophomores; funding and NOAA internship |
+| [[https://goldwater.scholarsapply.org/][Barry Goldwater Scholarship]]              | For undergraduate juniors in sciences                         |
+** CCNY funding
+| [[https://www.ccny.cuny.edu/fellowships/aboutccny][City College Fellowship]] | For sophomores and juniors seeking to pursue a PhD |

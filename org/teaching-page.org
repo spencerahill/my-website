@@ -10,3 +10,5 @@
 #+HTML: <hr/>
 * Past courses
 - Fall 2023: [[https://spencerahill.github.io/stat-methods-course/home.html][EAS 42000 / EAS A4200: Statistical Methods in Earth and Atmospheric Sciences]]
+* K-12 education and outreach
+(link to 2021 You Spin My Right Round recording)
