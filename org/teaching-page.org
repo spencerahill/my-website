@@ -5,10 +5,14 @@
 {{{PAGETITLE(Teaching)}}}
 :END:
 
-* Current courses (Spring 2024)
-- [[https://spencerahill.github.io/clim-change-course_2024/home.html][EAS 48800 / EAS B8800 / SUS 7300B: Climate and Climate Change]]
+* Upcoming courses
+- Fall 2024: EAS 30000: Earth and Environmental Science Seminar
+- Spring 2025: EAS 48800 / EAS B8800 / SUS 7300B: Climate and Climate Change
 #+HTML: <hr/>
 * Past courses
+- Spring 2024: [[https://spencerahill.github.io/clim-change-course_2024/home.html][EAS 48800 / EAS B8800 / SUS 7300B: Climate and Climate Change]]
 - Fall 2023: [[https://spencerahill.github.io/stat-methods-course/home.html][EAS 42000 / EAS A4200: Statistical Methods in Earth and Atmospheric Sciences]]
 * K-12 education and outreach
-(link to 2021 You Spin My Right Round recording)
+- "You Spin Me Right Round" Feb 2021 recorded talk for K-12 students: https://www.earth.columbia.edu/videos/view/you-spin-me-right-round
+- See the [[https://diynamics.github.io][DIYnamics]] website for more.
+

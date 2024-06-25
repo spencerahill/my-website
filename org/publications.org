@@ -5,12 +5,20 @@
 {{{PAGETITLE(Publications)}}}
 :END:
 ** Submitted/under review/in revision
-1. Clark, JP, P Lin, *SA Hill*.  "ITCZ Response to Disabling Parameterized
-   Convection in Global Fixed-SST Aquaplanet Simulations at 50 km and 6 km
-   Resolutions."  Revised for /Journal of Advances in Modeling Earth Systems/.
+1. *Hill, SA*, D Zamir-Meyers, AH Sobel, M Biasutti, MA Cane, MK Tippett, F
+   Ahmed.  "More extreme Indian monsoon daily rainfall in El Niño summers."
+   Under review, /Nature Geoscience/. [[https://arxiv.org/abs/2404.12419][arxiv:2404.12419]].
+2. Mossel, C, *S Hill*, N Samal, J Booth, N Devineni. Extreme Hourly
+   Precipitation Risk for New York City Post-Ida.  In revision,
+   /Scientific Reports/.
 2. Byrne MP, G Hegerl, J. Scheff, ..., *SA Hill*, et al. ``Theory and
    the future of land-climate science.''  Submitted, /Nature Geosciences/.
 ** Peer-reviewed
+1. (2024) Clark, JP, P Lpin, *SA Hill*.  "ITCZ Response to Disabling Parameterized
+   Convection in Global Fixed-SST Aquaplanet Simulations at 50 km and 6 km
+   Resolutions."  /Journal of Advances in Modeling Earth Systems/ *16*,
+   e2023MS003968. doi: [[https://doi.org/10.1029][10.1029/2023MS003968]].
+   {{{LINK("papers/clark-lin-hill-2024.pdf", PDF)}}}.
 1. (2023) Zurita-Gotor P, IM Held, TM Merlis, CY Chang, **SA Hill**, CG
    MacDonald.  ``Non-uniqueness in ITCZ latitude due to radiation-circulation
    coupling in an idealized GCM.''  /Journal of Advances in Modeling Earth
