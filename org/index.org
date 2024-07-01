@@ -41,7 +41,8 @@ transient disturbances in setting the location of the ITCZ.
 
 I am also interested in the connections between weather and climate
 science on the one hand with music, literature, poetry, and other forms of human
-expression on the other hand.  I tweet about this from my account [[https://twitter.com/spencerahill][@spencerahill]]
+expression on the other hand.  I write about this at my blog, [[https://spencerahill.github.io/couldnt-stand-the-weather/home.html][Couldn't Stand the
+Weather]], and occasionally tweet about it from my account [[https://twitter.com/spencerahill][@spencerahill]]
 using the hashtag [[https://twitter.com/hashtag/CliSciHiFi][#CliSciHiFi]].
 
 I also co-founded the "[[https://diynamics.github.io/][DIYnamics]]" project that seeks to improve the teaching of

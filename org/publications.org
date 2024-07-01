@@ -12,9 +12,9 @@
    Precipitation Risk for New York City Post-Ida.  In revision,
    /Scientific Reports/.
 2. Byrne MP, G Hegerl, J. Scheff, ..., *SA Hill*, et al. ``Theory and
-   the future of land-climate science.''  Submitted, /Nature Geosciences/.
+   the future of land-climate science.''  In revision, /Nature Geosciences/.
 ** Peer-reviewed
-1. (2024) Clark, JP, P Lpin, *SA Hill*.  "ITCZ Response to Disabling Parameterized
+1. (2024) Clark, JP, P Lin, *SA Hill*.  "ITCZ Response to Disabling Parameterized
    Convection in Global Fixed-SST Aquaplanet Simulations at 50 km and 6 km
    Resolutions."  /Journal of Advances in Modeling Earth Systems/ *16*,
    e2023MS003968. doi: [[https://doi.org/10.1029][10.1029/2023MS003968]].
