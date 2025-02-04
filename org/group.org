@@ -32,13 +32,16 @@ slices.  My favorite bagels in the city (and therefore the world) are Absolute
 Bagel for a bagel w/ cream cheese and the original Russ & Daughters for a lox
 sandwich.
 #+HTML: <hr/>
-** Haochang Luo (Postdoc, CCNY EAS, since April 2024)
-Haochang graduated from the University of Michigan with a PhD in Climate and
-Space Sciences and Engineering.  Most of his research focuses on tropical
-dynamics.  His research interests include convection, precipitation, tropical
-meteorology, climate change, and multi-scale interactions.
+** Alex Parsells (Ph.D. student, Columbia University DEES, group member since September 2022)
+#+ATTR_HTML: :alt Alex Parsells :width 270px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/alex-parsells.jpg]]
+
+Alex is a second-year Ph.D. student at Columbia University studying the
+relationship between tropical rainfall and poleward energy transport. He has a
+background in astrophysics and enjoys backpacking, trivia, and White Castle.
 #+HTML: <hr/>
-** Greg Randazzo (M.S. student, CCNY EAS, since August 2023)
+** Greg Randazzo (M.S. student, CCNY EAS, group member since August 2023)
 #+ATTR_HTML: :alt Greg Randazzo :height 270px
 #+ATTR_HTML: :style float margin:10px
 [[file:images/greg-randazzo.jpg]]
@@ -48,11 +51,33 @@ understand the influence of large scale synoptic features on the trajectory of
 wildfire smoke plumes. In my free time I love learning foreign languages and
 taking care of my plants.  https://dynamicplanet.net/
 #+HTML: <hr/>
-** Alex Parsells (Ph.D. student, Columbia University DEES, since September 2022)
-#+ATTR_HTML: :alt Alex Parsells :width 270px
+** Haochang Luo (Postdoc, CCNY EAS, group member since April 2024)
+Haochang graduated from the University of Michigan with a PhD in Climate and
+Space Sciences and Engineering.  Most of his research focuses on tropical
+dynamics.  His research interests include convection, precipitation, tropical
+meteorology, climate change, and multi-scale interactions.
+#+HTML: <hr/>
+** Edda Monique Hobuss (B.S. student, CCNY, group member since August 2024)
+#+ATTR_HTML: :alt Greg Randazzo :height 270px
 #+ATTR_HTML: :style float margin:10px
-[[file:images/alex-parsells.jpg]]
+[[file:images/edda-hobuss.jpg]]
 
-Alex is a second-year Ph.D. student at Columbia University studying the
-relationship between tropical rainfall and poleward energy transport. He has a
-background in astrophysics and enjoys backpacking, trivia, and White Castle.
+Edda began her academic journey in linguistics but transitioned to
+physics. Although she has researched light-matter interaction in 2D materials,
+she is excited about understanding the dynamic interactions of Earth's
+atmosphere. In her free time, Edda enjoys spending time with her husband,
+reading, and running, and visiting Gantry State Park for the Manhattan views and
+the chicken and waffles from Sweet Chick.
+#+HTML: <hr/>
+** Michelle Wagner (M.S. student, CCNY EAS, group member since September 2024)
+#+ATTR_HTML: :alt Michelle Wagner :height 270px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/michelle-wagner.jpg]]
+
+Michelle graduated from CCNY with a degree in Earth Systems Science. Her
+research background includes satellite-based imaging applications for
+environmental monitoring, characterization of phytoplankton bloom dynamics and
+algorithm optimization for remote sensing data products that aid in HAB
+detection. Through her EAS master's program, she is exploring atmospheric and
+climate dynamics. She likes to sing and play music in her free time.
+#+HTML: <hr/>
