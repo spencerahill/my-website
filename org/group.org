@@ -81,3 +81,16 @@ algorithm optimization for remote sensing data products that aid in HAB
 detection. Through her EAS master's program, she is exploring atmospheric and
 climate dynamics. She likes to sing and play music in her free time.
 #+HTML: <hr/>
+
+** Shreya Keshri (Postdoc, CCNY EAS, group member since February 2025)
+#+ATTR_HTML: :alt Shreya Keshri :height 270px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/shreya-keshri.jpg]]
+
+Shreya Keshri (Postdoc, CCNY EAS, group member since February 2025) I completed
+my Ph.D. in Atmospheric Science from IISER Pune, India. My research focuses on
+the role of tropical-extratropical interactions in the genesis and variability
+of synoptic-scale tropical motions and how they respond to climate change. I am
+broadly interested in tropical meteorology, equatorial waves and large-scale
+atmospheric dynamics. In my free time I like to cook, read, go for a walk and
+spend time with my family.
