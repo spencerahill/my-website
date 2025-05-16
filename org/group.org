@@ -52,13 +52,17 @@ wildfire smoke plumes. In my free time I love learning foreign languages and
 taking care of my plants.  https://dynamicplanet.net/
 #+HTML: <hr/>
 ** Haochang Luo (Postdoc, CCNY EAS, group member since April 2024)
+#+ATTR_HTML: :alt Haochang Luo :height 270px
+#+ATTR_HTML: :style float margin:10px
+[[file:images/haochang-luo.jpg]]
+
 Haochang graduated from the University of Michigan with a PhD in Climate and
 Space Sciences and Engineering.  Most of his research focuses on tropical
 dynamics.  His research interests include convection, precipitation, tropical
 meteorology, climate change, and multi-scale interactions.
 #+HTML: <hr/>
 ** Edda Monique Hobuss (B.S. student, CCNY, group member since August 2024)
-#+ATTR_HTML: :alt Greg Randazzo :height 270px
+#+ATTR_HTML: :alt Edda Hobuss :height 270px
 #+ATTR_HTML: :style float margin:10px
 [[file:images/edda-hobuss.jpg]]
 
