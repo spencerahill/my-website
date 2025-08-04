@@ -5,13 +5,19 @@
 {{{PAGETITLE(Publications)}}}
 :END:
 ** Submitted/under review/in revision
-1. *Hill, SA*, D Zamir-Meyers, AH Sobel, M Biasutti, MA Cane, MK Tippett, F
-   Ahmed.  "More extreme Indian monsoon daily rainfall in El Niño summers."
-   In revision, /Science/.  [[https://arxiv.org/abs/2404.12419][arxiv:2404.12419]].
+1. Randazzo GS, *SA Hill*, JF Booth, RD Field.  "A Wall of Smoke:
+   Understanding the Drivers of the June 2023 Canadian Wildfire Smoke Event for
+   New York City."  Submitted, /J. Geophys. Res. - Atmos./
+2. Zhang, P, NJ Lutsko, *SA Hill*, S.-P. Xie.  "Hadley Cell Dynamics in
+   an Axisymmetric Single-Layer Model: Effects of Parameterized Eddies and
+   Equatorial Heating."  Submitted, /J. Atmos. Sci./
 ** Peer-reviewed
+1. (2025) *Hill, SA*, D Zamir-Meyers, AH Sobel, M Biasutti, MA Cane, MK Tippett, F
+   Ahmed.  "More extreme Indian monsoon daily rainfall in El Niño summers."
+   Accepted, /Science/.  [[https://arxiv.org/abs/2404.12419][arxiv:2404.12419]].
 1. (2025) *Hill, SA*, S Bordoni, JL Mitchell, JM Lora.  "Interpreting seasonal and
    interannual Hadley cell descending edge migrations via the cell-mean Rossby
-   number."  Accepted, /J. Climate/.  [[https://arxiv.org/abs/2411.14544][arXiv:2411.14544]].
+   number."  Accepted, /J. Climate/.  doi: [[https://doi.org/10.1175/JCLI-D-24-0678.1][10.1175/JCLI-D-24-0678.1]].
 2. (2024) Mossel, C, *S Hill*, N Samal, J Booth, N Devineni. Extreme Hourly
    Precipitation Risk for New York City Post-Ida.  /Scientific
    Reports/, *14*, 27947. doi: [[https://doi.org/10.1038/s41598-024-78704-9][10.1038/s41598-024-78704-9]].
