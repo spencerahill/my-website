@@ -7,17 +7,21 @@
 ** Submitted/under review/in revision
 1. Randazzo GS, *SA Hill*, JF Booth, RD Field.  "A Wall of Smoke:
    Understanding the Drivers of the June 2023 Canadian Wildfire Smoke Event for
-   New York City."  Submitted, /J. Geophys. Res. - Atmos./
+   New York City."  Under review, /J. Geophys. Res. - Atmos./
 2. Zhang, P, NJ Lutsko, *SA Hill*, S.-P. Xie.  "Hadley Cell Dynamics in
    an Axisymmetric Single-Layer Model: Effects of Parameterized Eddies and
-   Equatorial Heating."  Submitted, /J. Atmos. Sci./
+   Equatorial Heating."  Revised for /J. Atmos. Sci./
 ** Peer-reviewed
-1. (2025) *Hill, SA*, D Zamir-Meyers, AH Sobel, M Biasutti, MA Cane, MK Tippett, F
-   Ahmed.  "More extreme Indian monsoon daily rainfall in El Niño summers."
-   Accepted, /Science/.  [[https://arxiv.org/abs/2404.12419][arxiv:2404.12419]].
-1. (2025) *Hill, SA*, S Bordoni, JL Mitchell, JM Lora.  "Interpreting seasonal and
-   interannual Hadley cell descending edge migrations via the cell-mean Rossby
-   number."  Accepted, /J. Climate/.  doi: [[https://doi.org/10.1175/JCLI-D-24-0678.1][10.1175/JCLI-D-24-0678.1]].
+1. (2025) *Hill, SA*, D Zamir-Meyers, AH Sobel, M Biasutti, MA Cane, MK Tippett,
+   F Ahmed.  "More extreme Indian monsoon daily rainfall in El Niño summers."
+   /Science/, *389*, 1220-1224.  doi: [[https://doi.org/10.1126/science.adg5577][10.1126/science.adg5577]].
+   [[https://www.science.org/stoken/author-tokens/ST-2917/full][Link for free article access]].
+   {{{LINK("papers/hill-etal-science-2025-india-supp.pdf", Supplementary Materials PDF)}}}.
+1. (2025) *Hill, SA*, S Bordoni, JL Mitchell, JM Lora.  "Interpreting seasonal
+   and interannual Hadley cell descending edge migrations via the cell-mean
+   Rossby number."  /J. Climate/.  *38*, 5505-5520.  doi:
+   [[https://doi.org/10.1175/JCLI-D-24-0678.1][10.1175/JCLI-D-24-0678.1]].
+   {{{LINK("papers/hill-etal-jcli-2025-hc-ross-num.pdf", PDF)}}}.
 2. (2024) Mossel, C, *S Hill*, N Samal, J Booth, N Devineni. Extreme Hourly
    Precipitation Risk for New York City Post-Ida.  /Scientific
    Reports/, *14*, 27947. doi: [[https://doi.org/10.1038/s41598-024-78704-9][10.1038/s41598-024-78704-9]].
